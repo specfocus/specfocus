@@ -1,0 +1,1 @@
+{"version":3,"file":"Force.d.ts","sourceRoot":"","sources":["../../../lib/decimals/measures/Force.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,YAAY,EAAE,MAAM,yCAAyC,CAAC;;AASvE,+BAA+B;AAC/B,qBAAa,KAAM,SAAQ,UAAiC;aAOxC,MAAM,EAAE,MAAM;aACd,UAAU,EAAE,MAAM;IANpC,MAAM,CAAC,QAAQ,CAAC,QAAQ,cAAc;IAEtC,MAAM,CAAC,QAAQ,CAAC,aAAa,mBAAmB;gBAG9B,MAAM,EAAE,MAAM,EACd,UAAU,EAAE,MAAM;CAIrC"}

@@ -87,4 +87,4 @@ var Fibonacci = /** @class */ (function (_super) {
     return Fibonacci;
 }(SpecType_number_class_1.NumberClass.extend(SpecType_number_class_1.NumberClass)));
 exports.Fibonacci = Fibonacci;
-SpecType_number_class_1.NumberClass.seal(Fibonacci);
+// NumberClass.seal(Fibonacci);

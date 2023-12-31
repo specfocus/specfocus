@@ -84,6 +84,10 @@ var verifyField = function (val, field, error) { return __awaiter(void 0, void 0
                     error("Expected an object for field verification but got ".concat(typeof field));
                     return [2 /*return*/];
                 }
+                if ('$oneOf' in field) {
+                    error("TODO: Support for $oneOf not implemented ".concat(field));
+                    return [2 /*return*/];
+                }
                 if ((0, has_undefined_type_1.default)(val)) {
                     if (field.$exists === false)
                         return [2 /*return*/, true];

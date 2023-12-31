@@ -74,4 +74,4 @@ var Integer = /** @class */ (function (_super) {
     return Integer;
 }(SpecType_number_class_1.NumberClass.extend(SpecType_number_class_1.NumberClass)));
 exports.Integer = Integer;
-SpecType_number_class_1.NumberClass.seal(Integer);
+// NumberClass.seal(Integer);
