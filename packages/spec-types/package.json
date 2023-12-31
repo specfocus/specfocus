@@ -1,0 +1,29 @@
+{
+  "name": "@specfocus/spec-types",
+  "description": "Simple type checking and validation for TypeScript",
+  "version": "0.0.1",
+  "private": false,
+  "license": "UNLICENSED",
+  "sideEffects": false,
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist/**"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/specfocus/spec-types-ts.git"
+  },
+  "bugs": {
+    "url": "https://github.com/specfocus/spec-types-ts/issues"
+  },
+  "homepage": "https://github.com/specfocus/spec-types-ts#readme",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@specfocus",
+    "@specfocus:registry": "https://npm.pkg.github.com"
+  },
+  "dependencies": {
+    "immer": "^10.0.2"
+  }
+}
