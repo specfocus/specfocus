@@ -1,0 +1,20 @@
+import { type Integer } from "../is-integer";
+import { type NegativeInteger } from "../is-negative-integer";
+import { type NonNegativeInteger } from "../is-non-negative-integer";
+import { type NonPositiveInteger } from "../is-non-positive-integer";
+import { type PositiveInteger } from "../is-positive-integer";
+export type Range<T extends number = number> = [T, T];
+export type RangeArray<T extends number = number> = Range<T>[];
+export type IntegerRange = Range<Integer>;
+export type NegativeIntegerRange = Range<NegativeInteger>;
+export type NonNegativeIntegerRange = Range<NonNegativeInteger>;
+export type NonPositiveIntegerRange = Range<NonPositiveInteger>;
+export type PositiveIntegerRange = Range<PositiveInteger>;
+export declare const tuple: <T extends number>(value: T) => Range<T>;
+export declare const isRange: (arr: unknown) => arr is Range<number>;
+export declare const isIntegerRange: (arr: unknown) => arr is Range<number>;
+export declare const isNevativeRange: (arr: unknown) => arr is Range<number>;
+export declare const isNonNevativeRange: (arr: unknown) => arr is Range<number>;
+export declare const isNonPositiveRange: (arr: unknown) => arr is Range<number>;
+export declare const isPositiveeRange: (arr: unknown) => arr is Range<number>;
+//# sourceMappingURL=Range.d.ts.map

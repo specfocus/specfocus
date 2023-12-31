@@ -1,0 +1,1 @@
+{"version":3,"file":"is-prime.d.ts","sourceRoot":"","sources":["../../lib/numbers/is-prime.ts"],"names":[],"mappings":"AAAA,OAA0B,EAAE,KAAK,eAAe,EAAE,MAAM,uBAAuB,CAAC;AAGhF,MAAM,MAAM,WAAW,GAAG,eAAe,CAAC;AAE1C,QAAA,MAAM,OAAO,QAAS,OAAO,kBAoB5B,CAAC;AAEF,eAAe,OAAO,CAAC"}

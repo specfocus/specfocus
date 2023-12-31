@@ -1,0 +1,1 @@
+{"version":3,"file":"is-shallow-object.d.ts","sourceRoot":"","sources":["../../lib/objects/is-shallow-object.ts"],"names":[],"mappings":"AACA,OAAoB,EAAE,KAAK,SAAS,EAAE,MAAM,gBAAgB,CAAC;AAE7D,MAAM,WAAW,aAAa;IAC5B,CAAC,CAAC,EAAE,MAAM,GAAG,SAAS,CAAC;CACxB;AAED,QAAA,MAAM,eAAe,QAAS,OAAO,yBACyC,CAAC;AAE/E,eAAe,eAAe,CAAC"}

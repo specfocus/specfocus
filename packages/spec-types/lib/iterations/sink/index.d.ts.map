@@ -1,0 +1,1 @@
+{"version":3,"file":"index.d.ts","sourceRoot":"","sources":["../../../lib/iterations/sink/index.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,KAAK,IAAI,EAAE,MAAM,QAAQ,CAAC;AACnC,OAAO,EAAE,OAAO,IAAI,gCAAgC,EAAE,MAAM,oCAAoC,CAAC;AACjG,OAAO,EAAE,OAAO,IAAI,cAAc,EAAE,MAAM,kBAAkB,CAAC;AAG7D,OAAO,EAAE,OAAO,IAAI,cAAc,EAAE,KAAK,QAAQ,EAAE,MAAM,kBAAkB,CAAC"}

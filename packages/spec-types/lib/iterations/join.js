@@ -60,15 +60,12 @@ var join = function (promises) { var _a, promises_1, promises_1_1; return __awai
                 if (!(promises_1_1 = _e.sent(), _b = promises_1_1.done, !_b)) return [3 /*break*/, 5];
                 _d = promises_1_1.value;
                 _a = false;
-                try {
-                    val = _d;
-                    result.push(val);
-                }
-                finally {
-                    _a = true;
-                }
+                val = _d;
+                result.push(val);
                 _e.label = 4;
-            case 4: return [3 /*break*/, 2];
+            case 4:
+                _a = true;
+                return [3 /*break*/, 2];
             case 5: return [3 /*break*/, 12];
             case 6:
                 e_1_1 = _e.sent();

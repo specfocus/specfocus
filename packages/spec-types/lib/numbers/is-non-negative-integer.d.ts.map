@@ -1,0 +1,1 @@
+{"version":3,"file":"is-non-negative-integer.d.ts","sourceRoot":"","sources":["../../lib/numbers/is-non-negative-integer.ts"],"names":[],"mappings":"AAAA,OAAkB,EAAE,KAAK,OAAO,EAAE,MAAM,cAAc,CAAC;AAEvD,MAAM,MAAM,kBAAkB,GAAG,OAAO,CAAA;AAExC,QAAA,MAAM,oBAAoB,QACnB,MAAM,GAAG,MAAM,gBACP,kBAAkB,KAAK,OAAO,+BAK1C,CAAC;AAEJ,eAAe,oBAAoB,CAAC"}

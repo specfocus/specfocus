@@ -28,7 +28,7 @@ var DayOfTheWeek;
     DayOfTheWeek[DayOfTheWeek["Friday"] = 5] = "Friday";
     DayOfTheWeek[DayOfTheWeek["Saturday"] = 6] = "Saturday";
     DayOfTheWeek[DayOfTheWeek["_"] = 7] = "_";
-})(DayOfTheWeek = exports.DayOfTheWeek || (exports.DayOfTheWeek = {}));
+})(DayOfTheWeek || (exports.DayOfTheWeek = DayOfTheWeek = {}));
 ;
 var isFriday = function (day) { return day == DayOfTheWeek.Friday; };
 exports.isFriday = isFriday;

@@ -1,0 +1,1 @@
+{"version":3,"file":"is-primitive.d.ts","sourceRoot":"","sources":["../../lib/objects/is-primitive.ts"],"names":[],"mappings":"AAAA,OAA0B,EAAE,KAAK,eAAe,EAAE,MAAM,uBAAuB,CAAC;AAChF,OAAyB,EAAE,KAAK,cAAc,EAAE,MAAM,sBAAsB,CAAC;AAE7E,MAAM,MAAM,SAAS,GAAG,cAAc,GAAG,eAAe,CAAC;AAEzD,QAAA,MAAM,WAAW,QAAS,OAAO,qBACgB,CAAC;AAElD,eAAe,WAAW,CAAC"}

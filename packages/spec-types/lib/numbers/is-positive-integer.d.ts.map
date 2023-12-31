@@ -1,0 +1,1 @@
+{"version":3,"file":"is-positive-integer.d.ts","sourceRoot":"","sources":["../../lib/numbers/is-positive-integer.ts"],"names":[],"mappings":"AAAA,OAAkB,EAAE,KAAK,OAAO,EAAE,MAAM,cAAc,CAAC;AAEvD,MAAM,MAAM,eAAe,GAAG,OAAO,CAAA;AAErC,QAAA,MAAM,iBAAiB,QAChB,MAAM,GAAG,MAAM,gBACP,eAAe,KAAK,OAAO,+BAKvC,CAAC;AAEJ,eAAe,iBAAiB,CAAC"}

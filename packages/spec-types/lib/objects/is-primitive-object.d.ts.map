@@ -1,0 +1,1 @@
+{"version":3,"file":"is-primitive-object.d.ts","sourceRoot":"","sources":["../../lib/objects/is-primitive-object.ts"],"names":[],"mappings":"AAEA,MAAM,MAAM,eAAe,GAAG,OAAO,GAAG,IAAI,GAAG,MAAM,GAAG,MAAM,CAAC;AAE/D,QAAA,MAAM,iBAAiB,QAAS,OAAO,2BAMpC,CAAC;AAEJ,eAAe,iBAAiB,CAAC"}

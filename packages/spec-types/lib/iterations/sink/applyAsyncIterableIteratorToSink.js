@@ -61,15 +61,12 @@ var applyAsyncIterableIteratorToSink = function (asyncIterableIterator, sink) {
                     if (!(asyncIterableIterator_1_1 = _e.sent(), _b = asyncIterableIterator_1_1.done, !_b)) return [3 /*break*/, 5];
                     _d = asyncIterableIterator_1_1.value;
                     _a = false;
-                    try {
-                        value = _d;
-                        sink.next(value);
-                    }
-                    finally {
-                        _a = true;
-                    }
+                    value = _d;
+                    sink.next(value);
                     _e.label = 4;
-                case 4: return [3 /*break*/, 2];
+                case 4:
+                    _a = true;
+                    return [3 /*break*/, 2];
                 case 5: return [3 /*break*/, 12];
                 case 6:
                     e_1_1 = _e.sent();
