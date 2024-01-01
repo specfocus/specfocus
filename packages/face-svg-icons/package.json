@@ -1,0 +1,14 @@
+{
+  "name": "@specfocus/face-svg-icons",
+  "description": "SVG icons for styling Web applications.",
+  "private": false,
+  "version": "0.0.3",
+  "homepage": "https://face.specfocus.com/docs/cupertino/svg-icons",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:specfocus/face-svg-icons.git"
+  },
+  "files": [
+    "assets"
+  ]
+}
