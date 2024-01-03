@@ -1,0 +1,3 @@
+import { jsx as _jsx, Fragment as _Fragment, jsxs as _jsxs } from "react/jsx-runtime";
+import { createSvgIcon } from "@specfocus/face-styled-system/lib/SvgIcon";
+export default createSvgIcon(_jsxs(_Fragment, { children: [_jsx("path", { d: "M29 31a.9987.9987 0 01-.6245-.2192L23.6494 27H20a1 1 0 01-1-1v-5a1 1 0 011-1h3.6494l4.7261-3.7808A1 1 0 0130 17v13a1 1 0 01-1 1zm-8-6h3a1 1 0 01.6245.2192L28 27.9194v-8.8388l-3.3755 2.7A1 1 0 0124 22h-3z" }), _jsx("path", { d: "M16 28H8V4h8v6a2.0058 2.0058 0 002 2h6v3h2v-5a.9092.9092 0 00-.3-.7l-7-7A.9087.9087 0 0018 2H8a2.0058 2.0058 0 00-2 2v24a2.0058 2.0058 0 002 2h8zm2-23.6l5.6 5.6H18z" }), _jsx("path", { d: "M0 0h32v32H0z", "data-name": "<Transparent Rectangle>" })] }), 'DocumentAudioIcon');

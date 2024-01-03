@@ -1,0 +1,3 @@
+import { jsx as _jsx, Fragment as _Fragment, jsxs as _jsxs } from "react/jsx-runtime";
+import { createSvgIcon } from "@specfocus/face-styled-system/lib/SvgIcon";
+export default createSvgIcon(_jsxs(_Fragment, { children: [_jsx("path", { d: "M30 30H4a2 2 0 01-2-2V2h2v26h26z" }), _jsx("path", { d: "M10 16a2 2 0 11-2 2 2 2 0 012-2m0-2a4 4 0 104 4 4 4 0 00-4-4zM21 6a4 4 0 11-4 4 4 4 0 014-4m0-2a6 6 0 106 6 6 6 0 00-6-6zM24.5 21a1.5 1.5 0 11-1.5 1.5 1.5 1.5 0 011.5-1.5m0-2a3.5 3.5 0 103.5 3.5 3.5 3.5 0 00-3.5-3.5z" }), _jsx("path", { d: "M0 0h32v32H0z", "data-name": "<Transparent Rectangle>" })] }), 'ChartBubbleIcon');

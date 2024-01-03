@@ -1,0 +1,3 @@
+import { jsx as _jsx, Fragment as _Fragment, jsxs as _jsxs } from "react/jsx-runtime";
+import { createSvgIcon } from "@specfocus/face-styled-system/lib/SvgIcon";
+export default createSvgIcon(_jsxs(_Fragment, { children: [_jsx("path", { d: "M25.707 17.293l-5-5A1 1 0 0020 12h-6a2 2 0 00-2 2v14a2 2 0 002 2h10a2 2 0 002-2V18a1 1 0 00-.293-.707zM23.5857 18H20v-3.5859zM14 28V14h4v4a2 2 0 002 2h4v8z" }), _jsx("path", { d: "M8 27H4a2.0023 2.0023 0 01-2-2V5a2.0023 2.0023 0 012-2h7.5857A1.9865 1.9865 0 0113 3.5859L16.4143 7H28a2.0023 2.0023 0 012 2v8h-2V9H15.5857l-4-4H4v20h4z" }), _jsx("path", { d: "M0 0h32v32H0z", "data-name": "<Transparent Rectangle>" })] }), 'VolumeFileStorageIcon');

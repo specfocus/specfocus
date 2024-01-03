@@ -1,0 +1,3 @@
+import { jsx as _jsx, Fragment as _Fragment } from "react/jsx-runtime";
+import { createSvgIcon } from "@specfocus/face-styled-system/lib/SvgIcon";
+export default createSvgIcon(_jsx(_Fragment, { children: _jsx("path", { d: "M2.8535 2.1465a.5.5 0 10-.707.707L9.5 10.2072v2.1977c-.584-.5604-1.3767-.9048-2.25-.9048C5.455 11.5 4 12.9551 4 14.75S5.455 18 7.25 18s3.25-1.4551 3.25-3.25c0-.0603-.0016-.1203-.0049-.1798A.5077.5077 0 0010.5 14.5v-3.2929l6.6464 6.6465a.5002.5002 0 00.7072 0 .5002.5002 0 000-.7072l-15-15zM10.5 7.177v1.2017l-1-1V2.5a.5.5 0 01.647-.4779l5.0882 1.5656A2.5 2.5 0 0117 5.9772V8.5a.5.5 0 01-.647.4779L10.5 7.1769z" }) }), 'IcFluentMusicNoteOff120FilledIcon');

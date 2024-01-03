@@ -1,0 +1,3 @@
+import { jsx as _jsx, Fragment as _Fragment, jsxs as _jsxs } from "react/jsx-runtime";
+import { createSvgIcon } from "@specfocus/face-styled-system/lib/SvgIcon";
+export default createSvgIcon(_jsxs(_Fragment, { children: [_jsx("path", { d: "M20.17 19l-2.59 2.59L19 23l4-4-4-4-1.42 1.41L20.17 19zM11.83 19l2.59-2.59L13 15l-4 4 4 4 1.42-1.41L11.83 19z" }), _jsx("circle", { cx: "9", cy: "8", r: "1" }), _jsx("circle", { cx: "6", cy: "8", r: "1" }), _jsx("path", { d: "M28 4H4c-1.1028 0-2 .8975-2 2v20c0 1.1025.8972 2 2 2h24c1.1028 0 2-.8975 2-2V6c0-1.1025-.8972-2-2-2zm0 2v4H4V6h24zM4 26V12h24v14H4z" }), _jsx("path", { d: "M0 0h32v32H0z", "data-name": "&lt;Transparent Rectangle&gt;" })] }), 'CicsProgramIcon');

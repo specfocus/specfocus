@@ -1,0 +1,3 @@
+import { jsx as _jsx, Fragment as _Fragment, jsxs as _jsxs } from "react/jsx-runtime";
+import { createSvgIcon } from "@specfocus/face-styled-system/lib/SvgIcon";
+export default createSvgIcon(_jsxs(_Fragment, { children: [_jsx("path", { d: "M20.5857 29h-9.1714A1.9865 1.9865 0 0110 28.4141L3.5859 22A1.9865 1.9865 0 013 20.5857v-9.1714A1.9865 1.9865 0 013.5859 10L10 3.5859A1.9865 1.9865 0 0111.4143 3h9.1714A1.9865 1.9865 0 0122 3.5859L28.4141 10A1.9865 1.9865 0 0129 11.4143v9.1714A1.9865 1.9865 0 0128.4141 22L22 28.4141A1.9865 1.9865 0 0120.5857 29zM11.4141 5L5 11.4141v9.1716L11.4141 27h9.1716L27 20.5859v-9.1716L20.5859 5h-9.1718z" }), _jsx("path", { d: "M0 0h32v32H0z", "data-name": "Transparent Rectangle" })] }), 'StopSignIcon');

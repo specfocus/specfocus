@@ -1,0 +1,3 @@
+import { jsx as _jsx, Fragment as _Fragment, jsxs as _jsxs } from "react/jsx-runtime";
+import { createSvgIcon } from "@specfocus/face-styled-system/lib/SvgIcon";
+export default createSvgIcon(_jsxs(_Fragment, { children: [_jsx("circle", { cx: "16", cy: "25", r: "2" }), _jsx("path", { d: "M10.47 19.2334l1.4136 1.4131a5.9688 5.9688 0 018.2229-.0093l1.4135-1.4136a7.9629 7.9629 0 00-11.05.01z" }), _jsx("path", { d: "M6.229 14.9927l1.4136 1.4135a11.955 11.955 0 0116.7041-.01l1.4133-1.4133a13.9514 13.9514 0 00-19.5313.01z" }), _jsx("path", { d: "M30 10.7412a19.94 19.94 0 00-28 0v.0225l1.4043 1.4043a17.9336 17.9336 0 0125.1811-.01L30 10.7432z" }), _jsx("path", { d: "M0 0h32v32H0z", "data-name": "<Transparent Rectangle>" })] }), 'WifiIcon');

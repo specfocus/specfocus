@@ -1,0 +1,3 @@
+import { jsx as _jsx, Fragment as _Fragment, jsxs as _jsxs } from "react/jsx-runtime";
+import { createSvgIcon } from "@specfocus/face-styled-system/lib/SvgIcon";
+export default createSvgIcon(_jsxs(_Fragment, { children: [_jsx("path", { d: "M25 11v5h-8v-5h-2v5H7v-5H5v12h2v-5h3v12h2V18h3v5h2v-5h3v12h2V18h3v5h2V11zM16 6c-1.7 0-3.2.7-4.2 1.8l1.4 1.4C13.9 8.4 14.9 8 16 8s2.1.4 2.8 1.2l1.4-1.4C19.2 6.7 17.7 6 16 6z" }), _jsx("path", { d: "M8.9 4.9l1.4 1.4C11.8 4.9 13.8 4 16 4s4.2.9 5.7 2.3l1.4-1.4C21.3 3.1 18.8 2 16 2s-5.3 1.1-7.1 2.9z" }), _jsx("path", { d: "M0 0h32v32H0z" })] }), 'CellTowerIcon');

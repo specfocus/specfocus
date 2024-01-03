@@ -1,0 +1,3 @@
+import { jsx as _jsx, Fragment as _Fragment, jsxs as _jsxs } from "react/jsx-runtime";
+import { createSvgIcon } from "@specfocus/face-styled-system/lib/SvgIcon";
+export default createSvgIcon(_jsxs(_Fragment, { children: [_jsx("path", { d: "M4 20v2h4.586L2 28.586 3.414 30 10 23.414V28h2v-8H4z" }), _jsx("path", { d: "M23 16c-1.5696 0-3.0124.5159-4.1813 1.3919l-4.2173-4.2174C15.4774 12.0056 16 10.5697 16 9c0-3.8599-3.1406-7-7-7S2 5.1401 2 9s3.1406 7 7 7c1.5696 0 3.0184-.5355 4.1873-1.4114l4.2173 4.2174C16.5287 19.9749 16 21.4303 16 23c0 3.8599 3.1406 7 7 7s7-3.1401 7-7-3.1406-7-7-7zM4 9c0-2.7568 2.2432-5 5-5s5 2.2432 5 5-2.2432 5-5 5-5-2.2432-5-5z" }), _jsx("path", { d: "M0 0h32v32H0z", "data-name": "&lt;Transparent Rectangle&gt;" })] }), 'ConnectReferenceIcon');

@@ -1,0 +1,3 @@
+import { jsx as _jsx, Fragment as _Fragment, jsxs as _jsxs } from "react/jsx-runtime";
+import { createSvgIcon } from "@specfocus/face-styled-system/lib/SvgIcon";
+export default createSvgIcon(_jsxs(_Fragment, { children: [_jsx("path", { d: "M17 28V15.8159a3.0059 3.0059 0 001.47-1.1186L27.063 17l.5176-1.9321-8.6045-2.3052a2.985 2.985 0 00-2.63-2.7275L14.1938 2l-1.9316.5186 2.1318 7.956a2.9588 2.9588 0 00-1.093 3.8115L7 20.5859 8.415 22l6.3-6.3a2.8938 2.8938 0 00.285.1154V28H2v2h28v-2zm0-15a1 1 0 11-1-1 1.0008 1.0008 0 011 1z" }), _jsx("path", { d: "M0 0h32v32H0z", "data-name": "<Transparent Rectangle>" })] }), 'WindPowerIcon');

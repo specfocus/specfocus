@@ -1,0 +1,3 @@
+import { jsx as _jsx, Fragment as _Fragment } from "react/jsx-runtime";
+import { createSvgIcon } from "@specfocus/face-styled-system/lib/SvgIcon";
+export default createSvgIcon(_jsx(_Fragment, { children: _jsx("path", { d: "M6 8c0-1.6569 1.3431-3 3-3h16c1.6569 0 3 1.3431 3 3v10c0 1.6569-1.3431 3-3 3h-8v-2h8c.5523 0 1-.4477 1-1V8c0-.5523-.4477-1-1-1H9c-.5523 0-1 .4477-1 1H7a4.007 4.007 0 00-1 .126V8zm22.9995 17h-12v-2h12c.5523 0 1 .4477 1 1s-.4477 1-1 1zM9 25c.5523 0 1-.4477 1-1s-.4477-1-1-1-1 .4477-1 1 .4477 1 1 1zM3 13c0-1.6569 1.3431-3 3-3h6c1.6569 0 3 1.3431 3 3v12c0 1.6569-1.3431 3-3 3H6c-1.6569 0-3-1.3431-3-3V13zm3-1c-.5523 0-1 .4477-1 1v12c0 .5523.4477 1 1 1h6c.5523 0 1-.4477 1-1V13c0-.5523-.4477-1-1-1H6z" }) }), 'IcFluentPhoneLaptop32RegularIcon');

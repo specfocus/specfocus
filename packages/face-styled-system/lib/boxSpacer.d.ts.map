@@ -1,0 +1,1 @@
+{"version":3,"file":"boxSpacer.d.ts","sourceRoot":"","sources":["../lib/boxSpacer.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,KAAK,cAAc,EAAE,MAAM,yCAAyC,CAAC;AAE9E,OAAO,SAAS,MAAM,YAAY,CAAC;AACnC,OAAO,EAAE,KAAK,YAAY,EAAE,MAAM,mBAAmB,CAAC;AAEtD,OAAO,EAAE,KAAK,cAAc,EAAE,MAAM,aAAa,CAAC;AAGlD,QAAA,MAAM,SAAS;0BAAyB,eAAe,cAAc,CAAC,GAAG,YAAY;;;;;;;CAiBpF,CAAC;AASF,eAAe,SAAS,CAAC"}

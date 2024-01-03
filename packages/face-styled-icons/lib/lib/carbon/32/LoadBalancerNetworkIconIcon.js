@@ -1,0 +1,3 @@
+import { jsx as _jsx, Fragment as _Fragment, jsxs as _jsxs } from "react/jsx-runtime";
+import { createSvgIcon } from "@specfocus/face-styled-system/lib/SvgIcon";
+export default createSvgIcon(_jsxs(_Fragment, { children: [_jsx("path", { d: "M25 16h-8v-4h-2v4H7a2.0023 2.0023 0 00-2 2v4h2v-4h8v4h2v-4h8v4h2v-4a2.0023 2.0023 0 00-2-2zM20 10V2h-8v8h8zm-6-2V4h4v4zM26 24a2.9948 2.9948 0 00-2.8157 2h-4.3686a2.982 2.982 0 00-5.6314 0H8.8157a3 3 0 100 2h4.3686a2.982 2.982 0 005.6314 0h4.3686A2.9947 2.9947 0 1026 24zM6 28a1 1 0 111-1 1.0009 1.0009 0 01-1 1zm10 0a1 1 0 111-1 1.0009 1.0009 0 01-1 1zm10 0a1 1 0 111-1 1.0009 1.0009 0 01-1 1z" }), _jsx("path", { d: "M0 0h32v32H0z", "data-name": "<Transparent Rectangle>" })] }), 'LoadBalancerNetworkIcon');

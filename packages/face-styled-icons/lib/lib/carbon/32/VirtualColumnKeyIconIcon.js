@@ -1,0 +1,3 @@
+import { jsx as _jsx, Fragment as _Fragment, jsxs as _jsxs } from "react/jsx-runtime";
+import { createSvgIcon } from "@specfocus/face-styled-system/lib/SvgIcon";
+export default createSvgIcon(_jsxs(_Fragment, { children: [_jsx("circle", { cx: "24.5", cy: "9.5", r: "1.5" }), _jsx("path", { d: "M17.4143 22H12v-5.4143l6.03-6.03A5.3518 5.3518 0 0118 10a6 6 0 116 6 5.3583 5.3583 0 01-.5559-.03zM14 20h2.5857l6.1706-6.1709.5174.0957A3.935 3.935 0 0024 14a4.0507 4.0507 0 10-3.925-3.2729l.0952.5166L14 17.4143z" }), _jsx("path", { d: "M28 18v8H10V6h4V4H4a2.0025 2.0025 0 00-2 2v20a2.0025 2.0025 0 002 2h24a2.0025 2.0025 0 002-2v-8zM4 6h4v20H4z" }), _jsx("path", { d: "M0 0h32v32H0z", "data-name": "<Transparent Rectangle>" })] }), 'VirtualColumnKeyIcon');

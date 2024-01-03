@@ -1,0 +1,3 @@
+import { jsx as _jsx, Fragment as _Fragment, jsxs as _jsxs } from "react/jsx-runtime";
+import { createSvgIcon } from "@specfocus/face-styled-system/lib/SvgIcon";
+export default createSvgIcon(_jsxs(_Fragment, { children: [_jsx("path", { d: "M14 24a10 10 0 1110-10h2a12 12 0 10-12 12z" }), _jsx("path", { d: "M12 15.59L9.41 13 8 14.41l4 4 7-7L17.59 10 12 15.59zM30 24a6 6 0 10-6 6 6.0066 6.0066 0 006-6zm-2 0a3.9521 3.9521 0 01-.5669 2.019l-5.4521-5.4521A3.9529 3.9529 0 0124 20a4.0045 4.0045 0 014 4zm-8 0a3.9521 3.9521 0 01.5669-2.019l5.4521 5.4521A3.9529 3.9529 0 0124 28a4.0045 4.0045 0 01-4-4z" }), _jsx("path", { d: "M0 0h32v32H0z", "data-name": "<Transparent Rectangle>" })] }), 'CheckmarkOutlineErrorIcon');

@@ -1,0 +1,3 @@
+import { jsx as _jsx, Fragment as _Fragment, jsxs as _jsxs } from "react/jsx-runtime";
+import { createSvgIcon } from "@specfocus/face-styled-system/lib/SvgIcon";
+export default createSvgIcon(_jsxs(_Fragment, { children: [_jsx("path", { d: "M29.41 21.67L10.34 2.58a2 2 0 00-2.83 0L2.59 7.51a2 2 0 000 2.82l19.07 19.09a2 2 0 001.42.58 2 2 0 001.41-.58l4.92-4.93a2 2 0 000-2.82zM23.08 28L4 8.92 8.92 4l3.79 3.79L10.46 10l1.41 1.41 2.25-2.21 4.13 4.13L16 15.58 17.42 17l2.25-2.25 4.13 4.13-2.25 2.25L23 22.54l2.25-2.25L28 23.08z" }), _jsx("path", { d: "M0 0h32v32H0z", "data-name": "<Transparent Rectangle>" })] }), 'RulerAltIcon');

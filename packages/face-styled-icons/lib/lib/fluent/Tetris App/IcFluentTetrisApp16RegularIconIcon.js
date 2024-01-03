@@ -1,0 +1,3 @@
+import { jsx as _jsx, Fragment as _Fragment } from "react/jsx-runtime";
+import { createSvgIcon } from "@specfocus/face-styled-system/lib/SvgIcon";
+export default createSvgIcon(_jsx(_Fragment, { children: _jsx("path", { d: "M5 3c0-.5523.4477-1 1-1h5c.5522 0 .9999.4477.9999 1v2c0 .5523-.4477 1-.9999 1H9v2c0 .5523-.4477 1-1 1H3c-.5523 0-1-.4477-1-1V6c0-.5523.4477-1 1-1h2V3zm6 0H9v2h2V3zM8 3H6v2h2V3zM3 6v2h2V6H3zm5 0H6v2h2V6zm2 2.0667c0-.5523.4477-1 1-1h1.9999c.5523 0 1 .4477 1 1v2.4252L14 10.5V13c0 .5523-.4477 1-1 1H5c-.5523 0-1-.4477-1-1v-2c0-.5523.4477-1 1-1h5V8.0667zM12.9999 10V8.0667H11V10h1.9999zM11 13h2v-2h-2v2zm-3-2v2h2v-2H8zm-1 0H5v2h2v-2z" }) }), 'IcFluentTetrisApp16RegularIcon');

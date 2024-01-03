@@ -1,0 +1,3 @@
+import { jsx as _jsx, Fragment as _Fragment } from "react/jsx-runtime";
+import { createSvgIcon } from "@specfocus/face-styled-system/lib/SvgIcon";
+export default createSvgIcon(_jsx(_Fragment, { children: _jsx("path", { d: "M8 14c3.3137 0 6-2.6863 6-6s-2.6863-6-6-6-6 2.6863-6 6 2.6863 6 6 6zm2.8558-8.851c.1922.1988.1923.521 0 .7199l-2.8836 2.982A.484.484 0 017.6242 9a.484.484 0 01-.348-.149l-1.132-1.1708c-.1922-.1987-.1922-.521 0-.7197a.4808.4808 0 01.696 0l.784.8108 2.5356-2.6222a.4807.4807 0 01.696 0zM6.5 10h2.9983a.5.5 0 010 1H6.5a.5.5 0 010-1z" }) }), 'IcFluentCheckmarkUnderlineCircle16FilledIcon');

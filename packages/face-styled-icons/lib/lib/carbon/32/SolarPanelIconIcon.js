@@ -1,0 +1,3 @@
+import { jsx as _jsx, Fragment as _Fragment, jsxs as _jsxs } from "react/jsx-runtime";
+import { createSvgIcon } from "@specfocus/face-styled-system/lib/SvgIcon";
+export default createSvgIcon(_jsxs(_Fragment, { children: [_jsx("path", { d: "M30 26V14H13v12h5v2H2v2h28v-2h-5v-2zm-5-2v-3h3v3zm-2-3v3h-3v-3zm-3-2v-3h3v3zm8 0h-3v-3h3zm-10-3v3h-3v-3zm-3 8v-3h3v3zm8 4h-3v-2h3zM9.3328 14.981A4 4 0 1116 12h-2a2 2 0 10-3.3333 1.4907zM11 2h2v4h-2zM2 11h4v2H2zM4.2218 5.636L5.636 4.2218l2.8284 2.8284-1.4142 1.4142zM16.9497 8.4645l-1.4142-1.4143 2.8284-2.8284 1.4143 1.4142z" }), _jsx("path", { d: "M0 0h32v32H0z", "data-name": "<Transparent Rectangle>" })] }), 'SolarPanelIcon');

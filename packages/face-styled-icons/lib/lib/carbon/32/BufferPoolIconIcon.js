@@ -1,0 +1,3 @@
+import { jsx as _jsx, Fragment as _Fragment, jsxs as _jsxs } from "react/jsx-runtime";
+import { createSvgIcon } from "@specfocus/face-styled-system/lib/SvgIcon";
+export default createSvgIcon(_jsxs(_Fragment, { children: [_jsx("path", { d: "M26.338 31l-1.736-1 2.2875-4H23l3.993-7 1.737 1-2.2837 4h3.8904l-3.9987 7zM8 14h4v2H8zM20 14h4v2h-4zM8 18h4v2H8zM14 18h4v2h-4zM14 22h4v2h-4z" }), _jsx("path", { d: "M5 11h22v5h2V5c0-1.1025-.8972-2-2-2H5c-1.1028 0-2 .8975-2 2v22c0 1.1025.8972 2 2 2h15v-2H5V11zm22-6v4H5V5h22z" }), _jsx("path", { d: "M0 0h32v32H0z", "data-name": "&lt;Transparent Rectangle&gt;" })] }), 'BufferPoolIcon');

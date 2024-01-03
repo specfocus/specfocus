@@ -1,0 +1,3 @@
+import { jsx as _jsx, Fragment as _Fragment } from "react/jsx-runtime";
+import { createSvgIcon } from "@specfocus/face-styled-system/lib/SvgIcon";
+export default createSvgIcon(_jsx(_Fragment, { children: _jsx("path", { d: "M4 4c0-1.1046.8954-2 2-2h10c1.1046 0 2 .8954 2 2v7c0 1.1046-.8954 2-2 2h-2v2h1a.5.5 0 010 1h-2v-4h3c.5523 0 1-.4477 1-1V4c0-.5523-.4477-1-1-1H6c-.5523 0-1 .4477-1 1v3H4V4zm-2 6c0-1.1046.8954-2 2-2h6c1.1046 0 2 .8954 2 2v6c0 1.1046-.8954 2-2 2H4c-1.1046 0-2-.8954-2-2v-6zm2-1c-.5523 0-1 .4477-1 1v6c0 .5523.4477 1 1 1h2.5V9H4zm6 8c.5523 0 1-.4477 1-1v-6c0-.5523-.4477-1-1-1H7.5v8H10zm-1-2h.5a.5.5 0 010 1H9a.5.5 0 010-1zm-5 .5a.5.5 0 01.5-.5H5a.5.5 0 010 1h-.5a.5.5 0 01-.5-.5z" }) }), 'IcFluentDualScreenDesktop20RegularIcon');

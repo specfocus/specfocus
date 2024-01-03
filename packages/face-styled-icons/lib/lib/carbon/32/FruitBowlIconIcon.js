@@ -1,0 +1,3 @@
+import { jsx as _jsx, Fragment as _Fragment, jsxs as _jsxs } from "react/jsx-runtime";
+import { createSvgIcon } from "@specfocus/face-styled-system/lib/SvgIcon";
+export default createSvgIcon(_jsxs(_Fragment, { children: [_jsx("path", { d: "M26 15a6.0025 6.0025 0 00-3.1067-5.2529A3.9792 3.9792 0 0024 7h-2a2.0023 2.0023 0 01-2 2 6.004 6.004 0 00-5.9946 5.8921A7.0005 7.0005 0 0112 10a3.9961 3.9961 0 00-3-3.8581V4H7v2.1419A3.9961 3.9961 0 004 10v5H2v1a14 14 0 0028 0v-1zm-6-4a4.0045 4.0045 0 014 4h-8a4.0045 4.0045 0 014-4zM6 10a2 2 0 114 0 8.991 8.991 0 001.5322 5H6zm10 18A12.0166 12.0166 0 014.0415 17h23.917A12.0166 12.0166 0 0116 28z" }), _jsx("path", { d: "M0 0h32v32H0z", "data-name": "<Transparent Rectangle>" })] }), 'FruitBowlIcon');

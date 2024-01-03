@@ -1,0 +1,3 @@
+import { jsx as _jsx, Fragment as _Fragment, jsxs as _jsxs } from "react/jsx-runtime";
+import { createSvgIcon } from "@specfocus/face-styled-system/lib/SvgIcon";
+export default createSvgIcon(_jsxs(_Fragment, { children: [_jsx("path", { d: "M19 17h6v2h-6zM11 17h6v2h-6zM6 17h3v2H6zM22 13h4v2h-4zM13 13h7v2h-7zM6 13h5v2H6z" }), _jsx("path", { d: "M17.7358 30L16 29l4-7h6a1.9966 1.9966 0 002-2V8a1.9966 1.9966 0 00-2-2H6a1.9966 1.9966 0 00-2 2v12a1.9966 1.9966 0 002 2h9v2H6a3.9993 3.9993 0 01-4-4V8a3.9988 3.9988 0 014-4h20a3.9988 3.9988 0 014 4v12a3.9993 3.9993 0 01-4 4h-4.8354z" }), _jsx("path", { d: "M0 0h32v32H0z", "data-name": "<Transparent Rectangle>" })] }), 'ClosedCaptionAltIcon');

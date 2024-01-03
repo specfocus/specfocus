@@ -1,0 +1,3 @@
+import { jsx as _jsx, Fragment as _Fragment, jsxs as _jsxs } from "react/jsx-runtime";
+import { createSvgIcon } from "@specfocus/face-styled-system/lib/SvgIcon";
+export default createSvgIcon(_jsxs(_Fragment, { children: [_jsx("path", { d: "M22 30h-5a7.0078 7.0078 0 01-7-7 6.6832 6.6832 0 012.0244-4.6967A6.7935 6.7935 0 0010.0093 18C5.0425 18.0466 4 24.5513 4 30H2c0-11.5093 4.3452-13.9658 7.9907-14a10.0717 10.0717 0 014.4785 1.117 1 1 0 01.0616 1.73A4.8773 4.8773 0 0017 28h5zM17 8h2v8h-2z" }), _jsx("path", { d: "M28 5.4141L26.5859 4l-2.2617 2.2617A9.95 9.95 0 0019 4.0508V2h-2v2.0508A10.0132 10.0132 0 008 14h2a8 8 0 118 8v2a9.9928 9.9928 0 007.7383-16.3242z" }), _jsx("path", { d: "M0 0h32v32H0z", "data-name": "<Transparent Rectangle>" })] }), 'WavePeriodIcon');

@@ -1,0 +1,3 @@
+import { jsx as _jsx, Fragment as _Fragment } from "react/jsx-runtime";
+import { createSvgIcon } from "@specfocus/face-styled-system/lib/SvgIcon";
+export default createSvgIcon(_jsx(_Fragment, { children: _jsx("path", { d: "M3.5 12c0-4.6944 3.8056-8.5 8.5-8.5s8.5 3.8056 8.5 8.5v2h-2.25a.75.75 0 00-.75.75v6.5a.75.75 0 00.75.75H19c1.6569 0 3-1.3431 3-3v-7c0-5.5229-4.4772-10-10-10C6.4771 2 2 6.4771 2 12v7c0 1.6569 1.3432 3 3 3h.75a.75.75 0 00.75-.75v-6.5a.75.75 0 00-.75-.75H3.5v-2zm9.25-.25a.75.75 0 00-1.5 0v10.5a.75.75 0 001.5 0v-10.5zm-4 2.25a.75.75 0 01.75.75v4.5002a.75.75 0 01-1.5 0V14.75a.75.75 0 01.75-.75zm7.25.75a.75.75 0 00-1.5 0v4.5002a.75.75 0 001.5 0V14.75z" }) }), 'IcFluentHeadphonesSoundWave24FilledIcon');

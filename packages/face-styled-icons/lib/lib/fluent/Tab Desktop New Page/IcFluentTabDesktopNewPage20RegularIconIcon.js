@@ -1,0 +1,3 @@
+import { jsx as _jsx, Fragment as _Fragment } from "react/jsx-runtime";
+import { createSvgIcon } from "@specfocus/face-styled-system/lib/SvgIcon";
+export default createSvgIcon(_jsx(_Fragment, { children: _jsx("path", { d: "M7 12c.5523 0 1-.4477 1-1s-.4477-1-1-1-1 .4477-1 1 .4477 1 1 1zm4-1c0 .5523-.4477 1-1 1s-1-.4477-1-1 .4477-1 1-1 1 .4477 1 1zm2 1c.5523 0 1-.4477 1-1s-.4477-1-1-1-1 .4477-1 1 .4477 1 1 1zM3 5.5C3 4.1193 4.1193 3 5.5 3h9C15.8807 3 17 4.1193 17 5.5v9c0 1.3807-1.1193 2.5-2.5 2.5h-9C4.1193 17 3 15.8807 3 14.5v-9zM5.5 4C4.6716 4 4 4.6716 4 5.5v9c0 .8284.6716 1.5 1.5 1.5h9c.8284 0 1.5-.6716 1.5-1.5V7H9.5C8.6716 7 8 6.3284 8 5.5V4H5.5zM16 5.5c0-.8284-.6716-1.5-1.5-1.5H9v1.5a.5.5 0 00.5.5H16v-.5z" }) }), 'IcFluentTabDesktopNewPage20RegularIcon');

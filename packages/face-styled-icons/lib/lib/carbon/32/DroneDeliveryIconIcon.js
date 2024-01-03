@@ -1,0 +1,3 @@
+import { jsx as _jsx, Fragment as _Fragment, jsxs as _jsxs } from "react/jsx-runtime";
+import { createSvgIcon } from "@specfocus/face-styled-system/lib/SvgIcon";
+export default createSvgIcon(_jsxs(_Fragment, { children: [_jsx("path", { d: "M20 30h-8v-8h8zm-6-2h4v-4h-4z" }), _jsx("path", { d: "M32 11H22v2h4v3H6v-3h4v-2H0v2h4v5h5.132L6 22.697V27h2v-3.697L11.535 18h8.93L24 23.303V27h2v-4.303L22.868 18H28v-5h4v-2zM16 6a5.9817 5.9817 0 00-4.2407 1.7593l1.4136 1.4136a3.9936 3.9936 0 015.6542 0l1.4136-1.4136A5.9814 5.9814 0 0016 6z" }), _jsx("path", { d: "M8.9324 4.9321l1.4133 1.4136a7.9877 7.9877 0 0111.3086 0l1.4136-1.4136a9.9844 9.9844 0 00-14.1355 0z" }), _jsx("path", { d: "M0 0h32v32H0z", "data-name": "<Transparent Rectangle>" })] }), 'DroneDeliveryIcon');

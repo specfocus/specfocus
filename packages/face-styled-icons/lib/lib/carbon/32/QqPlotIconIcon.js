@@ -1,0 +1,3 @@
+import { jsx as _jsx, Fragment as _Fragment, jsxs as _jsxs } from "react/jsx-runtime";
+import { createSvgIcon } from "@specfocus/face-styled-system/lib/SvgIcon";
+export default createSvgIcon(_jsxs(_Fragment, { children: [_jsx("circle", { cx: "20", cy: "4", r: "2" }), _jsx("circle", { cx: "8", cy: "16", r: "2" }), _jsx("circle", { cx: "28", cy: "12", r: "2" }), _jsx("circle", { cx: "11", cy: "7", r: "2" }), _jsx("circle", { cx: "16", cy: "24", r: "2" }), _jsx("path", { d: "M30 3.4131L28.5859 2 4 26.585V2H2v26a2 2 0 002 2h26v-2H5.4131z" }), _jsx("path", { d: "M0 0h32v32H0z", "data-name": "<Transparent Rectangle>" })] }), 'QqPlotIcon');

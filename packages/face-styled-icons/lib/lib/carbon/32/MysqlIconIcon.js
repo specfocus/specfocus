@@ -1,0 +1,3 @@
+import { jsx as _jsx, Fragment as _Fragment, jsxs as _jsxs } from "react/jsx-runtime";
+import { createSvgIcon } from "@specfocus/face-styled-system/lib/SvgIcon";
+export default createSvgIcon(_jsxs(_Fragment, { children: [_jsx("path", { d: "M28.2471 11.9248h3.1748l-4.6465 13.938c-.3066.9351-.7402 1.6255-1.2998 2.0703-.5596.4443-1.3604.667-2.4033.667h-2.1162v-2.645h2.2773l.4141-1.334-4.2324-12.6963h3.3818l1.7705 5.6353.874 3.4961h.1377l.8975-3.4961 1.7705-5.6353zM14.2178 13.4658h-.0694l-1.1728 2.3462-3.1279 5.6812-3.0586-5.6582-1.2198-2.5298H5.501V24H2.2119V7.9458H5.915l3.9327 7.521h.0459l3.8876-7.521h3.7256V24h-3.289V13.4658z" }), _jsx("path", { d: "M0 0h32v32H0z", "data-name": "&lt;Transparent Rectangle&gt;" })] }), 'MysqlIcon');

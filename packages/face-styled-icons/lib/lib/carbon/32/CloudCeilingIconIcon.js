@@ -1,0 +1,3 @@
+import { jsx as _jsx, Fragment as _Fragment, jsxs as _jsxs } from "react/jsx-runtime";
+import { createSvgIcon } from "@specfocus/face-styled-system/lib/SvgIcon";
+export default createSvgIcon(_jsxs(_Fragment, { children: [_jsx("path", { d: "M2 28h9v2H2zM21 28h9v2h-9zM17 26.167v-8.335l2.586 2.582L21 19l-5-5-5 5 1.413 1.415L15 17.832v8.335l-2.587-2.583L11 25l5 5 5-5-1.414-1.414L17 26.167z" }), _jsx("path", { d: "M23 16h-2v-2h2a3 3 0 000-6c-.0938.0144-.1538.0219-.2153.0263l-.8037.0572-.2266-.7735a5.9927 5.9927 0 00-11.1758-.8655l-.2832.5994-.8423-.0455A3.5009 3.5009 0 009.5 14H11v2H9.5a5.5 5.5 0 01-.43-10.9834 7.9909 7.9909 0 0114.35 1.0009A5 5 0 0123 16z" }), _jsx("path", { d: "M0 0h32v32H0z", "data-name": "<Transparent Rectangle>" })] }), 'CloudCeilingIcon');

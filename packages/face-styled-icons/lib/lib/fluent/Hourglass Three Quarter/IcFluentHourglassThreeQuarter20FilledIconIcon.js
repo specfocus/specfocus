@@ -1,0 +1,3 @@
+import { jsx as _jsx, Fragment as _Fragment } from "react/jsx-runtime";
+import { createSvgIcon } from "@specfocus/face-styled-system/lib/SvgIcon";
+export default createSvgIcon(_jsx(_Fragment, { children: _jsx("path", { d: "M6.163 5h7.6791a3.4697 3.4697 0 01-.1521.4 3.3705 3.3705 0 01-.91 1.16L11 8.09a2.4495 2.4495 0 00-.65.85 2.4197 2.4197 0 00-.29 1.06c.0141.3709.1133.7336.29 1.06.1514.3278.3734.618.65.85l1.78 1.53c.3852.3148.696.7109.91 1.16A3.49 3.49 0 0114 16H6a3.4102 3.4102 0 01.32-1.4 3.25 3.25 0 01.9-1.16l1.82-1.52a2.4804 2.4804 0 00.66-.86A2.42 2.42 0 009.94 10a2.42 2.42 0 00-.24-1.06 2.4802 2.4802 0 00-.66-.86L7.22 6.56a3.25 3.25 0 01-.9-1.16 3.4088 3.4088 0 01-.157-.4z" }) }), 'IcFluentHourglassThreeQuarter20FilledIcon');

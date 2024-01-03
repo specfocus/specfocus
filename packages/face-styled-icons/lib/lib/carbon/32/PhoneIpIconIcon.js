@@ -1,0 +1,3 @@
+import { jsx as _jsx, Fragment as _Fragment, jsxs as _jsxs } from "react/jsx-runtime";
+import { createSvgIcon } from "@specfocus/face-styled-system/lib/SvgIcon";
+export default createSvgIcon(_jsxs(_Fragment, { children: [_jsx("path", { d: "M16 14h2v2h-2zM20 14h2v2h-2zM24 14h2v2h-2zM16 18h2v2h-2zM20 18h2v2h-2zM24 18h2v2h-2zM16 22h2v2h-2zM20 22h2v2h-2zM24 22h2v2h-2zM16 10h10v2H16z" }), _jsx("path", { d: "M28 6H14V5a2.0025 2.0025 0 00-2-2H8a2.0025 2.0025 0 00-2 2v1H4a2.0025 2.0025 0 00-2 2v18a2.0025 2.0025 0 002 2h24a2.0025 2.0025 0 002-2V8a2.0025 2.0025 0 00-2-2zM8 5h4v17H8zm20 21H4V8h2v14a2.0025 2.0025 0 002 2h4a2.0025 2.0025 0 002-2V8h14z" }), _jsx("path", { d: "M0 0h32v32H0z", "data-name": "<Transparent Rectangle>" })] }), 'PhoneIpIcon');

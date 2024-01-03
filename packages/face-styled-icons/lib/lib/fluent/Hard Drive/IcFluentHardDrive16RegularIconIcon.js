@@ -1,0 +1,3 @@
+import { jsx as _jsx, Fragment as _Fragment } from "react/jsx-runtime";
+import { createSvgIcon } from "@specfocus/face-styled-system/lib/SvgIcon";
+export default createSvgIcon(_jsx(_Fragment, { children: _jsx("path", { d: "M13.854 7.854l-1.969-4.127V3.72A1.2338 1.2338 0 0010.75 3h-5.5a1.234 1.234 0 00-1.134.72v.007l-1.97 4.127A1.5 1.5 0 002 8.5v2.0001a1.5 1.5 0 001.5 1.5h9a1.5002 1.5002 0 001.5-1.5v-2a1.4995 1.4995 0 00-.146-.646zM5.25 4h5.5a.2403.2403 0 01.226.14L12.339 7H3.661l1.362-2.857A.24.24 0 015.25 4zM13 10.5002a.5.5 0 01-.5.5h-9a.5.5 0 01-.5-.5v-2a.5.5 0 01.5-.5h9a.5.5 0 01.451.284A.5092.5092 0 0113 8.5v2zm-1-1a.4995.4995 0 01-.3087.462.4994.4994 0 01-.5449-.1085.5001.5001 0 01.7072-.707A.5002.5002 0 0112 9.5z" }) }), 'IcFluentHardDrive16RegularIcon');

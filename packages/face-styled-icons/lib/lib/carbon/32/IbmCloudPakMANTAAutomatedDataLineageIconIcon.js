@@ -1,0 +1,3 @@
+import { jsx as _jsx, Fragment as _Fragment, jsxs as _jsxs } from "react/jsx-runtime";
+import { createSvgIcon } from "@specfocus/face-styled-system/lib/SvgIcon";
+export default createSvgIcon(_jsxs(_Fragment, { children: [_jsx("path", { d: "M30 11V5h-6v2H14V4a2.0025 2.0025 0 00-2-2H4a2.0025 2.0025 0 00-2 2v8a2.0025 2.0025 0 002 2h8a2.0025 2.0025 0 002-2V9a3.0033 3.0033 0 013 3v9h-6v-2H5v6h6v-2h6v2a2.0025 2.0025 0 002 2h5v2h6v-6h-6v2h-5v-7h5v2h6v-6h-6v2h-5v-4a4.9521 4.9521 0 00-1.0254-3H24v2zM4 12V4h8v8zm5 11H7v-2h2zm17 2h2v2h-2zm0-9h2v2h-2zm0-9h2v2h-2z" }), _jsx("path", { d: "M0 0h32v32H0z", "data-name": "<Transparent Rectangle>" })] }), 'IbmCloudPakMANTAAutomatedDataLineageIcon');

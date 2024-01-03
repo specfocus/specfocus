@@ -1,0 +1,3 @@
+import { jsx as _jsx, Fragment as _Fragment, jsxs as _jsxs } from "react/jsx-runtime";
+import { createSvgIcon } from "@specfocus/face-styled-system/lib/SvgIcon";
+export default createSvgIcon(_jsxs(_Fragment, { children: [_jsx("path", { d: "M24.7808 26l1.1892-4.7578A1 1 0 0025 20h-5v-3h5a1 1 0 00.9082-1.4189l-6-13a1.0006 1.0006 0 00-1.7021-.19L8.2075 15.3906A1 1 0 009 17h9v3H7a1 1 0 00-.97 1.2422L7.2192 26H2v2h28v-2zM20 7.5527L23.437 15H20zM11.0308 15L18 5.94V15zm11.6884 11H9.2808l-1-4h15.4384z" }), _jsx("path", { d: "M0 0h32v32H0z", "data-name": "<Transparent Rectangle>" })] }), 'SailboatCoastalIcon');

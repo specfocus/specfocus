@@ -1,0 +1,3 @@
+import { jsx as _jsx, Fragment as _Fragment } from "react/jsx-runtime";
+import { createSvgIcon } from "@specfocus/face-styled-system/lib/SvgIcon";
+export default createSvgIcon(_jsx(_Fragment, { children: _jsx("path", { d: "M16 8c1.1046 0 2 .8954 2 2s-.8954 2-2 2H4c-1.1046 0-2-.8954-2-2s.8954-2 2-2h12zm1 2c0-.5523-.4477-1-1-1H4c-.5523 0-1 .4477-1 1s.4477 1 1 1h12c.5523 0 1-.4477 1-1zM8 2c1.1046 0 2 .8954 2 2s-.8954 2-2 2H4c-1.1046 0-2-.8954-2-2s.8954-2 2-2h4zm1 2c0-.5523-.4477-1-1-1H4c-.5523 0-1 .4477-1 1s.4477 1 1 1h4c.5523 0 1-.4477 1-1zm5 12c0-1.1046-.8954-2-2-2H4c-1.1046 0-2 .8954-2 2s.8954 2 2 2h8c1.1046 0 2-.8954 2-2zm-2-1c.5523 0 1 .4477 1 1s-.4477 1-1 1H4c-.5523 0-1-.4477-1-1s.4477-1 1-1h8z" }) }), 'IcFluentPollHorizontal20RegularIcon');

@@ -1,0 +1,3 @@
+import { jsx as _jsx, Fragment as _Fragment, jsxs as _jsxs } from "react/jsx-runtime";
+import { createSvgIcon } from "@specfocus/face-styled-system/lib/SvgIcon";
+export default createSvgIcon(_jsxs(_Fragment, { children: [_jsx("circle", { cx: "9", cy: "6", r: "1" }), _jsx("path", { d: "M26 2H6a2 2 0 00-2 2v4a2 2 0 002 2h9v4h2v-4h9a2 2 0 002-2V4a2 2 0 00-2-2zm0 6H6V4h20zM17 28v-2h-2v2H4v2h24v-2H17z" }), _jsx("circle", { cx: "9", cy: "20", r: "1" }), _jsx("path", { d: "M6 24h20a2 2 0 002-2v-4a2 2 0 00-2-2H6a2 2 0 00-2 2v4a2 2 0 002 2zm0-6h20v4H6z", "data-name": "dedicated host" }), _jsx("path", { d: "M0 0h32v32H0z", "data-name": "<Transparent Rectangle>" })] }), 'IbmCloudDedicatedHostIcon');

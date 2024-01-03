@@ -1,0 +1,3 @@
+import { jsx as _jsx, Fragment as _Fragment, jsxs as _jsxs } from "react/jsx-runtime";
+import { createSvgIcon } from "@specfocus/face-styled-system/lib/SvgIcon";
+export default createSvgIcon(_jsxs(_Fragment, { children: [_jsx("path", { d: "M28 20h-2v2h2v6H4v-6h2v-2H4a2.0024 2.0024 0 00-2 2v6a2.0024 2.0024 0 002 2h24a2.0024 2.0024 0 002-2v-6a2.0024 2.0024 0 00-2-2z" }), _jsx("circle", { cx: "7", cy: "25", r: "1" }), _jsx("path", { d: "M15 20H8v-7h7zm-5-2h3v-3h-3zM24 20h-7v-7h7zm-5-2h3v-3h-3zM15 11H8V4h7zm-5-2h3V6h-3zM24 11h-7V4h7zm-5-2h3V6h-3z" }), _jsx("path", { d: "M0 0h32v32H0z", "data-name": "<Transparent Rectangle>" })] }), 'BlockStorageAltIcon');

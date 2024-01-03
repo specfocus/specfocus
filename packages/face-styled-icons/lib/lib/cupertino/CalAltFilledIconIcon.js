@@ -1,0 +1,3 @@
+import { jsx as _jsx, Fragment as _Fragment, jsxs as _jsxs } from "react/jsx-runtime";
+import { createSvgIcon } from "@specfocus/face-styled-system/lib/SvgIcon";
+export default createSvgIcon(_jsxs(_Fragment, { children: [_jsx("path", { d: "M113.9 107.7h24.9v24.9h-24.9zM151.2 182.3h24.9v24.9h-24.9zM151.2 107.7h24.9v24.9h-24.9zM151.2 145h24.9v24.9h-24.9zM188.5 145h24.9v24.9h-24.9zM188.5 182.3h24.9v24.9h-24.9zM188.5 107.7h24.9v24.9h-24.9zM76.7 182.3h24.9v24.9H76.7zM76.7 145h24.9v24.9H76.7z" }), _jsx("path", { d: "M145 5C67.7 5 5 67.7 5 145s62.7 140 140 140 140-62.7 140-140S222.3 5 145 5zm80.8 214.6H64.2V70.4h161.5v149.2z" }), _jsx("path", { d: "M76.7 107.7h24.9v24.9H76.7zM113.9 182.3h24.9v24.9h-24.9zM113.9 145h24.9v24.9h-24.9z" })] }), 'CalAltFilledIcon');

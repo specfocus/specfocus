@@ -1,0 +1,3 @@
+import { jsx as _jsx, Fragment as _Fragment, jsxs as _jsxs } from "react/jsx-runtime";
+import { createSvgIcon } from "@specfocus/face-styled-system/lib/SvgIcon";
+export default createSvgIcon(_jsxs(_Fragment, { children: [_jsx("path", { d: "M30 19h-4v-4h-2v9H8V8l9-.0009V6h-4V2h-2v4H8a2.002 2.002 0 00-2 2v3H2v2h4v6H2v2h4v3a2.0023 2.0023 0 002 2h3v4h2v-4h6v4h2v-4h3a2.0027 2.0027 0 002-2v-3h4z" }), _jsx("path", { d: "M21 21H11V11h10zm-8-2h6v-6h-6zM31 13h-2A10.0117 10.0117 0 0019 3V1a12.0131 12.0131 0 0112 12z" }), _jsx("path", { d: "M26 13h-2a5.0059 5.0059 0 00-5-5V6a7.0085 7.0085 0 017 7z" }), _jsx("path", { d: "M0 0h32v32H0z", "data-name": "<Transparent Rectangle>" })] }), 'IotPlatformIcon');

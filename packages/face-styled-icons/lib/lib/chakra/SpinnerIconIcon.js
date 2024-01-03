@@ -1,0 +1,3 @@
+import { jsx as _jsx, jsxs as _jsxs, Fragment as _Fragment } from "react/jsx-runtime";
+import { createSvgIcon } from "@specfocus/face-styled-system/lib/SvgIcon";
+export default createSvgIcon(_jsxs(_Fragment, { children: [_jsx("defs", { children: _jsxs("linearGradient", { id: "a", x1: "28.154%", x2: "74.629%", y1: "63.74%", y2: "17.783%", children: [_jsx("stop", { offset: "0%" }), _jsx("stop", { offset: "100%" })] }) }), _jsxs("g", { transform: "translate(2)", children: [_jsx("circle", { cx: "10", cy: "12", r: "10", stroke: "url(#a)" }), _jsx("path", { stroke: "currentColor", d: "M10 2C4.477 2 0 6.477 0 12" }), _jsx("rect", { width: "4", height: "4", x: "8", rx: "8" })] })] }), 'SpinnerIcon');

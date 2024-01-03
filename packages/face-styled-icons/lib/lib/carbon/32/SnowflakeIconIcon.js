@@ -1,0 +1,3 @@
+import { jsx as _jsx, Fragment as _Fragment, jsxs as _jsxs } from "react/jsx-runtime";
+import { createSvgIcon } from "@specfocus/face-styled-system/lib/SvgIcon";
+export default createSvgIcon(_jsxs(_Fragment, { children: [_jsx("path", { d: "M21.4148 12H28v-2h-4.5852l4.5857-4.5854L26.5864 4 22 8.5869V4h-2v6.5869L18.5867 12H17V8h-2v4h-1.5867L12 10.5869V4h-2v4.5869L5.4136 4 4 5.4146 8.5852 10H4v2h6.5852L12 13.415V15H8v2h4v1.5869L10.5867 20H4v2h4.5867L4 26.5864l1.4141 1.4141L10 23.415V28h2v-6.585L13.4148 20H15v4h2v-4h1.5852L20 21.415V28h2v-4.585l4.5854 4.5855L28 26.5864 23.4133 22H28v-2h-6.5867L20 18.5869V17h4v-2h-4v-1.585zM18 18h-4v-4h4z" }), _jsx("path", { d: "M0 0h32v32H0z", "data-name": "<Transparent Rectangle>" })] }), 'SnowflakeIcon');

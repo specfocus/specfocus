@@ -1,0 +1,3 @@
+import { jsx as _jsx, Fragment as _Fragment } from "react/jsx-runtime";
+import { createSvgIcon } from "@specfocus/face-styled-system/lib/SvgIcon";
+export default createSvgIcon(_jsx(_Fragment, { children: _jsx("path", { d: "M7.8503 3.0153c2.5773.201 4.606 2.3559 4.606 4.9847 0 2.7614-2.2386 5-5 5-1.7547 0-3.299-.9039-4.1916-2.2729 1.4032-.3792 3.316-1.3018 4.1597-3.5515.5527-1.474.5842-2.938.426-4.1603zM13.4563 8c0-3.3137-2.6863-6-6-6-.0705 0-.1408.0012-.2107.0036a.5.5 0 00-.4741.5923c.2287 1.2143.2791 2.7282-.2834 4.2285-.8 2.1335-2.802 2.8392-4.0775 3.071a.5.5 0 00-.361.7092C3.0188 12.6128 5.075 14 7.4564 14c3.3137 0 6-2.6863 6-6z" }) }), 'IcFluentWeatherMoon16RegularIcon');

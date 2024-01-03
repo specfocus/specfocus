@@ -1,0 +1,3 @@
+import { jsx as _jsx, Fragment as _Fragment } from "react/jsx-runtime";
+import { createSvgIcon } from "@specfocus/face-styled-system/lib/SvgIcon";
+export default createSvgIcon(_jsx(_Fragment, { children: _jsx("path", { d: "M8 1c-1.1046 0-2 .8954-2 2v10c0 1.1046.8954 2 2 2s2-.8954 2-2V3c0-1.1046-.8954-2-2-2zm1 2v10c0 .5523-.4477 1-1 1s-1-.4477-1-1V3c0-.5523.4477-1 1-1s1 .4477 1 1zM3 7c-1.1046 0-2 .8954-2 2v4c0 1.1046.8954 2 2 2s2-.8954 2-2V9c0-1.1046-.8954-2-2-2zm1 6c0 .5523-.4477 1-1 1s-1-.4477-1-1V9c0-.5523.4477-1 1-1s1 .4477 1 1v4zm7-6c0-1.1046.8954-2 2-2s2 .8954 2 2v6c0 1.1046-.8954 2-2 2s-2-.8954-2-2V7zm3 0c0-.5523-.4477-1-1-1s-1 .4477-1 1v6c0 .5523.4477 1 1 1s1-.4477 1-1V7z" }) }), 'IcFluentPoll16RegularIcon');

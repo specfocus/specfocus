@@ -1,0 +1,3 @@
+import { jsx as _jsx, Fragment as _Fragment } from "react/jsx-runtime";
+import { createSvgIcon } from "@specfocus/face-styled-system/lib/SvgIcon";
+export default createSvgIcon(_jsx(_Fragment, { children: _jsx("path", { d: "M6 5.2676V4c0-1.1046.8954-2 2-2h4c1.1046 0 2 .8954 2 2v1.2676c.5978.3458 1 .9921 1 1.7324v1c.5523 0 1 .4477 1 1v1c0 .5523-.4477 1-1 1v2c0 .7403-.4022 1.3866-1 1.7324V16c0 1.1046-.8954 2-2 2H8c-1.1046 0-2-.8954-2-2v-1.2676c-.5978-.3458-1-.9921-1-1.7324V7c0-.7403.4022-1.3866 1-1.7324zM8 3c-.5523 0-1 .4477-1 1v1h6V4c0-.5523-.4477-1-1-1H8zm6 10V7c0-.5523-.4477-1-1-1H7c-.5523 0-1 .4477-1 1v6c0 .5518.447.9993.9987 1h6.0018c.5521-.0003.9995-.4479.9995-1zm-7 3c0 .5523.4477 1 1 1h4c.5523 0 1-.4477 1-1v-1H7v1z" }) }), 'IcFluentSmartwatch20RegularIcon');

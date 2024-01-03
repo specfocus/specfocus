@@ -1,0 +1,3 @@
+import { jsx as _jsx, Fragment as _Fragment, jsxs as _jsxs } from "react/jsx-runtime";
+import { createSvgIcon } from "@specfocus/face-styled-system/lib/SvgIcon";
+export default createSvgIcon(_jsxs(_Fragment, { children: [_jsx("path", { d: "M29.2427 4.03l-8-2a1.0065 1.0065 0 00-.6143.0415l-9.7 3.88L3.2427 4.03A1 1 0 002 5v22a1 1 0 00.7573.97l8 2A1.0244 1.0244 0 0011 30a.9953.9953 0 00.3716-.0718l9.7-3.88 7.686 1.9219A1 1 0 0030 27V5a1 1 0 00-.7573-.97zM28 11h-6V4.2806l6 1.5zm-18 8H4v-6h6zm2-8V7.6771l8-3.2V11zm8 2v6h-8v-6zm-8 8h8v3.3227l-8 3.2zm10-8h6v6h-6zM10 7.7806V11H4V6.2806zM4 21h6v6.7192l-6-1.5zm18 3.2187V21h6v4.7192z" }), _jsx("path", { d: "M0 0h32v32H0z", "data-name": "<Transparent Rectangle>" })] }), 'ChoroplethMapIcon');

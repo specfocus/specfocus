@@ -1,0 +1,3 @@
+import { jsx as _jsx, Fragment as _Fragment } from "react/jsx-runtime";
+import { createSvgIcon } from "@specfocus/face-styled-system/lib/SvgIcon";
+export default createSvgIcon(_jsx(_Fragment, { children: _jsx("path", { d: "M8 2c3.3137 0 6 2.6863 6 6s-2.6863 6-6 6v-3c0-.9319-.6374-1.715-1.5-1.937V9c0-1.6569-1.3432-3-3-3a2.989 2.989 0 00-1.247.2707C2.9952 3.8 5.2873 2 8 2zm-.4985 3a.5.5 0 00-.5.5v3a.5.5 0 00.5.5H9.5a.5.5 0 000-1H8.0015V5.5a.5.5 0 00-.5-.5zM1.5 9v1H1c-.5523 0-1 .4477-1 1v4c0 .5523.4477 1 1 1h5c.5523 0 1-.4477 1-1v-4c0-.5523-.4477-1-1-1h-.5V9c0-1.1046-.8954-2-2-2s-2 .8954-2 2zm1 1V9c0-.5523.4477-1 1-1s1 .4477 1 1v1h-2zm1 2.25a.75.75 0 110 1.5.75.75 0 010-1.5z" }) }), 'IcFluentClockLock16FilledIcon');

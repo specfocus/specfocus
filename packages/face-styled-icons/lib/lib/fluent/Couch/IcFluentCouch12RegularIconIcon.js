@@ -1,0 +1,3 @@
+import { jsx as _jsx, Fragment as _Fragment } from "react/jsx-runtime";
+import { createSvgIcon } from "@specfocus/face-styled-system/lib/SvgIcon";
+export default createSvgIcon(_jsx(_Fragment, { children: _jsx("path", { d: "M3.5 2C2.6716 2 2 2.6716 2 3.5v1.1684c-.5912.2809-1 .8835-1 1.5816V8.5c0 .6531.4174 1.2087 1 1.4146V10.5a.5.5 0 001 0V10h6v.5a.5.5 0 001 0v-.5854c.5826-.2059 1-.7615 1-1.4146V6.25c0-.6981-.4088-1.3007-1-1.5816V3.5C10 2.6716 9.3284 2 8.5 2h-5zm6 7h-7a.5.5 0 01-.5-.5V6.25a.75.75 0 011.5 0v.25A.5.5 0 004 7h4a.5.5 0 00.5-.5v-.25a.75.75 0 011.5 0V8.5a.5.5 0 01-.5.5zM9 4.5177C8.2336 4.6274 7.6273 5.2336 7.5177 6H4.4823C4.3726 5.2336 3.7664 4.6273 3 4.5177V3.5a.5.5 0 01.5-.5h5a.5.5 0 01.5.5v1.0177z" }) }), 'IcFluentCouch12RegularIcon');

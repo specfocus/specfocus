@@ -1,0 +1,3 @@
+import { jsx as _jsx, Fragment as _Fragment, jsxs as _jsxs } from "react/jsx-runtime";
+import { createSvgIcon } from "@specfocus/face-styled-system/lib/SvgIcon";
+export default createSvgIcon(_jsxs(_Fragment, { children: [_jsx("path", { d: "M19 28H3a1 1 0 010-2h16a1 1 0 010 2zM15 20H3a1 1 0 010-2h12a1 1 0 010 2zM25.793 22.3787l2.8283 2.8285-1.4142 1.4142-2.8284-2.8285zM28 15h4v2h-4zM24.3787 8.207l2.8284-2.8283 1.4143 1.4142-2.8285 2.8284zM17 2h2v4h-2zM10.207 9.6213L7.3788 6.793l1.4142-1.4142 2.8284 2.8284z" }), _jsx("path", { d: "M18 8a8.0092 8.0092 0 00-8 8h2a6 6 0 116 6H7a1 1 0 000 2h11a8 8 0 000-16z" }), _jsx("path", { d: "M0 0h32v32H0z", "data-name": "<Transparent Rectangle>" })] }), 'HazeIcon');

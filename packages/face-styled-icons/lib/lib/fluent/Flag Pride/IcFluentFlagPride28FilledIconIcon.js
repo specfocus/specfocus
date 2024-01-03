@@ -1,0 +1,3 @@
+import { jsx as _jsx, Fragment as _Fragment, jsxs as _jsxs } from "react/jsx-runtime";
+import { createSvgIcon } from "@specfocus/face-styled-system/lib/SvgIcon";
+export default createSvgIcon(_jsxs(_Fragment, { children: [_jsx("path", { d: "M5 4h18v2.75H5V4z" }), _jsx("path", { d: "M5 6.5h18v2.25H5V6.5z" }), _jsx("path", { d: "M5 8.5h18v2.25H5V8.5z" }), _jsx("path", { d: "M5 10.5h18v2.25H5V10.5z" }), _jsx("path", { d: "M5 12.5h18v2.25H5V12.5z" }), _jsx("path", { d: "M5 14.5h18V17H5z" }), _jsx("path", { d: "M4.75 3a.75.75 0 00-.75.75v20.5a.75.75 0 001.5 0V18h17.75a.75.75 0 00.75-.75V3.75a.75.75 0 00-.75-.75H4.75zm.75 1.5h17v12h-17v-12z" })] }), 'IcFluentFlagPride28FilledIcon');

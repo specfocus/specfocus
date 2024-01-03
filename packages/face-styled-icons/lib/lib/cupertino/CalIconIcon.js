@@ -1,0 +1,3 @@
+import { jsx as _jsx, Fragment as _Fragment } from "react/jsx-runtime";
+import { createSvgIcon } from "@specfocus/face-styled-system/lib/SvgIcon";
+export default createSvgIcon(_jsx(_Fragment, { children: _jsx("path", { d: "M284.7 5.5V5H5.3v280H284.7V5.5zM22.3 26.7h245.4v35.7H22.3V26.7zm44.3 233.2H22.3v-44.3h44.3v44.3zm0-65.7H22.3v-44.3h44.3v44.3zm0-65.8H22.3V84.1h44.3v44.3zm67.2 131.5H89.5v-44.3h44.3v44.3zm0-65.7H89.5v-44.3h44.3v44.3zm0-65.8H89.5V84.1h44.3v44.3zM201 259.9h-44.3v-44.3H201v44.3zm0-65.7h-44.3v-44.3H201v44.3zm0-65.8h-44.3V84.1H201v44.3zm67.1 131.5h-44.3v-44.3h44.3v44.3zm0-65.7h-44.3v-44.3h44.3v44.3zm0-65.8h-44.3V84.1h44.3v44.3z" }) }), 'CalIcon');

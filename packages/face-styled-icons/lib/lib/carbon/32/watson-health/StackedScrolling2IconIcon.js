@@ -1,0 +1,3 @@
+import { jsx as _jsx, Fragment as _Fragment, jsxs as _jsxs } from "react/jsx-runtime";
+import { createSvgIcon } from "@specfocus/face-styled-system/lib/SvgIcon";
+export default createSvgIcon(_jsxs(_Fragment, { children: [_jsx("path", { d: "M8 30H2a2 2 0 01-2-2V14a2 2 0 012-2h6a2 2 0 012 2v14a2 2 0 01-2 2zM2 14v14h6V14zM20 30h-6a2 2 0 01-2-2V14a2 2 0 012-2h6a2 2 0 012 2v14a2 2 0 01-2 2zm-6-16v14h6V14z" }), _jsx("path", { d: "M27 21h-2V9h-8V7h8a2 2 0 012 2z" }), _jsx("path", { d: "M32 16h-2V4h-8V2h8a2 2 0 012 2z" }), _jsx("path", { d: "M0 0h32v32H0z", "data-name": "<Transparent Rectangle>" })] }), 'StackedScrolling2Icon');

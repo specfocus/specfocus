@@ -1,0 +1,3 @@
+import { jsx as _jsx, Fragment as _Fragment } from "react/jsx-runtime";
+import { createSvgIcon } from "@specfocus/face-styled-system/lib/SvgIcon";
+export default createSvgIcon(_jsx(_Fragment, { children: _jsx("path", { d: "M2.5 2a.5.5 0 00-.5.5v5c0 2.3163 1.75 4.2238 4 4.4726V13c0 2.7614 2.2386 5 5 5s5-2.2386 5-5v-1.05c1.1411-.2316 2-1.2405 2-2.45C18 8.1193 16.8807 7 15.5 7S13 8.1193 13 9.5c0 1.2095.8589 2.2184 2 2.45V13c0 2.2092-1.7909 4-4 4-2.2091 0-4-1.7908-4-4v-1.0274c2.25-.2488 4-2.1563 4-4.4726v-5a.5.5 0 00-.5-.5h-2a.5.5 0 000 1H10v4.5C10 9.433 8.433 11 6.5 11S3 9.433 3 7.5V3h1.5a.5.5 0 000-1h-2zm13 6c.8284 0 1.5.6716 1.5 1.5s-.6716 1.5-1.5 1.5-1.5-.6716-1.5-1.5.6716-1.5 1.5-1.5z" }) }), 'IcFluentStethoscope20RegularIcon');

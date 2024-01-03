@@ -1,0 +1,3 @@
+import { jsx as _jsx, Fragment as _Fragment, jsxs as _jsxs } from "react/jsx-runtime";
+import { createSvgIcon } from "@specfocus/face-styled-system/lib/SvgIcon";
+export default createSvgIcon(_jsxs(_Fragment, { children: [_jsx("defs", {}), _jsx("path", { d: "M28 20v-3a4 4 0 00-8 0v3a2.0023 2.0023 0 00-2 2v6a2.0023 2.0023 0 002 2h8a2.0023 2.0023 0 002-2v-6a2.0023 2.0023 0 00-2-2zm-6-3a2 2 0 014 0v3h-4zm6 11h-8v-6h8zM15 27H4a2 2 0 01-2-2v-3a2 2 0 012-2h11v2H4v3h11zM17 18H8a2 2 0 01-2-2v-3a2 2 0 012-2h11v2H8v3h9zM22 9H4a2 2 0 01-2-2V4a2 2 0 012-2h18a2 2 0 012 2v3a2 2 0 01-2 2zM4 7h18V4H4z" }), _jsx("path", { id: "_Transparent_Rectangle_", d: "M0 0h32v32H0z", "data-name": "<Transparent Rectangle>" })] }), 'FirewallClassicIcon');

@@ -1,0 +1,1 @@
+{"version":3,"file":"line-spacings.d.ts","sourceRoot":"","sources":["../lib/line-spacings.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,KAAK,SAAS,EAAE,MAAM,eAAe,CAAC;AAE/C,MAAM,MAAM,WAAW,GAAG;IAAE,GAAG,EAAE,MAAM,CAAC;IAAC,MAAM,EAAE,MAAM,CAAA;CAAE,CAAC;AAE1D,MAAM,MAAM,YAAY,GAAG,MAAM,CAAC,SAAS,EAAE,WAAW,CAAC,CAAC"}

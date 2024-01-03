@@ -1,0 +1,3 @@
+import { jsx as _jsx, Fragment as _Fragment, jsxs as _jsxs } from "react/jsx-runtime";
+import { createSvgIcon } from "@specfocus/face-styled-system/lib/SvgIcon";
+export default createSvgIcon(_jsxs(_Fragment, { children: [_jsx("path", { d: "M10 16a5.9908 5.9908 0 009.4712 4.8853L24.5859 26 26 24.5859l-5.115-5.1147A5.997 5.997 0 1010 16zm2 0a4 4 0 114 4 4.0045 4.0045 0 01-4-4z" }), _jsx("path", { d: "M29 7h-6.46l-1.71-2.55A.9946.9946 0 0020 4h-8a.9946.9946 0 00-.83.45L9.46 7H3a1.0031 1.0031 0 00-1 1v17a1.0031 1.0031 0 001 1h9v-2H4V9h6a.9946.9946 0 00.83-.45L12.54 6h6.92l1.71 2.55A.9946.9946 0 0022 9h6v12h2V8a1.0031 1.0031 0 00-1-1z" }), _jsx("path", { d: "M0 0h32v32H0z", "data-name": "<Transparent Rectangle>" })] }), 'ImageSearchAltIcon');

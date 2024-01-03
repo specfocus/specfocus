@@ -1,0 +1,3 @@
+import { jsx as _jsx, Fragment as _Fragment, jsxs as _jsxs } from "react/jsx-runtime";
+import { createSvgIcon } from "@specfocus/face-styled-system/lib/SvgIcon";
+export default createSvgIcon(_jsxs(_Fragment, { children: [_jsx("path", { d: "M12 2h2v2h-2zM14 4h2v2h-2zM16 6h2v2h-2zM16 2h2v2h-2zM12 6h2v2h-2zM14 18h2v2h-2zM16 20h2v2h-2zM18 22h2v2h-2zM18 18h2v2h-2zM14 22h2v2h-2zM18 10h2v2h-2zM20 12h2v2h-2zM22 14h2v2h-2zM22 10h2v2h-2zM18 14h2v2h-2z" }), _jsx("path", { d: "M28 4a2.0023 2.0023 0 00-2 2v20H6v-4h4v-2H6v-4h4v-2H6v-4h4V8H6V6a2.0023 2.0023 0 00-2-2H2v2h2v20a2.0023 2.0023 0 002 2h20a2.0023 2.0023 0 002-2V6h2V4z" }), _jsx("path", { d: "M0 0h32v32H0z", "data-name": "<Transparent Rectangle>" })] }), 'AccumulationSnowIcon');

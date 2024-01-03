@@ -1,0 +1,3 @@
+import { jsx as _jsx, Fragment as _Fragment, jsxs as _jsxs } from "react/jsx-runtime";
+import { createSvgIcon } from "@specfocus/face-styled-system/lib/SvgIcon";
+export default createSvgIcon(_jsxs(_Fragment, { children: [_jsx("path", { d: "M15 22l-1.4099 1.4102L16.1699 26H4V8H2v18c0 1.1025.8972 2 2 2h12.1699l-2.5798 2.5898L15 32l5-5-5-5z" }), _jsx("circle", { cx: "11", cy: "16", r: "1" }), _jsx("path", { d: "M24 20H8c-1.1028 0-2-.8972-2-2v-4c0-1.1028.8972-2 2-2h16c1.1028 0 2 .8972 2 2v4c0 1.1028-.8972 2-2 2zM8 14v4h16v-4H8z" }), _jsx("path", { d: "M28 4H15.8301l2.5801-2.5898L17 0l-5 5 5 5 1.4102-1.4102L15.8301 6H28v18h2V6c0-1.1025-.8972-2-2-2z" }), _jsx("path", { d: "M0 0h32v32H0z", "data-name": "&lt;Transparent Rectangle&gt;" })] }), 'GlobalLoanAndTrialIcon');

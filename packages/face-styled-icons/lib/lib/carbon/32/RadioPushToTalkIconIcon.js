@@ -1,0 +1,3 @@
+import { jsx as _jsx, Fragment as _Fragment, jsxs as _jsxs } from "react/jsx-runtime";
+import { createSvgIcon } from "@specfocus/face-styled-system/lib/SvgIcon";
+export default createSvgIcon(_jsxs(_Fragment, { children: [_jsx("path", { d: "M13 11h6v2h-6zM13 15h6v2h-6z" }), _jsx("circle", { cx: "16", cy: "23", r: "2" }), _jsx("path", { d: "M22 7h-1V2h-2v5h-9a2.0023 2.0023 0 00-2 2v2H6v2h2v2H6v2h2v11a2.0023 2.0023 0 002 2h12a2.0023 2.0023 0 002-2V9a2.0023 2.0023 0 00-2-2zM10 28V9h12v19z" }), _jsx("path", { d: "M0 0h32v32H0z", "data-name": "<Transparent Rectangle>" })] }), 'RadioPushToTalkIcon');

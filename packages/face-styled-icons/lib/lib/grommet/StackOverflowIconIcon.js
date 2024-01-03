@@ -1,0 +1,3 @@
+import { jsx as _jsx, Fragment as _Fragment, jsxs as _jsxs } from "react/jsx-runtime";
+import { createSvgIcon } from "@specfocus/face-styled-system/lib/SvgIcon";
+export default createSvgIcon(_jsxs(_Fragment, { children: [_jsx("path", { d: "M19.127 21.866v-6.43h2.134V24H2v-8.563h2.134v6.43h14.993z" }), _jsx("path", { d: "M6.49 14.827l10.475 2.19.444-2.107-10.476-2.19-.443 2.107zm1.385-4.989l9.7 4.518.887-1.94-9.7-4.545-.887 1.967zm2.688-4.766l8.231 6.845 1.358-1.635-8.23-6.846-1.359 1.636zM15.884 0l-1.718 1.275 6.374 8.591 1.719-1.275L15.884 0zM6.268 19.704h10.697V17.57H6.268v2.134z" })] }), 'StackOverflowIcon');

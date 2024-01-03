@@ -1,0 +1,3 @@
+import { jsx as _jsx, Fragment as _Fragment, jsxs as _jsxs } from "react/jsx-runtime";
+import { createSvgIcon } from "@specfocus/face-styled-system/lib/SvgIcon";
+export default createSvgIcon(_jsxs(_Fragment, { children: [_jsx("path", { d: "M6 17h8v2H6z" }), _jsx("circle", { cx: "3", cy: "18", r: "1" }), _jsx("circle", { cx: "13", cy: "14", r: "1" }), _jsx("path", { d: "M2 13h8v2H2zM6 9h8v2H6z" }), _jsx("circle", { cx: "3", cy: "10", r: "1" }), _jsx("path", { d: "M30 28.6l-7.4-7.4c1.5-2 2.4-4.5 2.4-7.2 0-6.6-5.4-12-12-12-3.3 0-6.4 1.3-8.7 3.8l1.5 1.4C7.6 5.1 10.2 4 13 4c5.5 0 10 4.5 10 10s-4.5 10-10 10c-3 0-5.8-1.3-7.7-3.6l-1.5 1.3C6 24.4 9.4 26 13 26c3.2 0 6.1-1.3 8.3-3.3l7.3 7.3 1.4-1.4z" }), _jsx("path", { d: "M0 0h32v32H0z" })] }), 'IbmWatsonDiscoveryIcon');

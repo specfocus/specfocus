@@ -1,0 +1,3 @@
+import { jsx as _jsx, Fragment as _Fragment } from "react/jsx-runtime";
+import { createSvgIcon } from "@specfocus/face-styled-system/lib/SvgIcon";
+export default createSvgIcon(_jsx(_Fragment, { children: _jsx("path", { d: "M14 1.5a.5.5 0 01.5-.5h4a.5.5 0 01.5.5v5a.5.5 0 01-.5.5H17v11.5a.5.5 0 01-1 0V7h-1.5a.5.5 0 01-.5-.5v-5zM13 3H6.1396C4.948 3 3.922 3.8411 3.6882 5.0097L3.49 6h-.74a.75.75 0 000 1.5h.44l-.1111.56C2.4555 8.242 2 8.8177 2 9.5v4c0 .8284.6716 1.5 1.5 1.5H15V8H4.1099l.5588-2.7942A1.5 1.5 0 016.1397 4H13V3zm2 8.5c0 .5523-.4477 1-1 1s-1-.4477-1-1 .4477-1 1-1 1 .4477 1 1zm0 6.5c-.5523 0-1-.4477-1-1v-1h1v2zm-9-1v-1H4v1c0 .5523.4477 1 1 1s1-.4477 1-1zm-1-5.5c0-.5523.4477-1 1-1s1 .4477 1 1-.4477 1-1 1-1-.4477-1-1z" }) }), 'IcFluentVehicleCarParking20FilledIcon');

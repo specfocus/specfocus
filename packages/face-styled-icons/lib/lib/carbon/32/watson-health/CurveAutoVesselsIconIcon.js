@@ -1,0 +1,3 @@
+import { jsx as _jsx, Fragment as _Fragment, jsxs as _jsxs } from "react/jsx-runtime";
+import { createSvgIcon } from "@specfocus/face-styled-system/lib/SvgIcon";
+export default createSvgIcon(_jsxs(_Fragment, { children: [_jsx("path", { d: "M17 11a3 3 0 013-3h.1a5 5 0 100-2H20a5 5 0 00-5 5v1h-2a3 3 0 01-3-3V7a5 5 0 00-5-5H4v2h1a3 3 0 013 3v2a5 5 0 005 5h2v7a3 3 0 01-3 3h-.1a5 5 0 100 2h.1a5 5 0 005-5h2.5a2.5 2.5 0 012.5 2.5 4.51 4.51 0 004.5 4.5H28v-2h-1.5a2.5 2.5 0 01-2.5-2.5 4.51 4.51 0 00-4.5-4.5H17zm8-7a3 3 0 11-3 3 3 3 0 013-3zM7 28a3 3 0 113-3 3 3 0 01-3 3z" }), _jsx("path", { d: "M0 0h32v32H0z", "data-name": "<Transparent Rectangle>" })] }), 'CurveAutoVesselsIcon');

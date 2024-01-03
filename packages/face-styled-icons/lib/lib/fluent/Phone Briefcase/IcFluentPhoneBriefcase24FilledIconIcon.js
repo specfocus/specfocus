@@ -1,0 +1,3 @@
+import { jsx as _jsx, Fragment as _Fragment } from "react/jsx-runtime";
+import { createSvgIcon } from "@specfocus/face-styled-system/lib/SvgIcon";
+export default createSvgIcon(_jsx(_Fragment, { children: _jsx("path", { d: "M13.75 2C14.9926 2 16 3.0074 16 4.25V11h-.25C14.2312 11 13 12.2312 13 13.75v.3001c-1.1411.2316-2 1.2405-2 2.45V18H8.75a.75.75 0 000 1.5H11v2c0 .1712.0172.3384.05.5h-4.8C5.0074 22 4 20.9926 4 19.75V4.25C4 3.0074 5.0074 2 6.25 2h7.5zM14 13.7499V15h-.5c-.8284 0-1.5.6716-1.5 1.5v4.9999c0 .8285.6716 1.5 1.5 1.5h8c.8284 0 1.5-.6715 1.5-1.5V16.5c0-.8284-.6716-1.5-1.5-1.5H21v-1.2501c0-.9665-.7835-1.75-1.75-1.75h-3.5c-.9665 0-1.75.7835-1.75 1.75zm1.5 0a.25.25 0 01.25-.25h3.5a.25.25 0 01.25.25V15h-4v-1.2501z" }) }), 'IcFluentPhoneBriefcase24FilledIcon');

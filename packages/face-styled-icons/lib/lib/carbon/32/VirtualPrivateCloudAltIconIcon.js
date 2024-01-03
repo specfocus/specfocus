@@ -1,0 +1,3 @@
+import { jsx as _jsx, Fragment as _Fragment, jsxs as _jsxs } from "react/jsx-runtime";
+import { createSvgIcon } from "@specfocus/face-styled-system/lib/SvgIcon";
+export default createSvgIcon(_jsxs(_Fragment, { children: [_jsx("path", { d: "M23.4141 22L10 8.5859V2H2v8h6.5859L22 23.4141V30h8v-8zM8 8H4V4h4zm20 20h-4v-4h4z" }), _jsx("path", { d: "M30 6a3.9915 3.9915 0 00-7.8579-1H13v2h9.1421A3.9945 3.9945 0 0025 9.8579V19h2V9.8579A3.9962 3.9962 0 0030 6zm-4 2a2 2 0 112-2 2.0023 2.0023 0 01-2 2zM19 25H9.8579A3.9945 3.9945 0 007 22.1421V13H5v9.1421A3.9915 3.9915 0 109.8579 27H19zM6 28a2 2 0 112-2 2.0023 2.0023 0 01-2 2z" }), _jsx("path", { d: "M0 0h32v32H0z", "data-name": "<Transparent Rectangle>" })] }), 'VirtualPrivateCloudAltIcon');

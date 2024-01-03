@@ -1,0 +1,3 @@
+import { jsx as _jsx, Fragment as _Fragment } from "react/jsx-runtime";
+import { createSvgIcon } from "@specfocus/face-styled-system/lib/SvgIcon";
+export default createSvgIcon(_jsx(_Fragment, { children: _jsx("path", { d: "M21.3786 11.4997c-1.4297 4.7599-5.1991 8.5074-9.9722 9.9066l-8.8127-8.8127c1.3992-4.773 5.1467-8.5425 9.9066-9.9722l8.8783 8.8783zm-7.6589-2.28l-4.5 4.5a.75.75 0 101.0606 1.0606l4.5-4.5a.75.75 0 10-1.0606-1.0606zM2.1992 14.3203l7.4805 7.4805A14.8523 14.8523 0 017.25 22h-1C3.9028 22 2 20.0972 2 17.75v-1c0-.8276.0682-1.6393.1992-2.4297zM14.2169 2.2167l7.5664 7.5664C21.9258 8.9601 22 8.1137 22 7.25v-1C22 3.9028 20.0972 2 17.75 2h-1a14.844 14.844 0 00-2.5331.2167z" }) }), 'IcFluentSportAmericanFootball24FilledIcon');

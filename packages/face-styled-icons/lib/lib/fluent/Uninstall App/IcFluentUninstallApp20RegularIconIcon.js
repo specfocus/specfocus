@@ -1,0 +1,3 @@
+import { jsx as _jsx, Fragment as _Fragment } from "react/jsx-runtime";
+import { createSvgIcon } from "@specfocus/face-styled-system/lib/SvgIcon";
+export default createSvgIcon(_jsx(_Fragment, { children: _jsx("path", { d: "M4.5 17c-.8284 0-1.5-.6716-1.5-1.5v-11C3 3.6716 3.6716 3 4.5 3H9c.8284 0 1.5.6716 1.5 1.5v5h5c.8284 0 1.5.6716 1.5 1.5v4.5c0 .8284-.6716 1.5-1.5 1.5h-11zm11-6.5h-5V16h5a.5.5 0 00.5-.5V11a.5.5 0 00-.5-.5zm-6 0H4v5a.5.5 0 00.5.5h5v-5.5zm0-1v-5A.5.5 0 009 4H4.5a.5.5 0 00-.5.5v5h5.5zm4.3536-2.6464a.5001.5001 0 01-.7072-.7072L14.7929 4.5l-1.6465-1.6465a.5001.5001 0 01.7072-.707L15.5 3.7929l1.6464-1.6464a.5001.5001 0 01.7072.707L16.2071 4.5l1.6465 1.6464a.5001.5001 0 01-.7072.7072L15.5 5.207l-1.6464 1.6465z" }) }), 'IcFluentUninstallApp20RegularIcon');

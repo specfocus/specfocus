@@ -1,0 +1,3 @@
+import { jsx as _jsx, Fragment as _Fragment, jsxs as _jsxs } from "react/jsx-runtime";
+import { createSvgIcon } from "@specfocus/face-styled-system/lib/SvgIcon";
+export default createSvgIcon(_jsxs(_Fragment, { children: [_jsx("path", { d: "M20 18a3.9962 3.9962 0 01-3 3.8579V17h2v-2h-2v-1.1841a3.0007 3.0007 0 10-2 0V15h-2v2h2v4.8579A3.9962 3.9962 0 0112 18h-2a6 6 0 0012 0zm-4-8a1 1 0 11-1 1 1.0009 1.0009 0 011-1z" }), _jsx("path", { d: "M30 14h-2.1807A12.0112 12.0112 0 0018 4.1807V2h-4v2.1807A12.0112 12.0112 0 004.1807 14H2v4h2.1807A12.0112 12.0112 0 0014 27.8193V30h4v-2.1807A12.0112 12.0112 0 0027.8193 18H30zM16 26a10 10 0 1110-10 10.0114 10.0114 0 01-10 10z" }), _jsx("path", { d: "M32 32H0V0h32z", "data-name": "<Transparent Rectangle>" })] }), 'NavaidSeaplaneIcon');

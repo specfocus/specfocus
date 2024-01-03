@@ -1,0 +1,3 @@
+import { jsx as _jsx, Fragment as _Fragment, jsxs as _jsxs } from "react/jsx-runtime";
+import { createSvgIcon } from "@specfocus/face-styled-system/lib/SvgIcon";
+export default createSvgIcon(_jsxs(_Fragment, { children: [_jsx("defs", {}), _jsx("path", { id: "_inner-path_", d: "M11 23a1 1 0 01-1-1V10a1 1 0 011.4473-.8945l12 6a1 1 0 010 1.789l-12 6A1.001 1.001 0 0111 23zm1-11.3821v8.7642L20.7642 16z", "data-name": "<inner-path>" }), _jsx("path", { d: "M12 20.382L20.764 16 12 11.618v8.764z" }), _jsx("path", { d: "M16 2a14 14 0 1014 14A14 14 0 0016 2zm7.4473 14.8945l-12 6A1 1 0 0110 22V10a1 1 0 011.4473-.8945l12 6a1 1 0 010 1.789z" }), _jsx("path", { id: "_Transparent_Rectangle_", d: "M0 0h32v32H0z", "data-name": "<Transparent Rectangle>" })] }), 'PlayOutlineFilledIcon');

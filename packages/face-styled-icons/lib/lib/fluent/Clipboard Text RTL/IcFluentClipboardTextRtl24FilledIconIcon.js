@@ -1,0 +1,3 @@
+import { jsx as _jsx, Fragment as _Fragment } from "react/jsx-runtime";
+import { createSvgIcon } from "@specfocus/face-styled-system/lib/SvgIcon";
+export default createSvgIcon(_jsx(_Fragment, { children: _jsx("path", { d: "M15.9795 3.9447C15.8305 2.8465 14.8891 2 13.75 2h-3.5c-1.139 0-2.0805.8465-2.2295 1.9447L8.006 4.08l.0078-.0806L6.25 4C5.0074 4 4 5.0074 4 6.25v13.5C4 20.9926 5.0074 22 6.25 22h11.5c1.2426 0 2.25-1.0074 2.25-2.25V6.25C20 5.0074 18.9926 4 17.75 4l-1.7638-.0006.0068.0806-.0135-.1353zM10.25 3.5h3.5a.75.75 0 010 1.5h-3.5a.75.75 0 010-1.5zM8 9h8a.75.75 0 010 1.5H8A.75.75 0 018 9zm3.25 4.75A.75.75 0 0112 13h4a.75.75 0 010 1.5h-4a.75.75 0 01-.75-.75zM10 17h6a.75.75 0 010 1.5h-6a.75.75 0 010-1.5z" }) }), 'IcFluentClipboardTextRtl24FilledIcon');

@@ -1,0 +1,3 @@
+import { jsx as _jsx, Fragment as _Fragment } from "react/jsx-runtime";
+import { createSvgIcon } from "@specfocus/face-styled-system/lib/SvgIcon";
+export default createSvgIcon(_jsx(_Fragment, { children: _jsx("path", { d: "M5.75 2a.75.75 0 00-.75.75v11.5005c0 1.2427 1.0074 2.25 2.25 2.25h2.2498V19.5c0 1.3807 1.1192 2.5 2.5 2.5 1.3807 0 2.5-1.1193 2.5-2.5v-2.9995H16.75c1.2426 0 2.25-1.0073 2.25-2.25V2.75a.75.75 0 00-.75-.75H5.75zm.75 9.0003V3.5h5.9998v1.7515a.75.75 0 001.5 0V3.5h1v2.7511a.75.75 0 001.5 0V3.5H17.5v7.5003h-11zm0 3.2502v-1.7502h11v1.7502a.75.75 0 01-.75.75h-3.0002a.75.75 0 00-.75.75V19.5c0 .5523-.4478 1-1 1-.5523 0-1-.4477-1-1v-3.7495a.75.75 0 00-.75-.75H7.25a.75.75 0 01-.75-.75z" }) }), 'IcFluentPaintBrush24RegularIcon');

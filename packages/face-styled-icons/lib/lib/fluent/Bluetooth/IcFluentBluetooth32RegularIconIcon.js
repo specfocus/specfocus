@@ -1,0 +1,3 @@
+import { jsx as _jsx, Fragment as _Fragment } from "react/jsx-runtime";
+import { createSvgIcon } from "@specfocus/face-styled-system/lib/SvgIcon";
+export default createSvgIcon(_jsx(_Fragment, { children: _jsx("path", { d: "M15.6003 2.0833a1 1 0 011.0802.1839l7 6.5a1.0002 1.0002 0 010 1.4656L17.4696 16l6.2109 5.7672a1.0001 1.0001 0 010 1.4656l-7 6.5A1 1 0 0115 29V18.2932l-5.3195 4.9396c-.4048.3758-1.0375.3524-1.4133-.0524-.3758-.4047-.3524-1.0374.0523-1.4132L14.5304 16l-6.2109-5.7672c-.4047-.3758-.428-1.0085-.0523-1.4133.3758-.4047 1.0085-.4281 1.4133-.0523L15 13.7068V3a1 1 0 01.6003-.9167zM17 18.2933v8.4136L21.5304 22.5 17 18.2932zm0-4.5864L21.5304 9.5 17 5.2932v8.4136z" }) }), 'IcFluentBluetooth32RegularIcon');

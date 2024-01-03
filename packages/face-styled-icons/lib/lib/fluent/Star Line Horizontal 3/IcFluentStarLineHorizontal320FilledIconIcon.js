@@ -1,0 +1,3 @@
+import { jsx as _jsx, Fragment as _Fragment } from "react/jsx-runtime";
+import { createSvgIcon } from "@specfocus/face-styled-system/lib/SvgIcon";
+export default createSvgIcon(_jsx(_Fragment, { children: _jsx("path", { d: "M10.8978 2.8992c-.3668-.7432-1.4267-.7432-1.7935 0L7.174 6.8107l-4.3166.6273c-.8202.1192-1.1477 1.1271-.5542 1.7057l3.1235 3.0446-.7374 4.2992c-.14.8169.7174 1.4399 1.451 1.0542l4.8618-2.5582v-1.4833c0-.8284.6715-1.5 1.5-1.5-.8285 0-1.5-.6715-1.5-1.5 0-.8284.6715-1.5 1.5-1.5-.8285 0-1.5-.6715-1.5-1.5 0-.804.6325-1.4602 1.4271-1.4982l-1.5313-3.1028zm1.6042 7.101a.5.5 0 100 1h5a.5.5 0 100-1h-5zm-.5-2.5a.5.5 0 01.5-.5h5a.5.5 0 010 1h-5a.5.5 0 01-.5-.5zm.5 5.5a.5.5 0 100 1h5a.5.5 0 100-1h-5z" }) }), 'IcFluentStarLineHorizontal320FilledIcon');

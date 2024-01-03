@@ -1,0 +1,1 @@
+{"version":3,"file":"makeScaledArrayStyles.d.ts","sourceRoot":"","sources":["../../lib/utils/makeScaledArrayStyles.ts"],"names":[],"mappings":"AACA,OAAO,EAAE,KAAK,YAAY,EAAE,MAAM,mBAAmB,CAAC;AAEtD,OAAO,EAAE,KAAK,SAAS,EAAE,MAAM,UAAU,CAAC;AAE1C,MAAM,MAAM,gBAAgB,GAAG,YAAY,EAAE,CAAC;AAE9C,QAAA,MAAM,qBAAqB;WAAqC,SAAS;;MAAoC,YAAY,EASpH,CAAC;AAEN,eAAe,qBAAqB,CAAC"}

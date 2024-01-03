@@ -1,0 +1,3 @@
+import { jsx as _jsx, Fragment as _Fragment, jsxs as _jsxs } from "react/jsx-runtime";
+import { createSvgIcon } from "@specfocus/face-styled-system/lib/SvgIcon";
+export default createSvgIcon(_jsxs(_Fragment, { children: [_jsx("path", { d: "M23 9.0049h6a2 2 0 002-2v-4a2 2 0 00-2-2h-6a2 2 0 00-2 2v1H11v-1a2 2 0 00-2-2H3a2 2 0 00-2 2v4a2 2 0 002 2h6a2 2 0 002-2v-1h4v20a2.0023 2.0023 0 002 2h4v1a2 2 0 002 2h6a2 2 0 002-2v-4a2 2 0 00-2-2h-6a2 2 0 00-2 2v1h-4v-9h4v1a2 2 0 002 2h6a2 2 0 002-2v-4a2 2 0 00-2-2h-6a2 2 0 00-2 2v1h-4v-9h4v1a2 2 0 002 2zm0-6h6v4h-6zm-14 4H3v-4h6zm14 18h6v4h-6zm0-11h6v4h-6z" }), _jsx("path", { d: "M0 0h32v32H0z", "data-name": "<Transparent Rectangle>" })] }), 'TreeViewAltIcon');

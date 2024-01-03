@@ -1,0 +1,3 @@
+import { jsx as _jsx, Fragment as _Fragment, jsxs as _jsxs } from "react/jsx-runtime";
+import { createSvgIcon } from "@specfocus/face-styled-system/lib/SvgIcon";
+export default createSvgIcon(_jsxs(_Fragment, { children: [_jsx("path", { d: "M10 16h12v2H10zM10 20h8v2h-8z" }), _jsx("path", { d: "M16 7a8.0233 8.0233 0 017.8649 6.4935l.2591 1.346 1.3488.244A5.5019 5.5019 0 0124.5076 26H7.4954a5.5019 5.5019 0 01-.9695-10.9165l1.3488-.244.2591-1.346A8.0256 8.0256 0 0116 7m0-2a10.0244 10.0244 0 00-9.83 8.1155A7.5019 7.5019 0 007.4911 28h17.0165a7.5019 7.5019 0 001.3213-14.8845A10.0229 10.0229 0 0015.9883 5z" }), _jsx("path", { d: "M0 0h32v32H0z", "data-name": "<Transparent Rectangle>" })] }), 'WordCloudIcon');

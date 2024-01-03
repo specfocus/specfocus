@@ -1,0 +1,3 @@
+import { jsx as _jsx, Fragment as _Fragment, jsxs as _jsxs } from "react/jsx-runtime";
+import { createSvgIcon } from "@specfocus/face-styled-system/lib/SvgIcon";
+export default createSvgIcon(_jsxs(_Fragment, { children: [_jsx("path", { d: "M3 11v2h5.59l-6.3 6.29 1.42 1.42 6.29-6.3V20h2v-9H3zM26 13h-3v-1h-2v1h-3a2 2 0 00-2 2v2a2 2 0 002 2h3v1h2v-1h3a2 2 0 002-2v-2a2 2 0 00-2-2zm-8 4v-2h8v2zM26 23h-3v-1h-2v1h-3a2 2 0 00-2 2v2a2 2 0 002 2h3v1h2v-1h3a2 2 0 002-2v-2a2 2 0 00-2-2zm-8 4v-2h8v2zM26 3h-3V2h-2v1h-3a2 2 0 00-2 2v2a2 2 0 002 2h3v1h2V9h3a2 2 0 002-2V5a2 2 0 00-2-2zm-8 4V5h8v2z" }), _jsx("path", { d: "M0 0h32v32H0z", "data-name": "<Transparent Rectangle>" })] }), 'SpineLabelIcon');

@@ -1,0 +1,3 @@
+import { jsx as _jsx, Fragment as _Fragment } from "react/jsx-runtime";
+import { createSvgIcon } from "@specfocus/face-styled-system/lib/SvgIcon";
+export default createSvgIcon(_jsx(_Fragment, { children: _jsx("path", { d: "M3.5 14C3.5 8.201 8.201 3.5 14 3.5S24.5 8.201 24.5 14 19.799 24.5 14 24.5 3.5 19.799 3.5 14zM14 2C7.3726 2 2 7.3726 2 14s5.3726 12 12 12 12-5.3726 12-12S20.6274 2 14 2zM8.083 9.6984c-.3884-1.0107.6044-2.0035 1.6151-1.6152l4.9946 1.919a5.7498 5.7498 0 013.3051 3.3051l1.9192 4.9945c.3883 1.0107-.6045 2.0035-1.6152 1.6152l-4.9947-1.9191a5.75 5.75 0 01-3.305-3.305L8.083 9.6984zm1.6017-.0134l1.7176 4.4699a4.2502 4.2502 0 002.4428 2.4428l4.4701 1.7175-1.7176-4.4699a4.25 4.25 0 00-2.4429-2.4429l-4.47-1.7174z" }) }), 'IcFluentCompassNorthwest28RegularIcon');

@@ -1,0 +1,17 @@
+{
+  "name": "@specfocus/face-styled-icons",
+  "private": false,
+  "version": "0.0.3",
+  "type": "module",
+  "homepage": "https://specfocus.com/docs/face-react-icons",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@specfocus",
+    "@specfocus:registry": "https://npm.pkg.github.com"
+  },
+  "peerDependencies": {
+    "@specfocus/face-styled-system": "*",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "styled-components": "^5.3.11"
+  }
+}

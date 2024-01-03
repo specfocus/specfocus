@@ -1,0 +1,3 @@
+import { jsx as _jsx, Fragment as _Fragment, jsxs as _jsxs } from "react/jsx-runtime";
+import { createSvgIcon } from "@specfocus/face-styled-system/lib/SvgIcon";
+export default createSvgIcon(_jsxs(_Fragment, { children: [_jsx("path", { d: "M21 9H8a2.0023 2.0023 0 00-2 2v10a2.0023 2.0023 0 002 2h13a2.0023 2.0023 0 002-2V11a2.0023 2.0023 0 00-2-2zm0 4h-3v-2h3zm-3 2h3v2h-3zm-2-4v10h-3v-7a1 1 0 00-1-1H8v-2zm-5 6H8v-2h3zm-3 2h3v2H8zm10 2v-2h3v2z" }), _jsx("path", { d: "M23.5317 27H4a2.0021 2.0021 0 01-2-2V7a2.0021 2.0021 0 012-2h24a2.0021 2.0021 0 012 2v12.6379a2.0044 2.0044 0 01-.4639 1.2808L25.0679 26.28a1.9944 1.9944 0 01-1.5362.72zM4 7v18h19.5317L28 19.6379V7z" }), _jsx("path", { d: "M0 0h32v32H0z", "data-name": "<Transparent Rectangle>" })] }), 'SimCardIcon');

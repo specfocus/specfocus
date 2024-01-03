@@ -1,0 +1,3 @@
+import { jsx as _jsx, Fragment as _Fragment, jsxs as _jsxs } from "react/jsx-runtime";
+import { createSvgIcon } from "@specfocus/face-styled-system/lib/SvgIcon";
+export default createSvgIcon(_jsxs(_Fragment, { children: [_jsx("path", { d: "M28.8281 7.1338a4.0941 4.0941 0 00-5.6562 0L.3433 29.9619h9.2456a4.9682 4.9682 0 003.5356-1.4648L28.8281 12.79a3.9984 3.9984 0 000-5.6562zM12.2928 20.8406l2.086-2.0858 2.8293 2.8293-2.0857 2.0859zM11.71 27.083a2.9824 2.9824 0 01-2.1215.8789H5.1714l5.7073-5.7072 2.83 2.83zm15.7041-15.707l-8.792 8.794-2.8293-2.8292 8.7931-8.7928a2.0471 2.0471 0 012.8282 0 1.9993 1.9993 0 010 2.8281zM13 4H4v9h2V6h7V4z" }), _jsx("path", { d: "M0 0h32v32H0z", "data-name": "<Transparent Rectangle>" })] }), 'ScalpelCursorIcon');

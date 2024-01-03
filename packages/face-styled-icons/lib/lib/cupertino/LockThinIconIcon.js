@@ -1,0 +1,3 @@
+import { jsx as _jsx, Fragment as _Fragment } from "react/jsx-runtime";
+import { createSvgIcon } from "@specfocus/face-styled-system/lib/SvgIcon";
+export default createSvgIcon(_jsx(_Fragment, { children: _jsx("path", { fillRule: "evenodd", d: "M145.1356 5C106.2813 5 72.774 32.804 72.774 85.0255v34.3985C56.1986 119.9586 48 128.5137 48 147.406v108.7207c0 19.6053 8.7333 28.1604 26.5563 28.1604h140.9803c17.823 0 26.5564-8.555 26.5564-28.1604V147.2279c0-18.7142-8.0204-27.4475-24.596-27.9822V85.0255C217.497 32.804 183.8116 5 145.1357 5zM85.4284 84.3125c0-42.0623 26.378-67.371 59.7072-67.371 33.329 0 59.7072 25.3087 59.7072 67.371v34.9332H85.4284V84.3125z" }) }), 'LockThinIcon');

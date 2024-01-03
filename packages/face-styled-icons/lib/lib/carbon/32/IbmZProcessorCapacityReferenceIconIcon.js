@@ -1,0 +1,3 @@
+import { jsx as _jsx, Fragment as _Fragment, jsxs as _jsxs } from "react/jsx-runtime";
+import { createSvgIcon } from "@specfocus/face-styled-system/lib/SvgIcon";
+export default createSvgIcon(_jsxs(_Fragment, { children: [_jsx("path", { d: "M25 25h2v4h-2zM21 23h2v6h-2zM29 20h2v9h-2z" }), _jsx("path", { d: "M30 17V5c0-1.1046-.8954-2-2-2h-9c-1.1046 0-2 .8954-2 2v24h2V5h9v12h2zM13 3H4c-1.1046 0-2 .8954-2 2v22c0 1.1046.8954 2 2 2h9c1.1046 0 2-.8954 2-2V5c0-1.1046-.8954-2-2-2zM4 5.9635L12.2998 12 4 18.0365V5.9635zM4 27v-5.0366L10.9253 27H4zm9-.9635L4.7002 20 13 13.9635v12.073zm0-15.9999L6.0747 5H13v5.0366z" }), _jsx("path", { d: "M0 0h32v32H0z", "data-name": "&lt;Transparent Rectangle&gt;" })] }), 'IbmZProcessorCapacityReferenceIcon');

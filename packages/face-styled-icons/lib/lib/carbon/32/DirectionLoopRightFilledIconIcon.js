@@ -1,0 +1,3 @@
+import { jsx as _jsx, Fragment as _Fragment, jsxs as _jsxs } from "react/jsx-runtime";
+import { createSvgIcon } from "@specfocus/face-styled-system/lib/SvgIcon";
+export default createSvgIcon(_jsxs(_Fragment, { children: [_jsx("defs", {}), _jsx("path", { id: "inner-path", d: "M16 26h-2v-8h2zm5-18l-1.4141 1.4141L24.1719 14H11a3 3 0 113-3v1h2v-1a5 5 0 10-5 5h13.1719l-4.586 4.5859L21 22l7-7z" }), _jsx("path", { d: "M28 2H4a2 2 0 00-2 2v24a2 2 0 002 2h24a2 2 0 002-2V4a2 2 0 00-2-2zM16 26h-2v-8h2zm5-4l-1.4141-1.4141L24.1719 16H11a5 5 0 115-5v1h-2v-1a3 3 0 10-3 3h13.1719l-4.586-4.5859L21 8l7 7z" }), _jsx("path", { id: "_Transparent_Rectangle_", d: "M0 0h32v32H0z", "data-name": "<Transparent Rectangle>" })] }), 'DirectionLoopRightFilledIcon');

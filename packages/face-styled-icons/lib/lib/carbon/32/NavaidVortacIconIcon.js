@@ -1,0 +1,3 @@
+import { jsx as _jsx, Fragment as _Fragment, jsxs as _jsxs } from "react/jsx-runtime";
+import { createSvgIcon } from "@specfocus/face-styled-system/lib/SvgIcon";
+export default createSvgIcon(_jsxs(_Fragment, { children: [_jsx("circle", { cx: "16", cy: "14", r: "2" }), _jsx("path", { d: "M29.8682 10.5039l-4-7a.9992.9992 0 00-1.3828-.3613L19.7231 6h-7.4462L7.5146 3.1426a.9992.9992 0 00-1.3828.3613l-4 7a1 1 0 00.3536 1.3535l4.7758 2.8657L11 21.2656V27a1 1 0 001 1h8a1 1 0 001-1v-5.7344l3.7388-6.5425 4.7758-2.8657a1 1 0 00.3536-1.3535zM18.8484 21h-5.6968l-4.5759-8.0078L11.4287 8h9.1426l2.853 4.9922z" }), _jsx("path", { d: "M32 32H0V0h32z", "data-name": "<Transparent Rectangle>" })] }), 'NavaidVortacIcon');

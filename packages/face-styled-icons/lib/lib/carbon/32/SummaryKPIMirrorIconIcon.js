@@ -1,0 +1,3 @@
+import { jsx as _jsx, Fragment as _Fragment, jsxs as _jsxs } from "react/jsx-runtime";
+import { createSvgIcon } from "@specfocus/face-styled-system/lib/SvgIcon";
+export default createSvgIcon(_jsxs(_Fragment, { children: [_jsx("path", { d: "M24.3 27.5l5.7-5.1-1.3-1.4-5.7 5-7.7-7.4c-.7-.7-1.9-.7-2.7 0L9 22l-5.6-6L2 17.4l5.6 6c.8.8 2 .8 2.8.1L14 20l7.7 7.4c.7.8 1.9.8 2.6.1zM28 12V4h-2v1h-2v2h2v5h-2v2h6v-2zM22 14h-6v-4c0-1.1.9-2 2-2h2V6h-4V4h4c1.1 0 2 .9 2 2v2c0 1.1-.9 2-2 2h-2v2h4v2zM12 4H8v2h4v2H9v2h3v2H8v2h4c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zM6 11H2l2-3z" }), _jsx("path", { d: "M0 0h32v32H0z" })] }), 'SummaryKPIMirrorIcon');

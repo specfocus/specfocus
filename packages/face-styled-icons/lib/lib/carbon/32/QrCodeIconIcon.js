@@ -1,0 +1,3 @@
+import { jsx as _jsx, Fragment as _Fragment, jsxs as _jsxs } from "react/jsx-runtime";
+import { createSvgIcon } from "@specfocus/face-styled-system/lib/SvgIcon";
+export default createSvgIcon(_jsxs(_Fragment, { children: [_jsx("path", { d: "M24 28v-2h2v2zM18 24v-2h2v2zM18 30h4v-2h-2v-2h-2v4zM25.9999 26v-4h2v4zM28 26h2v4h-4v-2h2v-2zM26 20v-2h4v4h-2v-2h-2zM24 20h-2v4h-2v2h4v-6zM18 20v-2h4v2zM6 22h4v4H6z" }), _jsx("path", { d: "M14 30H2V18h12zM4 28h8v-8H4zM22 6h4v4h-4z" }), _jsx("path", { d: "M30 14H18V2h12zm-10-2h8V4h-8zM6 6h4v4H6z" }), _jsx("path", { d: "M14 14H2V2h12zM4 12h8V4H4z" }), _jsx("path", { d: "M0 0h32v32H0z", "data-name": "<Transparent Rectangle>" })] }), 'QrCodeIcon');

@@ -1,0 +1,3 @@
+import { jsx as _jsx, Fragment as _Fragment, jsxs as _jsxs } from "react/jsx-runtime";
+import { createSvgIcon } from "@specfocus/face-styled-system/lib/SvgIcon";
+export default createSvgIcon(_jsxs(_Fragment, { children: [_jsx("path", { d: "M12.4531 25A8.7775 8.7775 0 0014 20a10.6 10.6 0 00-.18-2H22v-2h-8.7825a41.147 41.147 0 00-.2556-.624A9.8586 9.8586 0 0112 11a4.792 4.792 0 015-5 6.1234 6.1234 0 015.2222 2.6279l1.5556-1.2558A8.11 8.11 0 0017 4a6.7781 6.7781 0 00-7 7 11.65 11.65 0 001.0559 5H8v2h3.7729A8.209 8.209 0 0112 20c0 2.5234-1.4858 5-3 5v2h15v-2z" }), _jsx("path", { d: "M0 0h32v32H0z", "data-name": "<Transparent Rectangle>" })] }), 'CurrencyPoundIcon');

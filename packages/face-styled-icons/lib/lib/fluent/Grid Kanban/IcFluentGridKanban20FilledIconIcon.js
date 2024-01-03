@@ -1,0 +1,3 @@
+import { jsx as _jsx, Fragment as _Fragment } from "react/jsx-runtime";
+import { createSvgIcon } from "@specfocus/face-styled-system/lib/SvgIcon";
+export default createSvgIcon(_jsx(_Fragment, { children: _jsx("path", { d: "M3 2c-.5523 0-1 .4477-1 1v2c0 .5523.4477 1 1 1h5c.5523 0 1-.4477 1-1V3c0-.5523-.4477-1-1-1H3zm0 6c-.5523 0-1 .4477-1 1v2c0 .5523.4477 1 1 1h5c.5523 0 1-.4477 1-1V9c0-.5523-.4477-1-1-1H3zm0 6c-.5523 0-1 .4477-1 1v2c0 .5523.4477 1 1 1h5c.5523 0 1-.4477 1-1v-2c0-.5523-.4477-1-1-1H3zm9-12c-.5523 0-1 .4477-1 1v2c0 .5523.4477 1 1 1h5c.5523 0 1-.4477 1-1V3c0-.5523-.4477-1-1-1h-5zm0 6c-.5523 0-1 .4477-1 1v2c0 .5523.4477 1 1 1h5c.5523 0 1-.4477 1-1V9c0-.5523-.4477-1-1-1h-5z" }) }), 'IcFluentGridKanban20FilledIcon');

@@ -1,0 +1,3 @@
+import { jsx as _jsx, Fragment as _Fragment, jsxs as _jsxs } from "react/jsx-runtime";
+import { createSvgIcon } from "@specfocus/face-styled-system/lib/SvgIcon";
+export default createSvgIcon(_jsxs(_Fragment, { children: [_jsx("path", { d: "M19 4a8.9812 8.9812 0 00-8.1687 12.7549L2 25.5859 3.4141 27l8.4873-8.4873a9.0408 9.0408 0 001.5859 1.5859L10 23.5859 11.4141 25l3.8313-3.8311A8.9959 8.9959 0 1019 4zm6.9058 7.9058a7.005 7.005 0 01-5.8116-5.8116 7.005 7.005 0 015.8116 5.8116zm-13.8116 2.1884a7.005 7.005 0 015.8116 5.8116 7.005 7.005 0 01-5.8116-5.8116zm7.8358 5.8365a9.01 9.01 0 00-7.8611-7.8614 7.004 7.004 0 016-6 9.01 9.01 0 007.8611 7.8614 7.004 7.004 0 01-6 6z" }), _jsx("path", { d: "M0 0h32v32H0z", "data-name": "<Transparent Rectangle>" })] }), 'TennisBallIcon');

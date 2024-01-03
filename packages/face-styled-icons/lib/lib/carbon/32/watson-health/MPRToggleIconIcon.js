@@ -1,0 +1,3 @@
+import { jsx as _jsx, Fragment as _Fragment, jsxs as _jsxs } from "react/jsx-runtime";
+import { createSvgIcon } from "@specfocus/face-styled-system/lib/SvgIcon";
+export default createSvgIcon(_jsxs(_Fragment, { children: [_jsx("path", { d: "M11 2H2v9h2V4h7V2zM2 21v9h9v-2H4v-7H2zM30 11V2h-9v2h7v7h2zM21 30h9v-9h-2v7h-7v2zM25.49 10.13l-9-5a1 1 0 00-1 0l-9 5A1 1 0 006 11v10a1 1 0 00.51.87l9 5a1 1 0 001 0l9-5A1 1 0 0026 21V11a1 1 0 00-.51-.87zM16 7.14L22.94 11 16 14.86 9.06 11zM8 12.7l7 3.89v7.71l-7-3.89zm9 11.6v-7.71l7-3.89v7.71z" }), _jsx("path", { d: "M0 0h32v32H0z", "data-name": "<Transparent Rectangle>" })] }), 'MPRToggleIcon');

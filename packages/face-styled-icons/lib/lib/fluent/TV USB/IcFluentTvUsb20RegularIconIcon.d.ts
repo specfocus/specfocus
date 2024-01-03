@@ -1,0 +1,3 @@
+declare const _default: import("@specfocus/face-styled-system/lib/SvgIcon/createSvgIcon").ReturnTypeOfCreateSvgIcon;
+export default _default;
+//# sourceMappingURL=IcFluentTvUsb20RegularIconIcon.d.ts.map

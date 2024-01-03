@@ -1,0 +1,3 @@
+import { jsx as _jsx, Fragment as _Fragment, jsxs as _jsxs } from "react/jsx-runtime";
+import { createSvgIcon } from "@specfocus/face-styled-system/lib/SvgIcon";
+export default createSvgIcon(_jsxs(_Fragment, { children: [_jsx("path", { d: "M14 20a6 6 0 116-6 6 6 0 01-6 6zm0-10a4 4 0 104 4 4 4 0 00-4-4z" }), _jsx("circle", { cx: "14", cy: "14", r: "2" }), _jsx("path", { d: "M17 23.54A10 10 0 1124 14c0 .34 0 .67-.05 1h2c0-.33.05-.66.05-1a12 12 0 10-12 12 12.33 12.33 0 003-.39z" }), _jsx("path", { d: "M25 30l-2.14-1A5 5 0 0120 24.47V18h10v6.47A5 5 0 0127.14 29zm-3-10v4.47a3 3 0 001.72 2.71l1.28.61 1.28-.61A3 3 0 0028 24.47V20z" }), _jsx("path", { d: "M0 0h32v32H0z", "data-name": "<Transparent Rectangle>" })] }), 'CdCreateArchiveIcon');

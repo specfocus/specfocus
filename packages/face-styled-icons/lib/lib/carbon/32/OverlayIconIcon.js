@@ -1,0 +1,3 @@
+import { jsx as _jsx, Fragment as _Fragment, jsxs as _jsxs } from "react/jsx-runtime";
+import { createSvgIcon } from "@specfocus/face-styled-system/lib/SvgIcon";
+export default createSvgIcon(_jsxs(_Fragment, { children: [_jsx("path", { d: "M28 8h-4V4a2.0023 2.0023 0 00-2-2H4a2.0023 2.0023 0 00-2 2v18a2.0023 2.0023 0 002 2h4v4a2.0023 2.0023 0 002 2h18a2.0023 2.0023 0 002-2V10a2.0023 2.0023 0 00-2-2zM4 22V4h18v4H10a2.0023 2.0023 0 00-2 2v12zm18 0h-2.5859L10 12.586V10h2.5859l9.4153 9.4156zm-12-6.5859L16.5859 22H10zm12.001 1.1729L15.4141 10H22zM10 28v-4h12a2.0023 2.0023 0 002-2V10h4v18z" }), _jsx("path", { d: "M0 0h32v32H0z", "data-name": "<Transparent Rectangle>" })] }), 'OverlayIcon');

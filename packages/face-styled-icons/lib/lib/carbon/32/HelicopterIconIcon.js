@@ -1,0 +1,3 @@
+import { jsx as _jsx, Fragment as _Fragment, jsxs as _jsxs } from "react/jsx-runtime";
+import { createSvgIcon } from "@specfocus/face-styled-system/lib/SvgIcon";
+export default createSvgIcon(_jsxs(_Fragment, { children: [_jsx("path", { d: "M30 8V6H8v2h10v4H4V8H2v8h2v-2h6.2192l2.0533 8.2129A4.9923 4.9923 0 0017.123 26H26a4.0045 4.0045 0 004-4v-2.6377a2.0007 2.0007 0 00-.4639-1.28L25.0684 12.72a1.9968 1.9968 0 00-1.5367-.72H20V8zm-4 16h-8.877a2.9949 2.9949 0 01-2.91-2.2725L12.2808 14H18v6h10v2a2.0023 2.0023 0 01-2 2zm-2.4683-10l3.3333 4H20v-4z" }), _jsx("path", { d: "M0 0h32v32H0z", "data-name": "<Transparent Rectangle>" })] }), 'HelicopterIcon');

@@ -1,0 +1,3 @@
+import { jsx as _jsx, Fragment as _Fragment, jsxs as _jsxs } from "react/jsx-runtime";
+import { createSvgIcon } from "@specfocus/face-styled-system/lib/SvgIcon";
+export default createSvgIcon(_jsxs(_Fragment, { children: [_jsx("defs", {}), _jsx("path", { d: "M8 10h7v2H8z" }), _jsx("path", { d: "M28.4142 8l-5-5L22 4.4141l3 3V12a2.0023 2.0023 0 002 2v10.5a1.5 1.5 0 01-3 0V16a1 1 0 00-1-1h-4V5a1 1 0 00-1-1H5a1 1 0 00-1 1v21H2v2h19v-2h-2v-9h3v7.4a3.5644 3.5644 0 002.7654 3.5251A3.5062 3.5062 0 0029 24.5V9.4144A2 2 0 0028.4142 8zM17 26H6V6h11z" }), _jsx("path", { id: "_Transparent_Rectangle_", d: "M0 0h32v32H0z", "data-name": "<Transparent Rectangle>" })] }), 'GasStationIcon');

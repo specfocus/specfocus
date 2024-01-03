@@ -1,0 +1,3 @@
+import { jsx as _jsx, Fragment as _Fragment, jsxs as _jsxs } from "react/jsx-runtime";
+import { createSvgIcon } from "@specfocus/face-styled-system/lib/SvgIcon";
+export default createSvgIcon(_jsxs(_Fragment, { children: [_jsx("path", { d: "M26 30h-7c-1.1028 0-2-.8972-2-2v-2h2v2h7v-7h-2v-2h2c1.1028 0 2 .8972 2 2v7c0 1.1028-.8972 2-2 2z" }), _jsx("path", { d: "M12 24h2l-.0002-6.586L22.5823 26 24 24.5857l-8.5861-8.5859L22 16v-2H12v10z" }), _jsx("path", { d: "M8 27H4c-1.104-.0013-1.9987-.896-2-2V5c.0013-1.104.896-1.9987 2-2h7.5857A1.9864 1.9864 0 0113 3.5859L16.4143 7H28c1.104.0013 1.9987.896 2 2v7h-2V9H15.5857l-4-4H4v20h4v2z" }), _jsx("path", { d: "M0 0h32v32H0z", "data-name": "&lt;Transparent Rectangle&gt;" })] }), 'BootVolumeAltIcon');

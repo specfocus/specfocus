@@ -1,0 +1,3 @@
+import { jsx as _jsx, Fragment as _Fragment, jsxs as _jsxs } from "react/jsx-runtime";
+import { createSvgIcon } from "@specfocus/face-styled-system/lib/SvgIcon";
+export default createSvgIcon(_jsxs(_Fragment, { children: [_jsx("circle", { cx: "10", cy: "28", r: "2" }), _jsx("circle", { cx: "24", cy: "28", r: "2" }), _jsx("path", { d: "M4.9806 2.8039A1 1 0 004 2H0v2h3.18l3.8394 19.1961A1 1 0 008 24h18v-2H8.82l-.8-4H26a1 1 0 00.9762-.783L29.2445 7h-2.0474l-1.9989 9H7.62z" }), _jsx("path", { d: "M18 6V2h-2v4h-4v2h4v4h2V8h4V6h-4z" }), _jsx("path", { d: "M0 0h32v32H0z", "data-name": "<Transparent Rectangle>" })] }), 'ShoppingCartPlusIcon');

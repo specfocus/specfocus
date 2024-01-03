@@ -1,0 +1,3 @@
+import { jsx as _jsx, Fragment as _Fragment, jsxs as _jsxs } from "react/jsx-runtime";
+import { createSvgIcon } from "@specfocus/face-styled-system/lib/SvgIcon";
+export default createSvgIcon(_jsxs(_Fragment, { children: [_jsx("path", { d: "M26 9.42L24.59 8l-2.585 2.585L22 10.58l-.005.005L19.42 8.01 18 9.42 20.58 12 18 14.58 19.41 16l2.585-2.585.005.005.005-.005 2.575 2.575L26 14.58 23.42 12 26 9.42zM14 17.42L12.59 16l-2.585 2.585L10 18.58l-.005.005L7.42 16.01 6 17.42 8.58 20 6 22.58 7.41 24l2.585-2.585.005.005.005-.005 2.575 2.575L14 22.58 11.42 20 14 17.42zM2 2h2v28H2zM28 2h2v28h-2zM15 2h2v4h-2zM15 10h2v4h-2zM15 18h2v4h-2zM15 26h2v4h-2z" }), _jsx("path", { d: "M0 0h32v32H0z", "data-name": "<Transparent Rectangle>" })] }), 'TrafficFlowIncidentIcon');

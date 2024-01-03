@@ -1,0 +1,3 @@
+import { jsx as _jsx, Fragment as _Fragment } from "react/jsx-runtime";
+import { createSvgIcon } from "@specfocus/face-styled-system/lib/SvgIcon";
+export default createSvgIcon(_jsx(_Fragment, { children: _jsx("path", { d: "M17.5 2.75a.75.75 0 00-1.5 0v4.0136c-2.0259-1.3558-4.8656-.8793-6.2915 1.2162L2.355 18.7862c-.5563.8176-.4494 1.9105.2551 2.6074.7147.707 1.8392.8044 2.6672.2311l10.789-7.4694C18.1234 12.7311 18.5776 9.9775 17.2426 8H21.25a.75.75 0 000-1.5h-2.6896l3.2202-3.2196a.75.75 0 00-1.0605-1.0608L17.5 5.439V2.75zm-6.5404 6.0628c1.0623-1.5612 3.3009-1.7755 4.6462-.4448 1.3294 1.315 1.136 3.4987-.4043 4.5651l-10.789 7.4694a.5796.5796 0 01-.736-.0637.564.564 0 01-.0704-.7196l7.3535-10.8064z" }) }), 'IcFluentFoodCarrot24RegularIcon');

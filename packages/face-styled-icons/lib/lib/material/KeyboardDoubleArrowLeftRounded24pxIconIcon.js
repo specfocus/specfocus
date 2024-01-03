@@ -1,0 +1,3 @@
+import { jsx as _jsx, jsxs as _jsxs, Fragment as _Fragment } from "react/jsx-runtime";
+import { createSvgIcon } from "@specfocus/face-styled-system/lib/SvgIcon";
+export default createSvgIcon(_jsxs(_Fragment, { children: [_jsxs("g", { children: [_jsx("path", { d: "M0 0h24v24H0z" }), _jsx("path", { d: "M0 0h24v24H0z" })] }), _jsx("path", { d: "M18.29 17.29c.39-.39.39-1.02 0-1.41L14.42 12l3.88-3.88c.39-.39.39-1.02 0-1.41a.9959.9959 0 00-1.41 0L12.3 11.3c-.39.39-.39 1.02 0 1.41l4.59 4.59c.38.38 1.01.38 1.4-.01z" }), _jsx("path", { d: "M11.7 17.29c.39-.39.39-1.02 0-1.41L7.83 12l3.88-3.88c.39-.39.39-1.02 0-1.41a.9959.9959 0 00-1.41 0L5.71 11.3c-.39.39-.39 1.02 0 1.41l4.59 4.59c.38.38 1.01.38 1.4-.01z" })] }), 'KeyboardDoubleArrowLeftRounded24pxIcon');

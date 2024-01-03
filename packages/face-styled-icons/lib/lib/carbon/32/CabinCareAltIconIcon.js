@@ -1,0 +1,3 @@
+import { jsx as _jsx, Fragment as _Fragment, jsxs as _jsxs } from "react/jsx-runtime";
+import { createSvgIcon } from "@specfocus/face-styled-system/lib/SvgIcon";
+export default createSvgIcon(_jsxs(_Fragment, { children: [_jsx("path", { d: "M30 25v-2h-9.2324l-.8-3H27v-2h-7.5652l-2.469-9.2578-1.9316.5156 3.8017 14.2568A2.0037 2.0037 0 0020.77 25H22v3H10v-3h6v-2H6.7676l-.8-3H13v-2H5.4348l-2.469-9.2578-1.9316.5156 3.8017 14.2568A2.0037 2.0037 0 006.77 25H8v3H2v2h28v-2h-6v-3zM27.303 2a2.6613 2.6613 0 00-1.9079.8059L25 3.2112l-.3951-.4053a2.6612 2.6612 0 00-3.8157 0 2.7991 2.7991 0 000 3.8963L25 11l4.2108-4.2978a2.7991 2.7991 0 000-3.8963A2.6613 2.6613 0 0027.303 2z" }), _jsx("path", { d: "M0 0h32v32H0z", "data-name": "<Transparent Rectangle>" })] }), 'CabinCareAltIcon');

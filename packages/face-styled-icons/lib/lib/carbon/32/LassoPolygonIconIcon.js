@@ -1,0 +1,3 @@
+import { jsx as _jsx, Fragment as _Fragment, jsxs as _jsxs } from "react/jsx-runtime";
+import { createSvgIcon } from "@specfocus/face-styled-system/lib/SvgIcon";
+export default createSvgIcon(_jsxs(_Fragment, { children: [_jsx("path", { d: "M29.6245 2.2193a1.0005 1.0005 0 00-1.0972-.1006L17.9353 7.8 3.366 2.0694a1 1 0 00-1.28 1.3369l6.4353 14.479A3.965 3.965 0 009.9106 24.83 4.0049 4.0049 0 016 28H4v2h2a6.0044 6.0044 0 005.928-5.12 4.0021 4.0021 0 002.93-2.88h8.382a2 2 0 001.9273-1.4649l4.7961-17.2675a1 1 0 00-.3389-1.0483zM11 23a2 2 0 112-2 2.0025 2.0025 0 01-2 2zm12.24-3h-8.3821a3.897 3.897 0 00-4.5117-2.9336L4.905 4.8238 18.0647 10 27.41 4.9878z" }), _jsx("path", { d: "M0 0h32v32H0z", "data-name": "<Transparent Rectangle>" })] }), 'LassoPolygonIcon');

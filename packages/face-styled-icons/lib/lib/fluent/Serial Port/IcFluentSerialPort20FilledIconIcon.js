@@ -1,0 +1,3 @@
+import { jsx as _jsx, Fragment as _Fragment } from "react/jsx-runtime";
+import { createSvgIcon } from "@specfocus/face-styled-system/lib/SvgIcon";
+export default createSvgIcon(_jsx(_Fragment, { children: _jsx("path", { d: "M2.3338 9.0668C1.9688 7.499 3.159 6 4.7687 6H15.229c1.6103 0 2.8006 1.5 2.4346 3.0682l-.7002 3C16.6995 13.1996 15.6908 14 14.529 14H5.467c-1.1623 0-2.1713-.8011-2.4349-1.9332l-.6983-3zM5.9996 9.5a.5.5 0 100-1 .5.5 0 000 1zm2.5-.5a.5.5 0 10-1 0 .5.5 0 001 0zm-1.5 2.5a.5.5 0 100-1 .5.5 0 000 1zm2.5-.5a.5.5 0 10-1 0 .5.5 0 001 0zm1.5.5a.5.5 0 100-1 .5.5 0 000 1zm2.5-.5a.5.5 0 10-1 0 .5.5 0 001 0zm-3.5-1.5a.5.5 0 100-1 .5.5 0 000 1zm2.5-.5a.5.5 0 10-1 0 .5.5 0 001 0zm1.5.5a.5.5 0 100-1 .5.5 0 000 1z" }) }), 'IcFluentSerialPort20FilledIcon');

@@ -1,0 +1,3 @@
+import { jsx as _jsx, Fragment as _Fragment, jsxs as _jsxs } from "react/jsx-runtime";
+import { createSvgIcon } from "@specfocus/face-styled-system/lib/SvgIcon";
+export default createSvgIcon(_jsxs(_Fragment, { children: [_jsx("circle", { cx: "9", cy: "26", r: "1" }), _jsx("path", { d: "M4 24v4c0 1.1.9 2 2 2h12v-2H6v-4h12v-2H6c-1.1 0-2 .9-2 2zM4 13v5c0 1.1.9 2 2 2h8v-2H6v-5H4z" }), _jsx("circle", { cx: "9", cy: "16", r: "1" }), _jsx("path", { d: "M28 19v-5c0-1.1-.9-2-2-2h-8v2h8v5h2zM28 8V4c0-1.1-.9-2-2-2H14v2h12v4H14v2h12c1.1 0 2-.9 2-2z" }), _jsx("path", { d: "M23.41 22L10 8.59V2H2v8h6.59L22 23.41V30h8v-8h-6.59zM8 8H4V4h4v4zm20 20h-4v-4h4v4z" }), _jsx("path", { d: "M0 0h32v32H0z", "data-name": "&lt;Transparent Rectangle&gt;" })] }), 'IbmCloudBareMetalServersVpcIcon');

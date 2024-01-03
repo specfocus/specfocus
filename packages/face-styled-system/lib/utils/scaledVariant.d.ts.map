@@ -1,0 +1,1 @@
+{"version":3,"file":"scaledVariant.d.ts","sourceRoot":"","sources":["../../lib/utils/scaledVariant.ts"],"names":[],"mappings":"AAEA,OAAO,EAAE,KAAK,cAAc,EAAE,MAAM,UAAU,CAAC;AAG/C,KAAK,iBAAiB,GAAG;IAAE,GAAG,EAAE,MAAM,CAAC;IAAC,IAAI,EAAE,MAAM,GAAG,SAAS,CAAA;CAAE,CAAC;AAEnE;;;;;;GAMG;AACH,QAAA,MAAM,aAAa;;aAAiG,MAAM;kBAAgC,iBAAiB,aAC/J,eAAe,CAAC,CAAC,QAOxB,CAAC;AAEN,eAAe,aAAa,CAAC"}

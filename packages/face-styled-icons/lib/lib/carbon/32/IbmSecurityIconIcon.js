@@ -1,0 +1,3 @@
+import { jsx as _jsx, Fragment as _Fragment, jsxs as _jsxs } from "react/jsx-runtime";
+import { createSvgIcon } from "@specfocus/face-styled-system/lib/SvgIcon";
+export default createSvgIcon(_jsxs(_Fragment, { children: [_jsx("path", { d: "M16 .0005L4 5.9784v14.0659a12 12 0 0024 0V5.9784zm6.83 27.3138L16 23.9119V26.14l5.0361 2.5088A10.0025 10.0025 0 016 20.0443V7.21l10-4.9816L26 7.21v3.75L16 5.9783v2.2279l10 4.9816v3.75l-10-4.9816v2.2279l10 4.9815v.8787a9.9045 9.9045 0 01-.37 2.6871L16 17.934v2.2279l8.8952 4.4313a10.0252 10.0252 0 01-2.0652 2.7211z", "data-name": "IBM Security Shield" }), _jsx("path", { d: "M0 0h32v32H0z", "data-name": "<Transparent Rectangle>" })] }), 'IbmSecurityIcon');

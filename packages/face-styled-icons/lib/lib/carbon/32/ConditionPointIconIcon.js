@@ -1,0 +1,3 @@
+import { jsx as _jsx, Fragment as _Fragment, jsxs as _jsxs } from "react/jsx-runtime";
+import { createSvgIcon } from "@specfocus/face-styled-system/lib/SvgIcon";
+export default createSvgIcon(_jsxs(_Fragment, { children: [_jsx("path", { d: "M8 16l8-8 8 8-8 8z" }), _jsx("path", { d: "M29.3906 14.5269L17.4731 2.6094a2.0852 2.0852 0 00-2.9462 0L2.6094 14.5269a2.0852 2.0852 0 000 2.9462l11.9175 11.9175a2.0852 2.0852 0 002.9462 0l11.9175-11.9175a2.0852 2.0852 0 000-2.9462zM16 28.0356L3.9646 16 16 3.9644 28.0356 16z" }), _jsx("path", { d: "M0 0h32v32H0z", "data-name": "<Transparent Rectangle>" })] }), 'ConditionPointIcon');

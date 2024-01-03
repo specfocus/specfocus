@@ -1,0 +1,3 @@
+import { jsx as _jsx, Fragment as _Fragment, jsxs as _jsxs } from "react/jsx-runtime";
+import { createSvgIcon } from "@specfocus/face-styled-system/lib/SvgIcon";
+export default createSvgIcon(_jsxs(_Fragment, { children: [_jsx("path", { d: "M29.41 9.26a3.5 3.5 0 00-2.47-2.47C24.76 6.2 16 6.2 16 6.2s-8.76 0-10.94.59a3.5 3.5 0 00-2.47 2.47A36.13 36.13 0 002 16a36.13 36.13 0 00.59 6.74 3.5 3.5 0 002.47 2.47c2.18.59 10.94.59 10.94.59s8.76 0 10.94-.59a3.5 3.5 0 002.47-2.47A36.13 36.13 0 0030 16a36.13 36.13 0 00-.59-6.74zM13.2 20.2v-8.4l7.27 4.2z" }), _jsx("path", { d: "M0 0h32v32H0z", "data-name": "<Transparent Rectangle>" })] }), 'LogoYoutubeIcon');

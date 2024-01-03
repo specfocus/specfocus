@@ -1,0 +1,3 @@
+import { jsx as _jsx, Fragment as _Fragment } from "react/jsx-runtime";
+import { createSvgIcon } from "@specfocus/face-styled-system/lib/SvgIcon";
+export default createSvgIcon(_jsx(_Fragment, { children: _jsx("path", { d: "M21.692 13.987a2.733 2.733 0 01.602 5.232h-13.7a3.166 3.166 0 11.281-6.321 3.963 3.963 0 017.482-2.05 3.454 3.454 0 015.336 3.138zM8.187 12.209a3.873 3.873 0 00-3.44 3.843c0 .81.252 1.563.681 2.186h-2.15a3.279 3.279 0 01-.237-6.549 3.692 3.692 0 015.668-3.86 5.103 5.103 0 019.648 1.757c-.036-.001-.072-.003-.109-.003-.568 0-1.125.115-1.64.337a4.644 4.644 0 00-3.778-1.929 4.67 4.67 0 00-4.643 4.218z" }) }), 'OnedriveIcon');

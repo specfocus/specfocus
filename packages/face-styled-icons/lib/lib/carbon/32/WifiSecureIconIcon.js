@@ -1,0 +1,3 @@
+import { jsx as _jsx, Fragment as _Fragment, jsxs as _jsxs } from "react/jsx-runtime";
+import { createSvgIcon } from "@specfocus/face-styled-system/lib/SvgIcon";
+export default createSvgIcon(_jsxs(_Fragment, { children: [_jsx("path", { d: "M20 20v-3a4 4 0 00-8 0v3a2.0025 2.0025 0 00-2 2v6a2.0025 2.0025 0 002 2h8a2.0025 2.0025 0 002-2v-6a2.0025 2.0025 0 00-2-2zm-6-3a2 2 0 014 0v3h-4zm-2 11v-6h8v6zM6.105 7.105l1.4138 1.4136a11.9808 11.9808 0 0116.9624 0l1.4137-1.4136a13.9782 13.9782 0 00-19.79 0z" }), _jsx("path", { d: "M16 8a8.9709 8.9709 0 00-6.3608 2.6392l1.4133 1.4135a6.9887 6.9887 0 019.895 0l1.4135-1.4135A8.9717 8.9717 0 0016 8z" }), _jsx("path", { d: "M0 0h32v32H0z", "data-name": "<Transparent Rectangle>" })] }), 'WifiSecureIcon');

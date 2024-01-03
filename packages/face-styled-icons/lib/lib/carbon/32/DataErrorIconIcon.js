@@ -1,0 +1,3 @@
+import { jsx as _jsx, Fragment as _Fragment, jsxs as _jsxs } from "react/jsx-runtime";
+import { createSvgIcon } from "@specfocus/face-styled-system/lib/SvgIcon";
+export default createSvgIcon(_jsxs(_Fragment, { children: [_jsx("circle", { cx: "11", cy: "8", r: "1" }), _jsx("circle", { cx: "11", cy: "16", r: "1" }), _jsx("circle", { cx: "11", cy: "24", r: "1" }), _jsx("path", { d: "M24 3H8a2 2 0 00-2 2v22a2 2 0 002 2h10v-2H8v-6h18V5a2 2 0 00-2-2zm0 16H8v-6h16zm0-8H8V5h16z" }), _jsx("path", { d: "M29 24.415L27.586 23 25 25.587 22.414 23 21 24.415 23.586 27 21 29.586 22.414 31 25 28.414 27.586 31 29 29.586 26.414 27 29 24.415z" }), _jsx("path", { d: "M0 0h32v32H0z", "data-name": "<Transparent Rectangle>" })] }), 'DataErrorIcon');

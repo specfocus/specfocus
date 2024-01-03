@@ -1,0 +1,3 @@
+import { jsx as _jsx, Fragment as _Fragment, jsxs as _jsxs } from "react/jsx-runtime";
+import { createSvgIcon } from "@specfocus/face-styled-system/lib/SvgIcon";
+export default createSvgIcon(_jsxs(_Fragment, { children: [_jsx("path", { d: "M24.291 16l3.585-6.5181A1 1 0 0027 8h-7.1089L16.876 2.5181a1 1 0 00-1.752 0L12.1089 8H5a1 1 0 00-.876 1.4819L7.709 16l-3.585 6.5181A1 1 0 005 24h7.1089l3.0151 5.4819a1 1 0 001.752 0L19.8911 24H27a1 1 0 00.876-1.4819zm-5.5823 6L16 26.9248 13.2913 22h-6.6l3.3-6-3.3-6h6.6L16 5.0752 18.7087 10h6.6l-3.3 6 3.3 6z" }), _jsx("path", { d: "M0 0h32v32H0z", "data-name": "<Transparent Rectangle>" })] }), 'WorshipJewishIcon');

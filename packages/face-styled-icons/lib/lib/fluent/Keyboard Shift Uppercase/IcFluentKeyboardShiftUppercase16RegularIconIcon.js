@@ -1,0 +1,3 @@
+import { jsx as _jsx, Fragment as _Fragment } from "react/jsx-runtime";
+import { createSvgIcon } from "@specfocus/face-styled-system/lib/SvgIcon";
+export default createSvgIcon(_jsx(_Fragment, { children: _jsx("path", { d: "M7.606 2.1914c.2012-.2538.5876-.2538.7888 0l4.5983 5.802h-2.4802c-.2775 0-.5025.224-.5025.5005v2.5051h-4.02V8.4939c0-.1328-.053-.26-.1472-.354a.5035.5035 0 00-.3553-.1465h-2.481l4.599-5.802zm1.5776-.6202C8.5801.8096 7.4208.8096 6.8172 1.571L2.218 7.373c-.5204.6564-.051 1.6213.7888 1.6213h1.9785v2.0046c0 .5528.45 1.001 1.005 1.001h4.02c.5551 0 1.005-.4482 1.005-1.001V8.9944h1.9777c.8397 0 1.3091-.9648.7889-1.6213l-4.5984-5.802zM5.5 13a.5.5 0 000 1h5a.5.5 0 000-1h-5z" }) }), 'IcFluentKeyboardShiftUppercase16RegularIcon');

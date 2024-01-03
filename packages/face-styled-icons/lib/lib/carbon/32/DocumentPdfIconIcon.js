@@ -1,0 +1,3 @@
+import { jsx as _jsx, Fragment as _Fragment, jsxs as _jsxs } from "react/jsx-runtime";
+import { createSvgIcon } from "@specfocus/face-styled-system/lib/SvgIcon";
+export default createSvgIcon(_jsxs(_Fragment, { children: [_jsx("path", { d: "M30 18v-2h-6v10h2v-4h3v-2h-3v-2h4zM19 26h-4V16h4a3.0033 3.0033 0 013 3v4a3.0033 3.0033 0 01-3 3zm-2-2h2a1.0011 1.0011 0 001-1v-4a1.0011 1.0011 0 00-1-1h-2zM11 16H6v10h2v-3h3a2.0027 2.0027 0 002-2v-3a2.0023 2.0023 0 00-2-2zm-3 5v-3h3l.001 3z" }), _jsx("path", { d: "M22 14v-4a.9092.9092 0 00-.3-.7l-7-7A.9087.9087 0 0014 2H4a2.0059 2.0059 0 00-2 2v24a2 2 0 002 2h16v-2H4V4h8v6a2.0059 2.0059 0 002 2h6v2zm-8-4V4.4l5.6 5.6z" }), _jsx("path", { d: "M0 0h32v32H0z", "data-name": "<Transparent Rectangle>" })] }), 'DocumentPdfIcon');

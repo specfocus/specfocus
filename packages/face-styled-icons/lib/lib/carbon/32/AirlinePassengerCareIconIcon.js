@@ -1,0 +1,3 @@
+import { jsx as _jsx, Fragment as _Fragment, jsxs as _jsxs } from "react/jsx-runtime";
+import { createSvgIcon } from "@specfocus/face-styled-system/lib/SvgIcon";
+export default createSvgIcon(_jsxs(_Fragment, { children: [_jsx("path", { d: "M18 23h-2v-2a3.0033 3.0033 0 00-3-3H9a3.0033 3.0033 0 00-3 3v2H4v-2a5.0059 5.0059 0 015-5h4a5.0059 5.0059 0 015 5zM11 6a3 3 0 11-3 3 3 3 0 013-3m0-2a5 5 0 105 5 5 5 0 00-5-5zM2 26h28v2H2zM27.303 8a2.6616 2.6616 0 00-1.9079.8058L25 9.2112l-.3951-.4054a2.6615 2.6615 0 00-3.8157 0 2.7992 2.7992 0 000 3.8964L25 17l4.2108-4.2978a2.7992 2.7992 0 000-3.8964A2.6616 2.6616 0 0027.303 8z" }), _jsx("path", { d: "M0 0h32v32H0z", "data-name": "<Transparent Rectangle>" })] }), 'AirlinePassengerCareIcon');

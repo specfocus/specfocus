@@ -1,0 +1,3 @@
+import { jsx as _jsx, Fragment as _Fragment } from "react/jsx-runtime";
+import { createSvgIcon } from "@specfocus/face-styled-system/lib/SvgIcon";
+export default createSvgIcon(_jsx(_Fragment, { children: _jsx("path", { d: "M19.5 12c0-4.1421-3.3579-7.5-7.5-7.5-1.9691 0-3.761.7588-5.099 2H8.25a.75.75 0 010 1.5h-3a.75.75 0 01-.75-.75v-3a.75.75 0 011.5 0v1.0417C7.5923 3.8666 9.695 3 12 3c4.9706 0 9 4.0294 9 9s-4.0294 9-9 9-9-4.0294-9-9c0-.4683.0358-.9282.1047-1.3772.0563-.3666.3815-.6228.7524-.6228.459 0 .7914.4382.7241.8923A7.5608 7.5608 0 004.5 12c0 4.1421 3.3579 7.5 7.5 7.5s7.5-3.3579 7.5-7.5zm-7-4.25a.75.75 0 00-1.5 0v4.5a.75.75 0 00.75.75h2.5a.75.75 0 000-1.5H12.5V7.75z" }) }), 'IcFluentHistory24RegularIcon');

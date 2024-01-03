@@ -1,0 +1,3 @@
+import { jsx as _jsx, Fragment as _Fragment } from "react/jsx-runtime";
+import { createSvgIcon } from "@specfocus/face-styled-system/lib/SvgIcon";
+export default createSvgIcon(_jsx(_Fragment, { children: _jsx("path", { d: "M10.5 11c.52 0 1.0232-.0722 1.5-.207v2.457c0 .9665-.7835 1.75-1.75 1.75h-4.5C4.7835 15 4 14.2165 4 13.25V2.75C4 1.7835 4.7835 1 5.75 1h1.587C5.9234 1.9954 5 3.6398 5 5.5 5 8.5376 7.4624 11 10.5 11zM7 12a.5.5 0 000 1h2a.5.5 0 000-1H7zm8-6.5c0 2.4853-2.0147 4.5-4.5 4.5S6 7.9853 6 5.5 8.0147 1 10.5 1 15 3.0147 15 5.5zm-2.1464-1.8535a.5001.5001 0 00-.7072 0L9.5 6.2928l-.6464-.6465a.5.5 0 10-.7072.7072l1 1a.5.5 0 00.7072 0l3-3a.5001.5001 0 000-.7071z" }) }), 'IcFluentPhoneCheckmark16FilledIcon');

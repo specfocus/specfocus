@@ -1,0 +1,3 @@
+import { jsx as _jsx, Fragment as _Fragment, jsxs as _jsxs } from "react/jsx-runtime";
+import { createSvgIcon } from "@specfocus/face-styled-system/lib/SvgIcon";
+export default createSvgIcon(_jsxs(_Fragment, { children: [_jsx("circle", { cx: "9.5", cy: "9.5", r: "2.5" }), _jsx("circle", { cx: "9.5", cy: "22.5", r: "2.5" }), _jsx("circle", { cx: "22.5", cy: "22.5", r: "2.5" }), _jsx("path", { d: "M28 2H4a2.0023 2.0023 0 00-2 2v24a2.0023 2.0023 0 002 2h24a2.0023 2.0023 0 002-2V4a2.0023 2.0023 0 00-2-2zm0 13H17V4h11zM15 4v11H4V4zM4 17h11v11H4zm13 11V17h11v11z" }), _jsx("path", { d: "M0 0h32v32H0z", "data-name": "<Transparent Rectangle>" })] }), 'ScatterMatrixIcon');

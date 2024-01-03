@@ -1,0 +1,3 @@
+import { jsx as _jsx, Fragment as _Fragment, jsxs as _jsxs } from "react/jsx-runtime";
+import { createSvgIcon } from "@specfocus/face-styled-system/lib/SvgIcon";
+export default createSvgIcon(_jsxs(_Fragment, { children: [_jsx("path", { d: "M24 26h7v2h-7zM24 22h7v2h-7zM20.4141 12H25v-2h-8v8h2v-4.5859L25.5859 20 27 18.5859 20.4141 12z" }), _jsx("path", { d: "M7 7h22v12h2V7c0-1.1025-.8972-2-2-2H7c-1.1028 0-2 .8975-2 2v15c0 1.1025.8972 2 2 2h7v4h-4v2h12v-8H7V7zm13 21h-4v-4h4v4z" }), _jsx("path", { d: "M26 3V1H3c-1.1028 0-2 .8965-2 2v15h2V3h23z" }), _jsx("path", { d: "M0 0h32v32H0z", "data-name": "&lt;Transparent Rectangle&gt;" })] }), 'ScreenMapSetIcon');

@@ -1,0 +1,3 @@
+import { jsx as _jsx, Fragment as _Fragment } from "react/jsx-runtime";
+import { createSvgIcon } from "@specfocus/face-styled-system/lib/SvgIcon";
+export default createSvgIcon(_jsx(_Fragment, { children: _jsx("path", { fillRule: "evenodd", d: "M144.9133 285C221.3716 285 285 221.5056 285 145S221.1982 5 144.74 5C68.455 5 5 68.4944 5 145s63.6285 140 139.9133 140zM75.5635 160.44c-6.0681 0-10.5759-4.6841-10.5759-10.5825 0-6.0719 4.5078-10.756 10.5759-10.756h58.6006V60.5143c0-6.072 4.6812-10.7559 10.5759-10.7559 6.0681 0 10.7492 4.684 10.7492 10.7559v89.3433c0 5.8984-4.681 10.5824-10.7492 10.5824H75.5635z" }) }), 'ClockFilledIcon');

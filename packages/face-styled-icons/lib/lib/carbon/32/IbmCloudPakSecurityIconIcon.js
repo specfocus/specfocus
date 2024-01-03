@@ -1,0 +1,3 @@
+import { jsx as _jsx, Fragment as _Fragment, jsxs as _jsxs } from "react/jsx-runtime";
+import { createSvgIcon } from "@specfocus/face-styled-system/lib/SvgIcon";
+export default createSvgIcon(_jsxs(_Fragment, { children: [_jsx("path", { d: "M16 23.7285a6.0069 6.0069 0 01-6-6v-6.457l6-3 6 3v6.457a6.0069 6.0069 0 01-6 6zm-4-11.2212v5.2212a4 4 0 008 0v-5.2212l-4-2z" }), _jsx("path", { d: "M16 31a.9988.9988 0 01-.5039-.1357l-12-7A1.0008 1.0008 0 013 23V9a.9994.9994 0 01.4961-.8638l12-7a1 1 0 011.0078 0l12 7-1.0078 1.7276L16 3.1577 5 9.5742v12.8516l11 6.417 11-6.417V15h2v8a1.0008 1.0008 0 01-.4961.8643l-12 7A.9988.9988 0 0116 31z" }), _jsx("path", { d: "M0 0h32v32H0z", "data-name": "<Transparent Rectangle>" })] }), 'IbmCloudPakSecurityIcon');

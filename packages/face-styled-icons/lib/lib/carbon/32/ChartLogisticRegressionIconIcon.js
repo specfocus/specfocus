@@ -1,0 +1,3 @@
+import { jsx as _jsx, Fragment as _Fragment, jsxs as _jsxs } from "react/jsx-runtime";
+import { createSvgIcon } from "@specfocus/face-styled-system/lib/SvgIcon";
+export default createSvgIcon(_jsxs(_Fragment, { children: [_jsx("circle", { cx: "26", cy: "22", r: "2" }), _jsx("circle", { cx: "20", cy: "22", r: "2" }), _jsx("circle", { cx: "14", cy: "6", r: "2" }), _jsx("circle", { cx: "8", cy: "6", r: "2" }), _jsx("path", { d: "M8.2339 24a8.989 8.989 0 008.5383-6.1543l2.353-7.0591A6.9917 6.9917 0 0125.7661 6H30V4h-4.2339a8.989 8.989 0 00-8.5383 6.1543l-2.353 7.0591A6.9917 6.9917 0 018.2339 22H4V2H2v26c0 1.1025.897 2 2 2h26v-2H4v-4h4.2339z" }), _jsx("path", { d: "M0 0h32v32H0z", "data-name": "&lt;Transparent Rectangle&gt;" })] }), 'ChartLogisticRegressionIcon');

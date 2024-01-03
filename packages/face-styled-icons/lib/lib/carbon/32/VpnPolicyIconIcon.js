@@ -1,0 +1,3 @@
+import { jsx as _jsx, Fragment as _Fragment, jsxs as _jsxs } from "react/jsx-runtime";
+import { createSvgIcon } from "@specfocus/face-styled-system/lib/SvgIcon";
+export default createSvgIcon(_jsxs(_Fragment, { children: [_jsx("path", { d: "M30 15a6 6 0 10-10 4.46V29l4-1.8838L28 29v-9.54A5.98 5.98 0 0030 15zm-4 10.8477l-2-.9415-2 .9415V20.65a5.8877 5.8877 0 004 0zM24 19a4 4 0 114-4 4.0045 4.0045 0 01-4 4z" }), _jsx("path", { d: "M14 2a6.0066 6.0066 0 00-6 6v6H6a2.0023 2.0023 0 00-2 2v12a2.0023 2.0023 0 002 2h11v-2H6V16h9v-2h-5V8a4 4 0 017.92-.8008l1.96-.3984A6.0167 6.0167 0 0014 2z" }), _jsx("path", { d: "M0 0h32v32H0z", "data-name": "<Transparent Rectangle>" })] }), 'VpnPolicyIcon');
