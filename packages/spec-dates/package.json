@@ -1,7 +1,7 @@
 {
-  "name": "@specfocus/spec-strings",
+  "name": "@specfocus/spec-dates",
   "description": "String utils",
-  "version": "0.0.2",
+  "version": "0.0.1",
   "private": false,
   "license": "UNLICENSED",
   "sideEffects": false,
@@ -18,5 +18,10 @@
   "bugs": {
     "url": "https://github.com/specfocus/spec-strings-ts/issues"
   },
-  "homepage": "https://github.com/specfocus/spec-strings-ts#readme"
+  "homepage": "https://github.com/specfocus/spec-strings-ts#readme",
+  "peerDependencies": {
+    "@specfocus/spec-numbers": "latest",
+    "@specfocus/spec-strings": "latest",
+    "@specfocus/spec-types": "latest"
+  }
 }

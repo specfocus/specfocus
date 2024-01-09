@@ -1,7 +1,7 @@
 {
   "name": "@specfocus/spec-types",
   "description": "Simple type checking and validation for TypeScript",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "private": false,
   "license": "UNLICENSED",
   "sideEffects": false,
