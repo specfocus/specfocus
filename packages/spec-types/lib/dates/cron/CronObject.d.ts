@@ -1,5 +1,5 @@
 import { type Enumerator } from "../../iterations/Enumerator";
-import { type NonNegativeInteger } from "../../numbers/is-non-negative-integer";
+import { type NonNegativeInteger } from "@specfocus/spec-numbers/lib/is-non-negative-integer";
 import { type CronObjectSpec, type CronObjectType } from "./CronObjectSpec";
 export type Scope<V extends NonNegativeInteger = NonNegativeInteger> = [V, V | undefined];
 export type Issue = string;

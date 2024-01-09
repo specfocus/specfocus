@@ -8,8 +8,8 @@ import { CronValue } from "../CronValue";
 export declare const CRON_NEAREST_WEEKDAY: CronVariableType;
 export type CronNearestWeekdayType = typeof CRON_NEAREST_WEEKDAY;
 export type CronNearestWeekdaySpec = CronUnarySpec<CronNearestWeekdayType, Day>;
-export declare const cronNearestWeekdaySpec: (date: Day) => readonly [CronVariableType, 2 | 1 | 4 | 8 | 3 | 5 | 6 | 7 | 9 | 10 | 11 | 24 | 21 | 18 | 15 | 12 | 22 | 13 | 14 | 16 | 17 | 19 | 20 | 30 | 23 | 25 | 26 | 27 | 28 | 29 | 31];
-export declare const isCronNearestWeekdaySpec: (spec: unknown) => spec is readonly [CronVariableType, 2 | 1 | 4 | 8 | 3 | 5 | 6 | 7 | 9 | 10 | 11 | 24 | 21 | 18 | 15 | 12 | 22 | 13 | 14 | 16 | 17 | 19 | 20 | 30 | 23 | 25 | 26 | 27 | 28 | 29 | 31];
+export declare const cronNearestWeekdaySpec: (date: Day) => readonly [CronVariableType, 2 | 1 | 4 | 8 | 3 | 5 | 6 | 7 | 9 | 10 | 24 | 21 | 18 | 15 | 12 | 11 | 22 | 13 | 14 | 16 | 17 | 19 | 20 | 30 | 23 | 25 | 26 | 27 | 28 | 29 | 31];
+export declare const isCronNearestWeekdaySpec: (spec: unknown) => spec is readonly [CronVariableType, 2 | 1 | 4 | 8 | 3 | 5 | 6 | 7 | 9 | 10 | 24 | 21 | 18 | 15 | 12 | 11 | 22 | 13 | 14 | 16 | 17 | 19 | 20 | 30 | 23 | 25 | 26 | 27 | 28 | 29 | 31];
 export declare class CronNearestWeekday implements CronValue<Day, CronNearestWeekdaySpec> {
     readonly date: Day;
     readonly scope: [DayOfTheWeek, Day];

@@ -1,9 +1,10 @@
-import { type ForwardRefExoticComponent, type MemoExoticComponent, type RefAttributes, ReactElement } from "react";
-import { type DefaultTheme } from "styled-components";
+import { ReactElement, type ForwardRefExoticComponent, type MemoExoticComponent, type RefAttributes } from "react";
 import { type StyledComponent } from "styled-components/macro";
 import { type SvgIconProps } from ".";
 import { type ResponsiveCSSValue } from "../responsive";
 import { type Spacer } from "../spacer";
+import { type BaseTheme } from "../theme";
+
 export type ReturnTypeOfCreateSvgIcon = MemoExoticComponent<ForwardRefExoticComponent<Omit<SvgIconProps, 'ref'> & RefAttributes<SVGSVGElement>>>;
 export interface SystemIconProps {
     sa?: Spacer;
@@ -67,7 +68,7 @@ export interface SystemIconProps {
     opacity?: ResponsiveCSSValue;
 }
 export type I = React.FC<Omit<Omit<React.ComponentPropsWithRef<'svg'>, 'width'>, 'height'>>;
-export type Icon = StyledComponent<I, DefaultTheme, SystemIconProps>;
+export type Icon = StyledComponent<I, BaseTheme, SystemIconProps>;
 export type IconProps = React.ComponentProps<Icon>;
 declare const createSvgIcon: (content: ReactElement, displayName: string) => ReturnTypeOfCreateSvgIcon;
 export default createSvgIcon;

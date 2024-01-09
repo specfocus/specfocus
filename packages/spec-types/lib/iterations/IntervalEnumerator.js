@@ -47,7 +47,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.IntervalEnumerator = void 0;
-var is_valid_number_1 = __importDefault(require("../numbers/is-valid-number"));
+var is_valid_number_1 = __importDefault(require("@specfocus/spec-numbers/lib/is-valid-number"));
 var has_undefined_type_1 = __importDefault(require("../types/has-undefined-type"));
 var IntervalEnumerator = /** @class */ (function () {
     function IntervalEnumerator(range, step, initial) {

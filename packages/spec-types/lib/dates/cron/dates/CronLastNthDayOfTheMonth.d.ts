@@ -11,8 +11,8 @@ export type NthDayOfTheMonth = Serie<1, 31>;
 export declare const CRON_LAST_NTH_DAY_OF_THE_MONTH: CronVariableType;
 export type CronLastNthDayOfTheMonthType = typeof CRON_LAST_NTH_DAY_OF_THE_MONTH;
 export type CronLastNthDayOfTheMonthSpec = CronUnarySpec<CronLastNthDayOfTheMonthType, NthDayOfTheMonth>;
-export declare const cronLastNthDayOfTheMonthSpec: (nth: NthDayOfTheMonth) => readonly [CronVariableType, 2 | 1 | 4 | 8 | 3 | 5 | 6 | 7 | 9 | 10 | 11 | 24 | 21 | 18 | 15 | 12 | 22 | 13 | 14 | 16 | 17 | 19 | 20 | 30 | 23 | 25 | 26 | 27 | 28 | 29];
-export declare const isCronLastNthDayOfTheMonthSpec: (spec: unknown) => spec is readonly [CronVariableType, 2 | 1 | 4 | 8 | 3 | 5 | 6 | 7 | 9 | 10 | 11 | 24 | 21 | 18 | 15 | 12 | 22 | 13 | 14 | 16 | 17 | 19 | 20 | 30 | 23 | 25 | 26 | 27 | 28 | 29];
+export declare const cronLastNthDayOfTheMonthSpec: (nth: NthDayOfTheMonth) => readonly [CronVariableType, 2 | 1 | 4 | 8 | 3 | 5 | 6 | 7 | 9 | 10 | 24 | 21 | 18 | 15 | 12 | 11 | 22 | 13 | 14 | 16 | 17 | 19 | 20 | 30 | 23 | 25 | 26 | 27 | 28 | 29];
+export declare const isCronLastNthDayOfTheMonthSpec: (spec: unknown) => spec is readonly [CronVariableType, 2 | 1 | 4 | 8 | 3 | 5 | 6 | 7 | 9 | 10 | 24 | 21 | 18 | 15 | 12 | 11 | 22 | 13 | 14 | 16 | 17 | 19 | 20 | 30 | 23 | 25 | 26 | 27 | 28 | 29];
 export declare class CronLastNthDayOfTheMonth implements CronValue<Day, CronLastNthDayOfTheMonthSpec> {
     readonly nth: NthDayOfTheMonth;
     readonly scope: [DayOfTheWeek, Day];

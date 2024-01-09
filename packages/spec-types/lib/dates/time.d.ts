@@ -1,4 +1,4 @@
-import { type Integer } from "../numbers/is-integer";
+import { type Integer } from "@specfocus/spec-numbers/lib/is-integer";
 import { type Serie } from "../numbers/serie";
 import { type Fieldset } from "../prototypes/Fieldset";
 import { NumberSpecType } from "../prototypes/SpecType.number";

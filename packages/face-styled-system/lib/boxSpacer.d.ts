@@ -1,4 +1,4 @@
-import { type PropsWithTheme } from "@specfocus/face-styled-system/lib/theme";
+import { type PropsWithTheme } from "@specfocus/styledstyled-system/lib/theme";
 import PropTypes from "prop-types";
 import { type StyledObject } from "styled-components";
 import { type SystemBoxProps } from "./Box/types";

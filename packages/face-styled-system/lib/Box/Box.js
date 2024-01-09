@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { alignContent, alignItems, alignSelf, backgroundColor, backgroundImage, backgroundPosition, backgroundRepeat, backgroundSize, borders, bottom, boxShadow, color, display, flex, flexBasis, flexDirection, flexWrap, fontFamily, fontSize, height, justifyContent, justifyItems, justifySelf, left, maxHeight, maxWidth, minHeight, minWidth, opacity, order, overflow, position, right, space, style, textAlign, top, verticalAlign, width, zIndex, } from "styled-system";
 import columnCount from "../columnCount";
 import cursor from "../cursor";
-import boxSpacer from "../boxSpacer";
+import boxSpacer from "@specfocus/styledstyled-system/lib/BoxSpacer";
 import textStyle from "../textStyle";
 export const truncate = {
     whiteSpace: 'nowrap',

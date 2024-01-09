@@ -47,28 +47,21 @@ declare const AlphaNumeric_base: {
         toString(): string;
     };
     readonly $$typeof: symbol;
-    add: (ns: string, className: string, container: import("../ioc/ns").Container<unknown>) => void;
-    readonly extend: <Service = unknown>(base: {
-        new (service: Service): Container<Service>;
-        readonly $$typeof: symbol;
-        add: (ns: string, className: string, container: import("../ioc/ns").Container<unknown>) => void;
-        readonly extend: any;
-        readonly resolve: <Service_1 = unknown>(moniker: string) => Promise<import("../ioc/ns").Container<Service_1>>;
-        readonly lazy: (moniker: string, ctor: import("../ioc/ns").ContainerImport) => import("../ioc/ns").LazyContainer;
-    }, service: Service, ns?: string | undefined) => {
+    add: (ns: string, className: string, container: import("lib/ioc/ns").Container<unknown>) => void;
+    readonly extend: <Service = unknown>(base: typeof ContainerBase<Service>, service: Service, ns?: string | undefined) => {
         new (): {
             readonly service: Service;
             readonly moniker: string;
             toString(): string;
         };
         readonly $$typeof: symbol;
-        add: (ns: string, className: string, container: import("../ioc/ns").Container<unknown>) => void;
+        add: (ns: string, className: string, container: import("lib/ioc/ns").Container<unknown>) => void;
         readonly extend: any;
-        readonly resolve: <Service_1 = unknown>(moniker: string) => Promise<import("../ioc/ns").Container<Service_1>>;
-        readonly lazy: (moniker: string, ctor: import("../ioc/ns").ContainerImport) => import("../ioc/ns").LazyContainer;
+        readonly resolve: <Service_1 = unknown>(moniker: string) => Promise<import("lib/ioc/ns").Container<Service_1>>;
+        readonly lazy: (moniker: string, ctor: import("lib/ioc/ns").ContainerImport) => import("lib/ioc/ns").LazyContainer;
     };
-    readonly resolve: <Service_1 = unknown>(moniker: string) => Promise<import("../ioc/ns").Container<Service_1>>;
-    readonly lazy: (moniker: string, ctor: import("../ioc/ns").ContainerImport) => import("../ioc/ns").LazyContainer;
+    readonly resolve: <Service_1 = unknown>(moniker: string) => Promise<import("lib/ioc/ns").Container<Service_1>>;
+    readonly lazy: (moniker: string, ctor: import("lib/ioc/ns").ContainerImport) => import("lib/ioc/ns").LazyContainer;
 };
 /** Alpha-Numeric: A combination of letters and numbers without any specific case or separators, e.g., File123. */
 export declare class AlphaNumeric extends AlphaNumeric_base {
@@ -80,28 +73,21 @@ declare const CamelCase_base: {
         toString(): string;
     };
     readonly $$typeof: symbol;
-    add: (ns: string, className: string, container: import("../ioc/ns").Container<unknown>) => void;
-    readonly extend: <Service = unknown>(base: {
-        new (service: Service): Container<Service>;
-        readonly $$typeof: symbol;
-        add: (ns: string, className: string, container: import("../ioc/ns").Container<unknown>) => void;
-        readonly extend: any;
-        readonly resolve: <Service_1 = unknown>(moniker: string) => Promise<import("../ioc/ns").Container<Service_1>>;
-        readonly lazy: (moniker: string, ctor: import("../ioc/ns").ContainerImport) => import("../ioc/ns").LazyContainer;
-    }, service: Service, ns?: string | undefined) => {
+    add: (ns: string, className: string, container: import("lib/ioc/ns").Container<unknown>) => void;
+    readonly extend: <Service = unknown>(base: typeof ContainerBase<Service>, service: Service, ns?: string | undefined) => {
         new (): {
             readonly service: Service;
             readonly moniker: string;
             toString(): string;
         };
         readonly $$typeof: symbol;
-        add: (ns: string, className: string, container: import("../ioc/ns").Container<unknown>) => void;
+        add: (ns: string, className: string, container: import("lib/ioc/ns").Container<unknown>) => void;
         readonly extend: any;
-        readonly resolve: <Service_1 = unknown>(moniker: string) => Promise<import("../ioc/ns").Container<Service_1>>;
-        readonly lazy: (moniker: string, ctor: import("../ioc/ns").ContainerImport) => import("../ioc/ns").LazyContainer;
+        readonly resolve: <Service_1 = unknown>(moniker: string) => Promise<import("lib/ioc/ns").Container<Service_1>>;
+        readonly lazy: (moniker: string, ctor: import("lib/ioc/ns").ContainerImport) => import("lib/ioc/ns").LazyContainer;
     };
-    readonly resolve: <Service_1 = unknown>(moniker: string) => Promise<import("../ioc/ns").Container<Service_1>>;
-    readonly lazy: (moniker: string, ctor: import("../ioc/ns").ContainerImport) => import("../ioc/ns").LazyContainer;
+    readonly resolve: <Service_1 = unknown>(moniker: string) => Promise<import("lib/ioc/ns").Container<Service_1>>;
+    readonly lazy: (moniker: string, ctor: import("lib/ioc/ns").ContainerImport) => import("lib/ioc/ns").LazyContainer;
 };
 /** Camel Case: Words are joined together without spaces, and each word except the first starts with an uppercase letter, e.g., myFileDocument.docx. */
 export declare class CamelCase extends CamelCase_base {
@@ -113,28 +99,21 @@ declare const KebabCase_base: {
         toString(): string;
     };
     readonly $$typeof: symbol;
-    add: (ns: string, className: string, container: import("../ioc/ns").Container<unknown>) => void;
-    readonly extend: <Service = unknown>(base: {
-        new (service: Service): Container<Service>;
-        readonly $$typeof: symbol;
-        add: (ns: string, className: string, container: import("../ioc/ns").Container<unknown>) => void;
-        readonly extend: any;
-        readonly resolve: <Service_1 = unknown>(moniker: string) => Promise<import("../ioc/ns").Container<Service_1>>;
-        readonly lazy: (moniker: string, ctor: import("../ioc/ns").ContainerImport) => import("../ioc/ns").LazyContainer;
-    }, service: Service, ns?: string | undefined) => {
+    add: (ns: string, className: string, container: import("lib/ioc/ns").Container<unknown>) => void;
+    readonly extend: <Service = unknown>(base: typeof ContainerBase<Service>, service: Service, ns?: string | undefined) => {
         new (): {
             readonly service: Service;
             readonly moniker: string;
             toString(): string;
         };
         readonly $$typeof: symbol;
-        add: (ns: string, className: string, container: import("../ioc/ns").Container<unknown>) => void;
+        add: (ns: string, className: string, container: import("lib/ioc/ns").Container<unknown>) => void;
         readonly extend: any;
-        readonly resolve: <Service_1 = unknown>(moniker: string) => Promise<import("../ioc/ns").Container<Service_1>>;
-        readonly lazy: (moniker: string, ctor: import("../ioc/ns").ContainerImport) => import("../ioc/ns").LazyContainer;
+        readonly resolve: <Service_1 = unknown>(moniker: string) => Promise<import("lib/ioc/ns").Container<Service_1>>;
+        readonly lazy: (moniker: string, ctor: import("lib/ioc/ns").ContainerImport) => import("lib/ioc/ns").LazyContainer;
     };
-    readonly resolve: <Service_1 = unknown>(moniker: string) => Promise<import("../ioc/ns").Container<Service_1>>;
-    readonly lazy: (moniker: string, ctor: import("../ioc/ns").ContainerImport) => import("../ioc/ns").LazyContainer;
+    readonly resolve: <Service_1 = unknown>(moniker: string) => Promise<import("lib/ioc/ns").Container<Service_1>>;
+    readonly lazy: (moniker: string, ctor: import("lib/ioc/ns").ContainerImport) => import("lib/ioc/ns").LazyContainer;
 };
 /** Dot Notation: Words are joined with dots, often used in web domains or URLs, e.g., website.com/index.html. */
 /** Flat Case (flatcase): All lowercase with no delimiters: thisisflatcase. */
@@ -151,28 +130,21 @@ declare const LowerCase_base: {
         toString(): string;
     };
     readonly $$typeof: symbol;
-    add: (ns: string, className: string, container: import("../ioc/ns").Container<unknown>) => void;
-    readonly extend: <Service = unknown>(base: {
-        new (service: Service): Container<Service>;
-        readonly $$typeof: symbol;
-        add: (ns: string, className: string, container: import("../ioc/ns").Container<unknown>) => void;
-        readonly extend: any;
-        readonly resolve: <Service_1 = unknown>(moniker: string) => Promise<import("../ioc/ns").Container<Service_1>>;
-        readonly lazy: (moniker: string, ctor: import("../ioc/ns").ContainerImport) => import("../ioc/ns").LazyContainer;
-    }, service: Service, ns?: string | undefined) => {
+    add: (ns: string, className: string, container: import("lib/ioc/ns").Container<unknown>) => void;
+    readonly extend: <Service = unknown>(base: typeof ContainerBase<Service>, service: Service, ns?: string | undefined) => {
         new (): {
             readonly service: Service;
             readonly moniker: string;
             toString(): string;
         };
         readonly $$typeof: symbol;
-        add: (ns: string, className: string, container: import("../ioc/ns").Container<unknown>) => void;
+        add: (ns: string, className: string, container: import("lib/ioc/ns").Container<unknown>) => void;
         readonly extend: any;
-        readonly resolve: <Service_1 = unknown>(moniker: string) => Promise<import("../ioc/ns").Container<Service_1>>;
-        readonly lazy: (moniker: string, ctor: import("../ioc/ns").ContainerImport) => import("../ioc/ns").LazyContainer;
+        readonly resolve: <Service_1 = unknown>(moniker: string) => Promise<import("lib/ioc/ns").Container<Service_1>>;
+        readonly lazy: (moniker: string, ctor: import("lib/ioc/ns").ContainerImport) => import("lib/ioc/ns").LazyContainer;
     };
-    readonly resolve: <Service_1 = unknown>(moniker: string) => Promise<import("../ioc/ns").Container<Service_1>>;
-    readonly lazy: (moniker: string, ctor: import("../ioc/ns").ContainerImport) => import("../ioc/ns").LazyContainer;
+    readonly resolve: <Service_1 = unknown>(moniker: string) => Promise<import("lib/ioc/ns").Container<Service_1>>;
+    readonly lazy: (moniker: string, ctor: import("lib/ioc/ns").ContainerImport) => import("lib/ioc/ns").LazyContainer;
 };
 /** Lower Case: All letters are in lowercase, e.g., script.js. */
 export declare class LowerCase extends LowerCase_base {
@@ -184,28 +156,21 @@ declare const Numeric_base: {
         toString(): string;
     };
     readonly $$typeof: symbol;
-    add: (ns: string, className: string, container: import("../ioc/ns").Container<unknown>) => void;
-    readonly extend: <Service = unknown>(base: {
-        new (service: Service): Container<Service>;
-        readonly $$typeof: symbol;
-        add: (ns: string, className: string, container: import("../ioc/ns").Container<unknown>) => void;
-        readonly extend: any;
-        readonly resolve: <Service_1 = unknown>(moniker: string) => Promise<import("../ioc/ns").Container<Service_1>>;
-        readonly lazy: (moniker: string, ctor: import("../ioc/ns").ContainerImport) => import("../ioc/ns").LazyContainer;
-    }, service: Service, ns?: string | undefined) => {
+    add: (ns: string, className: string, container: import("lib/ioc/ns").Container<unknown>) => void;
+    readonly extend: <Service = unknown>(base: typeof ContainerBase<Service>, service: Service, ns?: string | undefined) => {
         new (): {
             readonly service: Service;
             readonly moniker: string;
             toString(): string;
         };
         readonly $$typeof: symbol;
-        add: (ns: string, className: string, container: import("../ioc/ns").Container<unknown>) => void;
+        add: (ns: string, className: string, container: import("lib/ioc/ns").Container<unknown>) => void;
         readonly extend: any;
-        readonly resolve: <Service_1 = unknown>(moniker: string) => Promise<import("../ioc/ns").Container<Service_1>>;
-        readonly lazy: (moniker: string, ctor: import("../ioc/ns").ContainerImport) => import("../ioc/ns").LazyContainer;
+        readonly resolve: <Service_1 = unknown>(moniker: string) => Promise<import("lib/ioc/ns").Container<Service_1>>;
+        readonly lazy: (moniker: string, ctor: import("lib/ioc/ns").ContainerImport) => import("lib/ioc/ns").LazyContainer;
     };
-    readonly resolve: <Service_1 = unknown>(moniker: string) => Promise<import("../ioc/ns").Container<Service_1>>;
-    readonly lazy: (moniker: string, ctor: import("../ioc/ns").ContainerImport) => import("../ioc/ns").LazyContainer;
+    readonly resolve: <Service_1 = unknown>(moniker: string) => Promise<import("lib/ioc/ns").Container<Service_1>>;
+    readonly lazy: (moniker: string, ctor: import("lib/ioc/ns").ContainerImport) => import("lib/ioc/ns").LazyContainer;
 };
 export declare class Numeric extends Numeric_base {
 }
@@ -216,28 +181,21 @@ declare const PascalCase_base: {
         toString(): string;
     };
     readonly $$typeof: symbol;
-    add: (ns: string, className: string, container: import("../ioc/ns").Container<unknown>) => void;
-    readonly extend: <Service = unknown>(base: {
-        new (service: Service): Container<Service>;
-        readonly $$typeof: symbol;
-        add: (ns: string, className: string, container: import("../ioc/ns").Container<unknown>) => void;
-        readonly extend: any;
-        readonly resolve: <Service_1 = unknown>(moniker: string) => Promise<import("../ioc/ns").Container<Service_1>>;
-        readonly lazy: (moniker: string, ctor: import("../ioc/ns").ContainerImport) => import("../ioc/ns").LazyContainer;
-    }, service: Service, ns?: string | undefined) => {
+    add: (ns: string, className: string, container: import("lib/ioc/ns").Container<unknown>) => void;
+    readonly extend: <Service = unknown>(base: typeof ContainerBase<Service>, service: Service, ns?: string | undefined) => {
         new (): {
             readonly service: Service;
             readonly moniker: string;
             toString(): string;
         };
         readonly $$typeof: symbol;
-        add: (ns: string, className: string, container: import("../ioc/ns").Container<unknown>) => void;
+        add: (ns: string, className: string, container: import("lib/ioc/ns").Container<unknown>) => void;
         readonly extend: any;
-        readonly resolve: <Service_1 = unknown>(moniker: string) => Promise<import("../ioc/ns").Container<Service_1>>;
-        readonly lazy: (moniker: string, ctor: import("../ioc/ns").ContainerImport) => import("../ioc/ns").LazyContainer;
+        readonly resolve: <Service_1 = unknown>(moniker: string) => Promise<import("lib/ioc/ns").Container<Service_1>>;
+        readonly lazy: (moniker: string, ctor: import("lib/ioc/ns").ContainerImport) => import("lib/ioc/ns").LazyContainer;
     };
-    readonly resolve: <Service_1 = unknown>(moniker: string) => Promise<import("../ioc/ns").Container<Service_1>>;
-    readonly lazy: (moniker: string, ctor: import("../ioc/ns").ContainerImport) => import("../ioc/ns").LazyContainer;
+    readonly resolve: <Service_1 = unknown>(moniker: string) => Promise<import("lib/ioc/ns").Container<Service_1>>;
+    readonly lazy: (moniker: string, ctor: import("lib/ioc/ns").ContainerImport) => import("lib/ioc/ns").LazyContainer;
 };
 /** Pascal Case (PascalCase): Similar to camel case, but the first letter is also capitalized: ThisIsPascalCase. Often used for class names in many programming languages. */
 export declare class PascalCase extends PascalCase_base {
@@ -249,28 +207,21 @@ declare const SnakeCase_base: {
         toString(): string;
     };
     readonly $$typeof: symbol;
-    add: (ns: string, className: string, container: import("../ioc/ns").Container<unknown>) => void;
-    readonly extend: <Service = unknown>(base: {
-        new (service: Service): Container<Service>;
-        readonly $$typeof: symbol;
-        add: (ns: string, className: string, container: import("../ioc/ns").Container<unknown>) => void;
-        readonly extend: any;
-        readonly resolve: <Service_1 = unknown>(moniker: string) => Promise<import("../ioc/ns").Container<Service_1>>;
-        readonly lazy: (moniker: string, ctor: import("../ioc/ns").ContainerImport) => import("../ioc/ns").LazyContainer;
-    }, service: Service, ns?: string | undefined) => {
+    add: (ns: string, className: string, container: import("lib/ioc/ns").Container<unknown>) => void;
+    readonly extend: <Service = unknown>(base: typeof ContainerBase<Service>, service: Service, ns?: string | undefined) => {
         new (): {
             readonly service: Service;
             readonly moniker: string;
             toString(): string;
         };
         readonly $$typeof: symbol;
-        add: (ns: string, className: string, container: import("../ioc/ns").Container<unknown>) => void;
+        add: (ns: string, className: string, container: import("lib/ioc/ns").Container<unknown>) => void;
         readonly extend: any;
-        readonly resolve: <Service_1 = unknown>(moniker: string) => Promise<import("../ioc/ns").Container<Service_1>>;
-        readonly lazy: (moniker: string, ctor: import("../ioc/ns").ContainerImport) => import("../ioc/ns").LazyContainer;
+        readonly resolve: <Service_1 = unknown>(moniker: string) => Promise<import("lib/ioc/ns").Container<Service_1>>;
+        readonly lazy: (moniker: string, ctor: import("lib/ioc/ns").ContainerImport) => import("lib/ioc/ns").LazyContainer;
     };
-    readonly resolve: <Service_1 = unknown>(moniker: string) => Promise<import("../ioc/ns").Container<Service_1>>;
-    readonly lazy: (moniker: string, ctor: import("../ioc/ns").ContainerImport) => import("../ioc/ns").LazyContainer;
+    readonly resolve: <Service_1 = unknown>(moniker: string) => Promise<import("lib/ioc/ns").Container<Service_1>>;
+    readonly lazy: (moniker: string, ctor: import("lib/ioc/ns").ContainerImport) => import("lib/ioc/ns").LazyContainer;
 };
 /** Sentence Case: "The quick brown fox jumps over the lazy dog." */
 /** Snake Case: Lowercase and separated by underscores e.g. user_name, read_file, error_list. */
@@ -283,28 +234,21 @@ declare const SpaceSeparated_base: {
         toString(): string;
     };
     readonly $$typeof: symbol;
-    add: (ns: string, className: string, container: import("../ioc/ns").Container<unknown>) => void;
-    readonly extend: <Service = unknown>(base: {
-        new (service: Service): Container<Service>;
-        readonly $$typeof: symbol;
-        add: (ns: string, className: string, container: import("../ioc/ns").Container<unknown>) => void;
-        readonly extend: any;
-        readonly resolve: <Service_1 = unknown>(moniker: string) => Promise<import("../ioc/ns").Container<Service_1>>;
-        readonly lazy: (moniker: string, ctor: import("../ioc/ns").ContainerImport) => import("../ioc/ns").LazyContainer;
-    }, service: Service, ns?: string | undefined) => {
+    add: (ns: string, className: string, container: import("lib/ioc/ns").Container<unknown>) => void;
+    readonly extend: <Service = unknown>(base: typeof ContainerBase<Service>, service: Service, ns?: string | undefined) => {
         new (): {
             readonly service: Service;
             readonly moniker: string;
             toString(): string;
         };
         readonly $$typeof: symbol;
-        add: (ns: string, className: string, container: import("../ioc/ns").Container<unknown>) => void;
+        add: (ns: string, className: string, container: import("lib/ioc/ns").Container<unknown>) => void;
         readonly extend: any;
-        readonly resolve: <Service_1 = unknown>(moniker: string) => Promise<import("../ioc/ns").Container<Service_1>>;
-        readonly lazy: (moniker: string, ctor: import("../ioc/ns").ContainerImport) => import("../ioc/ns").LazyContainer;
+        readonly resolve: <Service_1 = unknown>(moniker: string) => Promise<import("lib/ioc/ns").Container<Service_1>>;
+        readonly lazy: (moniker: string, ctor: import("lib/ioc/ns").ContainerImport) => import("lib/ioc/ns").LazyContainer;
     };
-    readonly resolve: <Service_1 = unknown>(moniker: string) => Promise<import("../ioc/ns").Container<Service_1>>;
-    readonly lazy: (moniker: string, ctor: import("../ioc/ns").ContainerImport) => import("../ioc/ns").LazyContainer;
+    readonly resolve: <Service_1 = unknown>(moniker: string) => Promise<import("lib/ioc/ns").Container<Service_1>>;
+    readonly lazy: (moniker: string, ctor: import("lib/ioc/ns").ContainerImport) => import("lib/ioc/ns").LazyContainer;
 };
 /** Space Separated: Words are separated by spaces, often used for file names in more casual settings, e.g., my vacation photo.jpg. */
 export declare class SpaceSeparated extends SpaceSeparated_base {
@@ -316,28 +260,21 @@ declare const UpperCase_base: {
         toString(): string;
     };
     readonly $$typeof: symbol;
-    add: (ns: string, className: string, container: import("../ioc/ns").Container<unknown>) => void;
-    readonly extend: <Service = unknown>(base: {
-        new (service: Service): Container<Service>;
-        readonly $$typeof: symbol;
-        add: (ns: string, className: string, container: import("../ioc/ns").Container<unknown>) => void;
-        readonly extend: any;
-        readonly resolve: <Service_1 = unknown>(moniker: string) => Promise<import("../ioc/ns").Container<Service_1>>;
-        readonly lazy: (moniker: string, ctor: import("../ioc/ns").ContainerImport) => import("../ioc/ns").LazyContainer;
-    }, service: Service, ns?: string | undefined) => {
+    add: (ns: string, className: string, container: import("lib/ioc/ns").Container<unknown>) => void;
+    readonly extend: <Service = unknown>(base: typeof ContainerBase<Service>, service: Service, ns?: string | undefined) => {
         new (): {
             readonly service: Service;
             readonly moniker: string;
             toString(): string;
         };
         readonly $$typeof: symbol;
-        add: (ns: string, className: string, container: import("../ioc/ns").Container<unknown>) => void;
+        add: (ns: string, className: string, container: import("lib/ioc/ns").Container<unknown>) => void;
         readonly extend: any;
-        readonly resolve: <Service_1 = unknown>(moniker: string) => Promise<import("../ioc/ns").Container<Service_1>>;
-        readonly lazy: (moniker: string, ctor: import("../ioc/ns").ContainerImport) => import("../ioc/ns").LazyContainer;
+        readonly resolve: <Service_1 = unknown>(moniker: string) => Promise<import("lib/ioc/ns").Container<Service_1>>;
+        readonly lazy: (moniker: string, ctor: import("lib/ioc/ns").ContainerImport) => import("lib/ioc/ns").LazyContainer;
     };
-    readonly resolve: <Service_1 = unknown>(moniker: string) => Promise<import("../ioc/ns").Container<Service_1>>;
-    readonly lazy: (moniker: string, ctor: import("../ioc/ns").ContainerImport) => import("../ioc/ns").LazyContainer;
+    readonly resolve: <Service_1 = unknown>(moniker: string) => Promise<import("lib/ioc/ns").Container<Service_1>>;
+    readonly lazy: (moniker: string, ctor: import("lib/ioc/ns").ContainerImport) => import("lib/ioc/ns").LazyContainer;
 };
 /** Title Case: "The Quick Brown Fox Jumps Over the Lazy Dog" */
 /** Train Case: Similar to kebab case, but each word starts with an uppercase letter, e.g., User-Profile.jpg. */

@@ -1,4 +1,4 @@
-import { type Integer } from "./is-integer";
+import { type Integer } from "@specfocus/spec-numbers/lib/is-integer";
 import { type Serie } from "./serie";
 export { $Factors } from "../prototypes/SpecType.decimal.$factor";
 interface IMeasure {

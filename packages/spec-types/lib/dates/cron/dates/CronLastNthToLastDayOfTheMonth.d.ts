@@ -1,5 +1,5 @@
 import { type Enumerator } from "../../../iterations/Enumerator";
-import { type Range } from "../../../numbers/ranges";
+import { type Range } from "@specfocus/spec-numbers/lib/ranges";
 import { type DayOfTheWeek } from "../../DateLike";
 import { type Day } from "../../time";
 import { type Issue, type Scope } from "../CronObject";

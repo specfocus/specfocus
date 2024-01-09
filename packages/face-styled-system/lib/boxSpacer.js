@@ -9,7 +9,7 @@ var __rest = (this && this.__rest) || function (s, e) {
         }
     return t;
 };
-import mergeAll from "@specfocus/face-styled-system/lib/utils/mergeAll";
+import mergeAll from "@specfocus/styledstyled-system/lib/utils/mergeAll";
 import PropTypes from "prop-types";
 import { getSpacerKeys } from "./Box/theme";
 import makeSpaceStyle from "./utils/makeSpaceStyle";

@@ -13,8 +13,8 @@ import { jsx as _jsx } from "react/jsx-runtime";
 import React from "react";
 import styled from "styled-components";
 import { alignSelf, borders, bottom, color, display, flexBasis, height, justifySelf, left, maxHeight, maxWidth, minHeight, minWidth, opacity, order, position, right, space, top, verticalAlign, width } from "styled-system";
-import boxSpacer from "../boxSpacer";
-import { transform } from "../Box/Box";
+import boxSpacer from "@specfocus/styledstyled-system/lib/BoxSpacer";
+import { transform } from "@specfocus/styledstyled-system/lib/Box/Box";
 // intermediate component to strip width/height/transform props
 const I = React.forwardRef((_a, ref) => {
     var { width, height, transform } = _a, props = __rest(_a, ["width", "height", "transform"]);

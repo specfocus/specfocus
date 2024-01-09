@@ -21,9 +21,13 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.evaluate = void 0;
 var types_1 = require("../../types");
-var has_bigint_type_1 = __importDefault(require("../../types/has-bigint-type"));
+var is_instanceof_number_1 = __importDefault(require("@specfocus/spec-numbers/lib/is-instanceof-number"));
+var is_instanceof_string_1 = __importDefault(require("@specfocus/spec-strings/lib/is-instanceof-string"));
+var has_number_type_1 = __importDefault(require("@specfocus/spec-numbers/lib/has-number-type"));
+var has_string_type_1 = __importDefault(require("@specfocus/spec-strings/lib/has-string-type"));
+var has_bigint_type_1 = __importDefault(require("@specfocus/spec-numbers/lib/has-bigint-type"));
 var has_object_type_1 = __importDefault(require("../../types/has-object-type"));
-var is_instanceof_bigint_1 = __importDefault(require("../../types/is-instanceof-bigint"));
+var is_instanceof_bigint_1 = __importDefault(require("@specfocus/spec-numbers/lib/is-instanceof-bigint"));
 var arithmetics_1 = require("./arithmetics");
 var binary_1 = __importDefault(require("./binary"));
 var unary_1 = __importDefault(require("./unary"));
@@ -34,7 +38,7 @@ var computeBinary = function (_a, context, errors) {
     var value2 = (0, exports.evaluate)(operand2, context, errors);
     if ((0, types_1.hasUndefinedType)(value2))
         return;
-    if (!(0, types_1.hasNumberType)(value2)) {
+    if (!(0, has_number_type_1.default)(value2)) {
         errors.push("Invalid value: ".concat(value2));
         return;
     }
@@ -64,11 +68,11 @@ var evaluate = function (expr, context, errors) {
                 return computeUnary(expr, context, errors);
             if (arithmetics_1.$BINARY.includes($tag))
                 return computeBinary(expr, context, errors);
-            return expr.map(function (val) { return (0, exports.evaluate)(val, context, errors); }).filter(types_1.hasNumberType);
+            return expr.map(function (val) { return (0, exports.evaluate)(val, context, errors); }).filter(has_number_type_1.default);
         }
-        if ((0, types_1.isInstanceOfNumber)(expr))
+        if ((0, is_instanceof_number_1.default)(expr))
             expr = expr.valueOf();
-        else if ((0, types_1.isInstanceOfString)(expr))
+        else if ((0, is_instanceof_string_1.default)(expr))
             expr = expr.valueOf();
         else if ((0, is_instanceof_bigint_1.default)(expr))
             expr = expr.valueOf();
@@ -79,17 +83,17 @@ var evaluate = function (expr, context, errors) {
             return;
         }
     }
-    if ((0, types_1.hasStringType)(expr)) {
+    if ((0, has_string_type_1.default)(expr)) {
         expr = (0, parse_1.default)(expr);
         if ((0, types_1.hasUndefinedType)(expr))
             return;
         if ((0, has_object_type_1.default)(expr))
             return (0, exports.evaluate)(expr, context, errors);
-        if ((0, types_1.hasStringType)(expr)) {
+        if ((0, has_string_type_1.default)(expr)) {
             return (_a = context[expr]) !== null && _a !== void 0 ? _a : expr;
         }
     }
-    if ((0, types_1.hasNumberType)(expr))
+    if ((0, has_number_type_1.default)(expr))
         return expr;
     if ((0, has_bigint_type_1.default)(expr))
         return Number(expr).valueOf();

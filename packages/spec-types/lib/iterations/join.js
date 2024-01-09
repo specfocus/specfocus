@@ -43,8 +43,9 @@ var __asyncValues = (this && this.__asyncValues) || function (o) {
     function settle(resolve, reject, d, v) { Promise.resolve(v).then(function(v) { resolve({ value: v, done: d }); }, reject); }
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var join = function (promises) { var _a, promises_1, promises_1_1; return __awaiter(void 0, void 0, void 0, function () {
+var join = function (promises) { return __awaiter(void 0, void 0, void 0, function () {
     var result, val, e_1_1;
+    var _a, promises_1, promises_1_1;
     var _b, e_1, _c, _d;
     return __generator(this, function (_e) {
         switch (_e.label) {

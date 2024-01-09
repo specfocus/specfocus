@@ -1,5 +1,5 @@
 import { type Enumerator } from "../../iterations/Enumerator";
-import { type NonNegativeInteger } from "../../numbers/is-non-negative-integer";
+import { type NonNegativeInteger } from "@specfocus/spec-numbers/lib/is-non-negative-integer";
 import { type CronObject, type Issue, type Scope } from "./CronObject";
 import { CronValueType, type CronConstantSpec, type CronValueSpec } from "./CronObjectSpec";
 export interface CronValue<V extends (NonNegativeInteger) = NonNegativeInteger, S extends CronValueSpec<V> = CronValueSpec<V>> extends CronObject<V, S, CronValueType> {

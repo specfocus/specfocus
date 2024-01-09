@@ -1,7 +1,7 @@
-import useThemeDefaults from "@specfocus/face-styled-system/lib/useThemeDefaults";
+import useThemeDefaults from "@specfocus/styledstyled-system/lib/useThemeDefaults";
 import styled from "styled-components";
 import { style } from "styled-system";
-import Box from "../Box";
+import Box from "@specfocus/styledstyled-system/lib/Box";
 const gridGap = style({
     prop: 'gridGap',
     key: 'space',

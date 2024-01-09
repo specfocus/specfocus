@@ -1,0 +1,22 @@
+{
+  "name": "@specfocus/spec-strings",
+  "description": "String utils",
+  "version": "0.0.1",
+  "private": false,
+  "license": "UNLICENSED",
+  "sideEffects": false,
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist/**"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/specfocus/spec-strings-ts.git"
+  },
+  "bugs": {
+    "url": "https://github.com/specfocus/spec-strings-ts/issues"
+  },
+  "homepage": "https://github.com/specfocus/spec-strings-ts#readme"
+}

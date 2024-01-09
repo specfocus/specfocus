@@ -1,5 +1,5 @@
-import { type NonNegativeInteger } from "../numbers/is-non-negative-integer";
-import { RangeArray } from "../numbers/ranges/Range";
+import { type NonNegativeInteger } from "@specfocus/spec-numbers/lib/is-non-negative-integer";
+import { RangeArray } from "@specfocus/spec-numbers/lib/ranges/Range";
 import { type Enumerator } from "./Enumerator";
 export declare class RangesEnumerator<T extends NonNegativeInteger> implements Iterable<T>, Enumerator<T> {
     readonly ranges: RangeArray<T>;

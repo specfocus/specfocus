@@ -1,1 +1,1 @@
-{"version":3,"file":"as-async-iterator.d.ts","sourceRoot":"","sources":["../../lib/iterations/as-async-iterator.ts"],"names":[],"mappings":"AAAA,QAAA,MAAM,eAAe,0EACoC,CAAC;AAE1D,eAAe,eAAe,CAAC"}
+{"version":3,"file":"as-async-iterator.d.ts","sourceRoot":"","sources":["../../lib/iterations/as-async-iterator.ts"],"names":[],"mappings":"AAAA,QAAA,MAAM,eAAe,qBAAsB,cAAc,CAAC,CAAC,KAAG,cAAc,CAAC,CACpB,CAAC;AAE1D,eAAe,eAAe,CAAC"}

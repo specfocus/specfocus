@@ -1,4 +1,4 @@
-import { type NonNegativeInteger } from "../numbers/is-non-negative-integer";
+import { type NonNegativeInteger } from "@specfocus/spec-numbers/lib/is-non-negative-integer";
 import { type Enumerator } from "./Enumerator";
 export declare class ParallelEnumerator<T extends NonNegativeInteger> implements Enumerator<T> {
     readonly children: Enumerator<T>[];

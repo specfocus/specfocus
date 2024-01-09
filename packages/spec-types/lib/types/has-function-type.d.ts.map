@@ -1,1 +1,1 @@
-{"version":3,"file":"has-function-type.d.ts","sourceRoot":"","sources":["../../lib/types/has-function-type.ts"],"names":[],"mappings":"AAAA,QAAA,MAAM,eAAe,iBAAkB,OAAO,sBAAoB,GAAG,EAAE,MAC5C,CAAC;AAE5B,eAAe,eAAe,CAAC"}
+{"version":3,"file":"has-function-type.d.ts","sourceRoot":"","sources":["../../lib/types/has-function-type.ts"],"names":[],"mappings":"AAAA,QAAA,MAAM,eAAe,iBAAkB,OAAO,sBAAoB,GAAG,EAAE,KAAK,CACjD,CAAC;AAE5B,eAAe,eAAe,CAAC"}

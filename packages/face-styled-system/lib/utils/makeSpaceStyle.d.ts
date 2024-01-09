@@ -1,4 +1,4 @@
-import { type BaseTheme } from "@specfocus/face-styled-system/lib/theme";
+import { type BaseTheme } from "@specfocus/styledstyled-system/lib/theme";
 import { type Space } from "../spacer";
 import { StyledObject } from "styled-components";
 type MakeSpaceStyleArgs = {

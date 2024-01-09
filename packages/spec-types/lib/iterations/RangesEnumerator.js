@@ -47,7 +47,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.RangesEnumerator = void 0;
-var index_of_1 = __importDefault(require("../numbers/ranges/index-of"));
+var index_of_1 = __importDefault(require("@specfocus/spec-numbers/lib/ranges/index-of"));
 var RangesEnumerator = /** @class */ (function () {
     function RangesEnumerator(ranges, initial) {
         var _this = this;

@@ -1,4 +1,4 @@
-import { RangeArray } from "../numbers/ranges/Range";
+import { RangeArray } from "@specfocus/spec-numbers/lib/ranges/Range";
 import { DayOfTheWeek } from "./DateLike";
 import { type Day, type Month, type Year } from "./time";
 export declare const getWeekdays: (month: Month, year: Year) => RangeArray<Day>;

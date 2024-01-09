@@ -1,6 +1,6 @@
 import { type Enumerator } from "../../iterations/Enumerator";
-import { type NonNegativeInteger } from "../../numbers/is-non-negative-integer";
-import { type Range } from "../../numbers/ranges";
+import { type NonNegativeInteger } from "@specfocus/spec-numbers/lib/is-non-negative-integer";
+import { type Range } from "@specfocus/spec-numbers/lib/ranges";
 import { type CronObject, type Issue, type Scope } from "./CronObject";
 import { CronValueSpec, type CronRangeSpec, type CronRangeType } from "./CronObjectSpec";
 import { type CronValue } from "./CronValue";

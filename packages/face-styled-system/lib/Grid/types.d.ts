@@ -1,6 +1,6 @@
 import { type StyledComponent } from "styled-components/macro";
 import { type BaseTheme } from "styled-system";
-import { type SystemBoxProps } from "../Box/types";
+import { type SystemBoxProps } from "@specfocus/styledstyled-system/lib/Box/types";
 import { type ResponsiveCSSValue } from "../responsive";
 import { PropsWithChildren } from "react";
 export interface SystemGridProps {

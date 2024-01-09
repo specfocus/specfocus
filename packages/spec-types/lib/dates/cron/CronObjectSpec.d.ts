@@ -1,5 +1,5 @@
-import { type NonNegativeInteger } from "../../numbers/is-non-negative-integer";
-import { type PositiveInteger } from "../../numbers/is-positive-integer";
+import { type NonNegativeInteger } from "@specfocus/spec-numbers/lib/is-non-negative-integer";
+import { type PositiveInteger } from "@specfocus/spec-numbers/lib/is-positive-integer";
 export declare const CRON_VALUE = "v";
 export declare const CRON_RANGE = "r";
 export declare const CRON_INTERVAL = "i";
@@ -20,9 +20,9 @@ export type CronRangeSpec<V extends NonNegativeInteger = NonNegativeInteger> = R
 export type CronOffsetSpec<V extends NonNegativeInteger = NonNegativeInteger> = CronValueSpec<V> | CronRangeSpec<V>;
 export type CronIntervalSpec<V extends NonNegativeInteger = NonNegativeInteger> = Readonly<[CronIntervalType, CronValueSpec<V> | CronRangeSpec<V>, PositiveInteger]>;
 export type CronObjectSpec<V extends NonNegativeInteger = NonNegativeInteger> = CronOffsetSpec<V> | CronIntervalSpec<V>;
-export declare const cronVariableSpec: <T extends CronVariableType = CronVariableType>(type: T) => T;
-export declare const cronUnarySpec: <T extends CronVariableType = CronVariableType, P extends number = number>(type: T, primary: P) => readonly [T, P];
-export declare const cronBinarySpec: <T extends CronVariableType = CronVariableType, P extends number = number, S extends number = number>(type: T, primary: P, secondary: S) => readonly [T, P, S];
+export declare const cronVariableSpec: <T extends CronVariableType = CronVariableType>(type: T) => CronVariableSpec<T>;
+export declare const cronUnarySpec: <T extends CronVariableType = CronVariableType, P extends number = number>(type: T, primary: P) => CronUnarySpec<T, P>;
+export declare const cronBinarySpec: <T extends CronVariableType = CronVariableType, P extends number = number, S extends number = number>(type: T, primary: P, secondary: S) => CronBinarySpec<T, P, S>;
 export declare const isCronConstantSpec: (spec: unknown) => spec is number;
 export declare const isCronVariableSpec: <T extends CronVariableType = CronVariableType>(spec: unknown) => spec is T;
 export declare const isCronUnarySpec: <T extends CronVariableType = CronVariableType, P extends number = number>(spec: unknown) => spec is readonly [T, P];

@@ -1,5 +1,5 @@
-import { type NonNegativeInteger } from "../numbers/is-non-negative-integer";
-import { type PositiveInteger } from "../numbers/is-positive-integer";
+import { type NonNegativeInteger } from "@specfocus/spec-numbers/lib/is-non-negative-integer";
+import { type PositiveInteger } from "@specfocus/spec-numbers/lib/is-positive-integer";
 import { type Enumerator } from "./Enumerator";
 export declare class IntervalEnumerator<T extends NonNegativeInteger> implements Enumerator<T> {
     readonly range: Readonly<[T, T?]>;

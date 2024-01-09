@@ -1,4 +1,4 @@
-import mapObj from "@specfocus/face-styled-system/lib/utils/mapObj";
+import mapObj from "@specfocus/styledstyled-system/lib/utils/mapObj";
 import makeScaledArrayStyles from "./makeScaledArrayStyles";
 import makeScaledObjStyles from "./makeScaledObjStyles";
 /**

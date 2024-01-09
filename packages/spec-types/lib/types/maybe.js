@@ -6,7 +6,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.isSome = exports.isNull = exports.isEmpty = void 0;
 var is_valid_object_1 = __importDefault(require("../objects/is-valid-object"));
 var array_1 = require("./array");
-var has_string_type_1 = __importDefault(require("./has-string-type"));
+var has_string_type_1 = __importDefault(require("@specfocus/spec-strings/lib/has-string-type"));
 var is_nil_1 = __importDefault(require("./is-nil"));
 var isEmpty = function (val) {
     return (0, is_nil_1.default)(val) ||

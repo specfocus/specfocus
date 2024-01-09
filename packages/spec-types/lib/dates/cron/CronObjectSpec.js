@@ -4,9 +4,9 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.isCronInterval = exports.isCronRangeSpec = exports.isCronValueSpec = exports.isCronParametricSpec = exports.isCronBinarySpec = exports.isCronUnarySpec = exports.isCronVariableSpec = exports.isCronConstantSpec = exports.cronBinarySpec = exports.cronUnarySpec = exports.cronVariableSpec = exports.CRON_INTERVAL = exports.CRON_RANGE = exports.CRON_VALUE = void 0;
-var is_non_negative_integer_1 = __importDefault(require("../../numbers/is-non-negative-integer"));
-var is_positive_integer_1 = __importDefault(require("../../numbers/is-positive-integer"));
-var is_valid_number_1 = __importDefault(require("../../numbers/is-valid-number"));
+var is_non_negative_integer_1 = __importDefault(require("@specfocus/spec-numbers/lib/is-non-negative-integer"));
+var is_positive_integer_1 = __importDefault(require("@specfocus/spec-numbers/lib/is-positive-integer"));
+var is_valid_number_1 = __importDefault(require("@specfocus/spec-numbers/lib/is-valid-number"));
 exports.CRON_VALUE = 'v';
 exports.CRON_RANGE = 'r';
 exports.CRON_INTERVAL = 'i';

@@ -1,5 +1,5 @@
 import { type Enumerator } from "../../iterations/Enumerator";
-import { type NonNegativeInteger } from "../../numbers/is-non-negative-integer";
+import { type NonNegativeInteger } from "@specfocus/spec-numbers/lib/is-non-negative-integer";
 import { CronInterval } from "./CronInterval";
 import { type CronObject, type Issue, type Scope } from "./CronObject";
 import { type CronObjectSpec } from "./CronObjectSpec";
@@ -15,7 +15,7 @@ export declare class CronField<V extends NonNegativeInteger = NonNegativeInteger
     specs: (errors?: Issue[]) => CronObjectSpec[];
     toString: () => string;
 }
-export declare const offset: <V extends number = number>(start: V, end?: V | undefined) => CronField<V>;
+export declare const offset: <V extends number = number>(start: V, end?: V) => CronField<V>;
 declare const field: <V extends number = number>(scope: Scope<V>, parts: string[]) => CronField<V>;
 export default field;
 //# sourceMappingURL=CronField.d.ts.map
