@@ -1,7 +1,7 @@
 {
   "name": "@specfocus/spec-texts",
   "description": "Redefine texts",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": false,
   "license": "UNLICENSED",
   "sideEffects": false,
@@ -19,17 +19,8 @@
     "url": "https://github.com/specfocus/spec-texts-ts/issues"
   },
   "homepage": "https://github.com/specfocus/spec-texts-ts#readme",
-  "dependencies": {
-    "@specfocus/spec-texts": "*",
-    "chokidar": "^3.5.3",
-    "cookie": "^0.5.0",
-    "iterare": "^1.2.1",
-    "js-yaml": "^4.1.0"
-  },
   "peerDependencies": {
-    "@nestjs/common": "*",
-    "@nestjs/core": "*",
-    "class-validator": "*",
-    "rxjs": "*"
+    "@specfocus/spec-entries": "^0.0.1",
+    "string-format": "^2.0.0"
   }
 }

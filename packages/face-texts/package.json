@@ -1,0 +1,25 @@
+{
+  "name": "@specfocus/face-texts",
+  "private": false,
+  "version": "0.0.2",
+  "type": "module",
+  "dependencies": {
+    "accept-language-parser": "^1.5.0",
+    "chokidar": "^3.5.3",
+    "cookie": "^0.5.0",
+    "iterare": "^1.2.1",
+    "js-yaml": "^4.1.0",
+    "string-format": "^2.0.0"
+  },
+  "peerDependencies": {
+    "@specfocus/spec-texts": "^0.0.1",
+    "@specfocus/spec-types": "^0.0.7",
+    "@specfocus/work-lazy": "^0.0.1",
+    "react": ">=18"
+  },
+  "jest": {
+    "testPathIgnorePatterns": [
+      ".*/build/.*"
+    ]
+  }
+}

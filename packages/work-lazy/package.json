@@ -1,0 +1,27 @@
+{
+  "name": "@specfocus/work-lazy",
+  "description": "Foundation and lazy module loader",
+  "version": "0.0.2",
+  "private": false,
+  "license": "UNLICENSED",
+  "sideEffects": false,
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist/**"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/specfocus/work-lazy-ts.git"
+  },
+  "bugs": {
+    "url": "https://github.com/specfocus/work-lazy-ts/issues"
+  },
+  "homepage": "https://github.com/specfocus/work-lazy-ts#readme",
+  "peerDependencies": {
+    "@specfocus/spec-numbers": "latest",
+    "@specfocus/spec-strings": "latest",
+    "@specfocus/spec-types": "latest"
+  }
+}
