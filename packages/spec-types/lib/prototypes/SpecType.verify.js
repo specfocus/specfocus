@@ -55,7 +55,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var has_object_type_1 = __importDefault(require("../types/has-object-type"));
+var has_object_type_1 = __importDefault(require("@specfocus/spec-objects/lib/has-object-type"));
 var SpecType_boolean_verify_1 = __importDefault(require("./SpecType.boolean.verify"));
 var SpecType_choices_verify_1 = __importDefault(require("./SpecType.choices.verify"));
 var SpecType_decimal_verify_1 = __importDefault(require("./SpecType.decimal.verify"));

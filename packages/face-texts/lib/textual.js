@@ -10,32 +10,12 @@ var __rest = (this && this.__rest) || function (s, e) {
     return t;
 };
 import { jsx as _jsx } from "react/jsx-runtime";
-import supplant from "@specfocus/spec-strings/lib/supplant";
-import { Fragment, createContext, useContext, useMemo } from 'react';
-import textualize from "@specfocus/spec-texts/lib/textualize";
-const Contextual = createContext({ xs: 300, sm: 600, md: 900 });
-export const TextualProvider = Contextual.Provider;
+import { Fragment } from "react";
+import useText from "./use-text";
 const Textual = (_a) => {
-    var { as = Fragment, text, ref, replace, variant } = _a, props = __rest(_a, ["as", "text", "ref", "replace", "variant"]);
+    var { as = Fragment, textual, size, replace } = _a, props = __rest(_a, ["as", "textual", "size", "replace"]);
     const Component = as;
-    const contextual = useContext(Contextual);
-    const t = useMemo(() => {
-        if (contextual && (ref === null || ref === void 0 ? void 0 : ref.current)) {
-            const width = ref.current.offsetWidth;
-            if (width < contextual.xs)
-                return 'xs';
-            else if (width < contextual.sm)
-                variant = 'sm';
-            else if (width < contextual.md)
-                variant = 'md';
-            else
-                variant = 'lg';
-        }
-        let t = textualize(text, variant);
-        if (replace)
-            t = supplant(t, replace);
-        // TODO: Add support for i18n and the use supplant again
-    }, [contextual, ref, replace, text, variant]);
-    return _jsx(Component, Object.assign({}, props, { children: t }));
+    const text = useText({ textual, size, replace });
+    return _jsx(Component, Object.assign({}, props, { children: text }));
 };
 export default Textual;

@@ -65,7 +65,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.offset = exports.CronField = void 0;
 var ArrayEnumerator_1 = require("@specfocus/spec-types/lib/iterations/ArrayEnumerator");
 var ParallelEnumerator_1 = require("@specfocus/spec-types/lib/iterations/ParallelEnumerator");
-var has_undefined_type_1 = __importDefault(require("@specfocus/spec-types/lib/types/has-undefined-type"));
+var has_undefined_type_1 = __importDefault(require("@specfocus/spec-objects/lib/has-undefined-type"));
 var Cron_1 = require("./Cron");
 var CronInterval_1 = __importStar(require("./CronInterval"));
 var CronRange_1 = __importStar(require("./CronRange"));

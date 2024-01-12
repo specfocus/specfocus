@@ -20,8 +20,8 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.isTaskEntry = void 0;
-var has_boolean_type_1 = __importDefault(require("@specfocus/spec-types/lib/types/has-boolean-type"));
-var has_undefined_type_1 = __importDefault(require("@specfocus/spec-types/lib/types/has-undefined-type"));
+var has_boolean_type_1 = __importDefault(require("@specfocus/spec-objects/lib/has-boolean-type"));
+var has_undefined_type_1 = __importDefault(require("@specfocus/spec-objects/lib/has-undefined-type"));
 var entry_1 = require("./entry");
 var isTaskEntry = function (value) {
     if (!(0, entry_1.isEntry)(value))

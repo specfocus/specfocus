@@ -20,29 +20,29 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.evaluate = void 0;
-var types_1 = require("../../types");
-var is_instanceof_number_1 = __importDefault(require("@specfocus/spec-numbers/lib/is-instanceof-number"));
-var is_instanceof_string_1 = __importDefault(require("@specfocus/spec-strings/lib/is-instanceof-string"));
-var has_number_type_1 = __importDefault(require("@specfocus/spec-numbers/lib/has-number-type"));
-var has_string_type_1 = __importDefault(require("@specfocus/spec-strings/lib/has-string-type"));
-var has_bigint_type_1 = __importDefault(require("@specfocus/spec-numbers/lib/has-bigint-type"));
-var has_object_type_1 = __importDefault(require("../../types/has-object-type"));
-var is_instanceof_bigint_1 = __importDefault(require("@specfocus/spec-numbers/lib/is-instanceof-bigint"));
+var is_bigint_1 = __importDefault(require("@specfocus/spec-numbers/lib/is-bigint"));
+var lib_1 = require("@specfocus/spec-objects/lib");
+var has_bigint_type_1 = __importDefault(require("@specfocus/spec-objects/lib/has-bigint-type"));
+var has_number_type_1 = __importDefault(require("@specfocus/spec-objects/lib/has-number-type"));
+var has_string_type_1 = __importDefault(require("@specfocus/spec-objects/lib/has-string-type"));
+var is_number_object_1 = __importDefault(require("@specfocus/spec-objects/lib/is-number-object"));
+var is_string_object_1 = __importDefault(require("@specfocus/spec-objects/lib/is-string-object"));
+var has_object_type_1 = __importDefault(require("@specfocus/spec-objects/lib/has-object-type"));
 var arithmetics_1 = require("./arithmetics");
 var binary_1 = __importDefault(require("./binary"));
-var unary_1 = __importDefault(require("./unary"));
 var parse_1 = __importDefault(require("./parse"));
+var unary_1 = __importDefault(require("./unary"));
 var computeBinary = function (_a, context, errors) {
     var _b = __read(_a, 3), operator = _b[0], operand1 = _b[1], operand2 = _b[2];
     var value1 = (0, exports.evaluate)(operand1, context, errors);
     var value2 = (0, exports.evaluate)(operand2, context, errors);
-    if ((0, types_1.hasUndefinedType)(value2))
+    if ((0, lib_1.hasUndefinedType)(value2))
         return;
     if (!(0, has_number_type_1.default)(value2)) {
         errors.push("Invalid value: ".concat(value2));
         return;
     }
-    if ((0, types_1.hasUndefinedType)(value1))
+    if ((0, lib_1.hasUndefinedType)(value1))
         return;
     var fn = binary_1.default[operator];
     return fn(value1, value2);
@@ -50,14 +50,14 @@ var computeBinary = function (_a, context, errors) {
 var computeUnary = function (_a, context, errors) {
     var _b = __read(_a, 2), operator = _b[0], operand = _b[1];
     var value = (0, exports.evaluate)(operand, context, errors);
-    if ((0, types_1.hasUndefinedType)(value))
+    if ((0, lib_1.hasUndefinedType)(value))
         return;
     var fn = unary_1.default[operator];
     return fn(value);
 };
 var evaluate = function (expr, context, errors) {
     var _a;
-    if ((0, types_1.hasUndefinedType)(expr) || expr === null) {
+    if ((0, lib_1.hasUndefinedType)(expr) || expr === null) {
         errors.push("Invalid value: ".concat(expr));
         return;
     }
@@ -70,13 +70,13 @@ var evaluate = function (expr, context, errors) {
                 return computeBinary(expr, context, errors);
             return expr.map(function (val) { return (0, exports.evaluate)(val, context, errors); }).filter(has_number_type_1.default);
         }
-        if ((0, is_instanceof_number_1.default)(expr))
+        if ((0, is_number_object_1.default)(expr))
             expr = expr.valueOf();
-        else if ((0, is_instanceof_string_1.default)(expr))
+        else if ((0, is_string_object_1.default)(expr))
             expr = expr.valueOf();
-        else if ((0, is_instanceof_bigint_1.default)(expr))
+        else if ((0, is_bigint_1.default)(expr))
             expr = expr.valueOf();
-        else if ((0, types_1.isInstanceOfBoolean)(expr))
+        else if ((0, lib_1.isBooleanObject)(expr))
             expr = expr.valueOf();
         else {
             errors.push("Invalid value: ".concat(expr));
@@ -85,7 +85,7 @@ var evaluate = function (expr, context, errors) {
     }
     if ((0, has_string_type_1.default)(expr)) {
         expr = (0, parse_1.default)(expr);
-        if ((0, types_1.hasUndefinedType)(expr))
+        if ((0, lib_1.hasUndefinedType)(expr))
             return;
         if ((0, has_object_type_1.default)(expr))
             return (0, exports.evaluate)(expr, context, errors);
@@ -97,7 +97,7 @@ var evaluate = function (expr, context, errors) {
         return expr;
     if ((0, has_bigint_type_1.default)(expr))
         return Number(expr).valueOf();
-    if ((0, types_1.hasBooleanType)(expr))
+    if ((0, lib_1.hasBooleanType)(expr))
         return Number(expr).valueOf();
     errors.push("Invalid value: ".concat(expr));
 };

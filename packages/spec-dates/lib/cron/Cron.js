@@ -70,7 +70,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.years = exports.months = exports.minutes = exports.hours = exports.replaceMonthAliases = exports.MONTH_ALIASES = exports.MONTH_START = exports.MONTH_END = exports.MINUTE_START = exports.MINUTE_END = exports.HOUR_START = exports.HOUR_END = exports.DAYS_IN_MONTH = exports.QUESTION = exports.ASTERISK = exports.Cron = exports.DAY_START = exports.DAY_END = exports.DATE_START = exports.DATE_END = void 0;
-var has_undefined_type_1 = __importDefault(require("@specfocus/spec-types/lib/types/has-undefined-type"));
+var has_undefined_type_1 = __importDefault(require("@specfocus/spec-objects/lib/has-undefined-type"));
 var before_1 = __importDefault(require("../before"));
 var DateLike_1 = require("../DateLike");
 var first_weekday_of_the_month_1 = require("../first-weekday-of-the-month");

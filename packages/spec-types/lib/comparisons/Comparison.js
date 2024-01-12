@@ -20,7 +20,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.verifyComparison = exports.$COMPARISON = void 0;
-var has_object_type_1 = __importDefault(require("../types/has-object-type"));
+var has_object_type_1 = __importDefault(require("@specfocus/spec-objects/lib/has-object-type"));
 var _and_1 = require("../verifications/$and");
 var _eq_1 = require("./$eq");
 var _gt_1 = require("./$gt");

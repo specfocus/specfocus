@@ -67,7 +67,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.verifyNor = exports.xnor = exports.$nor = void 0;
-var has_object_type_1 = __importDefault(require("../types/has-object-type"));
+var has_object_type_1 = __importDefault(require("@specfocus/spec-objects/lib/has-object-type"));
 /** Logical NOR */
 exports.$nor = '$nor';
 ;

@@ -1,7 +1,7 @@
 {
   "name": "@specfocus/spec-texts",
   "description": "Redefine texts",
-  "version": "0.0.2",
+  "version": "0.0.6",
   "private": false,
   "license": "UNLICENSED",
   "sideEffects": false,
@@ -21,6 +21,7 @@
   "homepage": "https://github.com/specfocus/spec-texts-ts#readme",
   "peerDependencies": {
     "@specfocus/spec-entries": "^0.0.1",
+    "@specfocus/spec-types": "^0.0.1",
     "string-format": "^2.0.0"
   }
 }

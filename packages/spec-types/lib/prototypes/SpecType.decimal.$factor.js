@@ -20,8 +20,8 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.verifyDecimalFactor = exports.$Factors = exports.$SmallerFactors = exports.yocto = exports.zepto = exports.atto = exports.femto = exports.pico = exports.nano = exports.micro = exports.milli = exports.centi = exports.deci = exports.$LargerFactors = exports.deka = exports.hecto = exports.kilo = exports.mega = exports.giga = exports.tera = exports.peta = exports.exa = exports.zetta = exports.yotta = exports.$factor = void 0;
-var has_object_type_1 = __importDefault(require("../types/has-object-type"));
-var has_undefined_type_1 = __importDefault(require("../types/has-undefined-type"));
+var has_object_type_1 = __importDefault(require("@specfocus/spec-objects/lib/has-object-type"));
+var has_undefined_type_1 = __importDefault(require("@specfocus/spec-objects/lib/has-undefined-type"));
 exports.$factor = '$factor';
 exports.yotta = ['Y', 24];
 exports.zetta = ['Z', 21];

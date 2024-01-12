@@ -82,8 +82,8 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.BooleanClass = void 0;
-var has_boolean_type_1 = __importDefault(require("../types/has-boolean-type"));
-var value_of_1 = __importDefault(require("../types/value-of"));
+var has_boolean_type_1 = __importDefault(require("@specfocus/spec-objects/lib/has-boolean-type"));
+var value_of_1 = __importDefault(require("@specfocus/spec-objects/lib/value-of"));
 var Enumify_1 = require("./Enumify");
 function iterate(base) {
     var _a, _b, item, e_1_1, _c, _d, derived, e_2_1;

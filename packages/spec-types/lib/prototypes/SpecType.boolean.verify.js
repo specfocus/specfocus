@@ -66,7 +66,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var has_object_type_1 = __importDefault(require("../types/has-object-type"));
+var has_object_type_1 = __importDefault(require("@specfocus/spec-objects/lib/has-object-type"));
 var _and_1 = require("../verifications/$and");
 var Verification_1 = require("../verifications/Verification");
 var verifyBoolean = function (val, spec, error) { return __awaiter(void 0, void 0, void 0, function () {

@@ -1,4 +1,4 @@
-import { Without } from "../objects/without";
+import { Without } from "@specfocus/spec-objects/lib/without";
 /**
  * Restrict using either exclusively the keys of T or exclusively the keys of U.
  *

@@ -67,7 +67,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.verifyLogical = exports.LOGICAL = void 0;
-var has_object_type_1 = __importDefault(require("../types/has-object-type"));
+var has_object_type_1 = __importDefault(require("@specfocus/spec-objects/lib/has-object-type"));
 var _and_1 = require("./$and");
 var _nor_1 = require("./$nor");
 var _not_1 = require("./$not");

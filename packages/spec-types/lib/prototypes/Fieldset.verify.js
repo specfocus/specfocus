@@ -65,11 +65,11 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.verifyField = void 0;
-var has_function_type_1 = __importDefault(require("../types/has-function-type"));
-var has_object_type_1 = __importDefault(require("../types/has-object-type"));
-var has_undefined_type_1 = __importDefault(require("../types/has-undefined-type"));
-var is_array_1 = __importDefault(require("../types/is-array"));
-var is_object_1 = __importDefault(require("../types/is-object"));
+var has_function_type_1 = __importDefault(require("@specfocus/spec-objects/lib/has-function-type"));
+var has_object_type_1 = __importDefault(require("@specfocus/spec-objects/lib/has-object-type"));
+var has_undefined_type_1 = __importDefault(require("@specfocus/spec-objects/lib/has-undefined-type"));
+var is_array_1 = __importDefault(require("@specfocus/spec-objects/lib/is-array"));
+var is_object_1 = __importDefault(require("@specfocus/spec-objects/lib/is-object"));
 var _and_1 = require("../verifications/$and");
 var Field__size_1 = __importDefault(require("./Field.$size"));
 var Field__type_1 = __importDefault(require("./Field.$type"));

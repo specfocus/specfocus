@@ -20,8 +20,8 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.checkGreaterThan = exports.$gt = void 0;
-var has_object_type_1 = __importDefault(require("../types/has-object-type"));
-var has_undefined_type_1 = __importDefault(require("../types/has-undefined-type"));
+var has_object_type_1 = __importDefault(require("@specfocus/spec-objects/lib/has-object-type"));
+var has_undefined_type_1 = __importDefault(require("@specfocus/spec-objects/lib/has-undefined-type"));
 /** Greater than */
 exports.$gt = '$gt';
 var checkGreaterThan = function (val, expr, error) {

@@ -83,8 +83,8 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.DecimalClass = void 0;
 var is_valid_number_1 = __importDefault(require("@specfocus/spec-numbers/lib/is-valid-number"));
-var has_number_type_1 = __importDefault(require("@specfocus/spec-numbers/lib/has-number-type"));
-var value_of_1 = __importDefault(require("../types/value-of"));
+var has_number_type_1 = __importDefault(require("@specfocus/spec-objects/lib/has-number-type"));
+var value_of_1 = __importDefault(require("@specfocus/spec-objects/lib/value-of"));
 var Enumify_1 = require("./Enumify");
 function iterate(base) {
     var _a, _b, item, e_1_1, _c, _d, derived, e_2_1;

@@ -1,7 +1,7 @@
 {
   "name": "@specfocus/face-texts",
   "private": false,
-  "version": "0.0.2",
+  "version": "0.0.5",
   "type": "module",
   "dependencies": {
     "accept-language-parser": "^1.5.0",

@@ -41,8 +41,8 @@ var is_pascal_case_1 = __importDefault(require("@specfocus/spec-strings/lib/is-p
 var is_snake_case_1 = __importDefault(require("@specfocus/spec-strings/lib/is-snake-case"));
 var is_string_1 = __importDefault(require("@specfocus/spec-strings/lib/is-string"));
 var is_upper_case_1 = __importDefault(require("@specfocus/spec-strings/lib/is-upper-case"));
-var has_string_type_1 = __importDefault(require("@specfocus/spec-strings/lib/has-string-type"));
-var value_of_1 = __importDefault(require("../types/value-of"));
+var has_string_type_1 = __importDefault(require("@specfocus/spec-objects/lib/has-string-type"));
+var value_of_1 = __importDefault(require("@specfocus/spec-objects/lib/value-of"));
 var SpecType_string__length_1 = require("./SpecType.string.$length");
 var validate = function (value, error) {
     var e_1, _a;

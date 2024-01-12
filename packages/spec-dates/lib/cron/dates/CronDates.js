@@ -55,7 +55,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.DATE_START = exports.DATE_END = exports.CronDates = void 0;
-var has_undefined_type_1 = __importDefault(require("@specfocus/spec-types/lib/types/has-undefined-type"));
+var has_undefined_type_1 = __importDefault(require("@specfocus/spec-objects/lib/has-undefined-type"));
 var Cron_1 = require("../Cron");
 var CronField_1 = require("../CronField");
 var CronInterval_1 = __importDefault(require("../CronInterval"));

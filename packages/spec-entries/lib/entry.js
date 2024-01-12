@@ -20,7 +20,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.isEntry = void 0;
-var has_string_type_1 = __importDefault(require("@specfocus/spec-strings/lib/has-string-type"));
+var has_string_type_1 = __importDefault(require("@specfocus/spec-objects/lib/has-string-type"));
 var isEntry = function (value) {
     if (!Array.isArray(value) || value.length < 1)
         return false;

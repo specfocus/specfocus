@@ -34,7 +34,7 @@ exports.Fibonacci = exports.verifyFibonacci = exports.$StoryPoiints = exports.$F
 var comparisons_1 = require("../comparisons");
 var SpecType_number__class_1 = require("../prototypes/SpecType.number.$class");
 var SpecType_number_class_1 = require("../prototypes/SpecType.number.class");
-var has_number_type_1 = __importDefault(require("@specfocus/spec-numbers/lib/has-number-type"));
+var has_number_type_1 = __importDefault(require("@specfocus/spec-objects/lib/has-number-type"));
 var is_fibonacci_1 = __importDefault(require("@specfocus/spec-numbers/lib/is-fibonacci"));
 exports.$Fibonaccy = ['number', (_a = {}, _a[SpecType_number__class_1.$class] = 'Fibonacci', _a)];
 exports.$StoryPoiints = ['number', (_b = {}, _b[SpecType_number__class_1.$class] = 'Fibonacci', _b[comparisons_1.$lte] = 13, _b)];

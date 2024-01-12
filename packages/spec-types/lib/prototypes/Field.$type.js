@@ -4,8 +4,8 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.TypeString = exports.TypeNumber = exports.TypeBoolean = exports.$type = exports.TYPE = exports.string = exports.object = exports.number = exports.boolean = exports.bigint = void 0;
-var has_undefined_type_1 = __importDefault(require("../types/has-undefined-type"));
-var is_object_1 = __importDefault(require("../types/is-object"));
+var has_undefined_type_1 = __importDefault(require("@specfocus/spec-objects/lib/has-undefined-type"));
+var is_object_1 = __importDefault(require("@specfocus/spec-objects/lib/is-object"));
 exports.bigint = 'bigint';
 exports.boolean = 'boolean';
 exports.number = 'number';

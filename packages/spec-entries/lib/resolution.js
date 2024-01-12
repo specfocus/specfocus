@@ -4,7 +4,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.isResolution = void 0;
-var has_boolean_type_1 = __importDefault(require("@specfocus/spec-types/lib/types/has-boolean-type"));
+var has_boolean_type_1 = __importDefault(require("@specfocus/spec-objects/lib/has-boolean-type"));
 var reference_1 = require("./reference");
 var isResolution = function (value) {
     if (!(0, reference_1.isReference)(value))

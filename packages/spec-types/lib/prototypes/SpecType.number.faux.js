@@ -72,8 +72,8 @@ var _in_1 = require("../comparisons/$in");
 var _nin_1 = require("../comparisons/$nin");
 var intersect_1 = __importDefault(require("@specfocus/spec-numbers/lib/ranges/intersect"));
 var merge_1 = __importDefault(require("@specfocus/spec-numbers/lib/ranges/merge"));
-var has_object_type_1 = __importDefault(require("../types/has-object-type"));
-var is_tuple_1 = __importDefault(require("../types/is-tuple"));
+var has_object_type_1 = __importDefault(require("@specfocus/spec-objects/lib/has-object-type"));
+var is_tuple_1 = __importDefault(require("@specfocus/spec-objects/lib/is-tuple"));
 var verifications_1 = require("../verifications");
 var NumberFactory = /** @class */ (function () {
     function NumberFactory(condition, scale, bound) {

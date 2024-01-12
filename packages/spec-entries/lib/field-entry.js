@@ -20,8 +20,8 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.isFieldEntry = void 0;
-var has_number_type_1 = __importDefault(require("@specfocus/spec-numbers/lib/has-number-type"));
-var has_string_type_1 = __importDefault(require("@specfocus/spec-strings/lib/has-string-type"));
+var has_number_type_1 = __importDefault(require("@specfocus/spec-objects/lib/has-number-type"));
+var has_string_type_1 = __importDefault(require("@specfocus/spec-objects/lib/has-string-type"));
 var entry_1 = require("./entry");
 var isFieldEntry = function (value) {
     if (!(0, entry_1.isEntry)(value))

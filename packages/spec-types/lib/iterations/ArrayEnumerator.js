@@ -31,7 +31,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.ArrayEnumerator = void 0;
-var has_undefined_type_1 = __importDefault(require("../types/has-undefined-type"));
+var has_undefined_type_1 = __importDefault(require("@specfocus/spec-objects/lib/has-undefined-type"));
 var ArrayEnumerator = /** @class */ (function () {
     function ArrayEnumerator(array, initial) {
         var _this = this;

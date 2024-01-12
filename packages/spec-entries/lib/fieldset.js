@@ -20,7 +20,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.isFieldset = void 0;
-var is_object_1 = __importDefault(require("@specfocus/spec-types/lib/types/is-object"));
+var is_object_1 = __importDefault(require("@specfocus/spec-objects/lib/is-object"));
 var entry_1 = require("./entry");
 var isFieldset = function (value) {
     if (!(0, entry_1.isEntry)(value))

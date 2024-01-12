@@ -50,7 +50,7 @@ exports.CronEnumerator = void 0;
 var ExtendedEnumerator_1 = require("@specfocus/spec-types/lib/iterations/ExtendedEnumerator");
 var ParallelEnumerator_1 = require("@specfocus/spec-types/lib/iterations/ParallelEnumerator");
 var RecordEnumerator_1 = require("@specfocus/spec-types/lib/iterations/RecordEnumerator");
-var has_undefined_type_1 = __importDefault(require("@specfocus/spec-types/lib/types/has-undefined-type"));
+var has_undefined_type_1 = __importDefault(require("@specfocus/spec-objects/lib/has-undefined-type"));
 var CronEnumerator = /** @class */ (function () {
     function CronEnumerator(cron) {
         var _this = this;

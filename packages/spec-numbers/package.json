@@ -1,7 +1,7 @@
 {
   "name": "@specfocus/spec-numbers",
   "description": "Number utils",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "private": false,
   "license": "UNLICENSED",
   "sideEffects": false,
@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/specfocus/spec-numbers-ts#readme",
   "peerDependencies": {
+    "@specfocus/spec-objects": "*",
     "@specfocus/spec-strings": "*"
   }
 }

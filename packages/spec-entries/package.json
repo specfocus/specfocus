@@ -1,7 +1,7 @@
 {
   "name": "@specfocus/spec-entries",
   "description": "Foundation and lazy module loader",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": false,
   "license": "UNLICENSED",
   "sideEffects": false,
@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/specfocus/spec-entries-ts/issues"
   },
-  "homepage": "https://github.com/specfocus/spec-entries-ts#readme"
+  "homepage": "https://github.com/specfocus/spec-entries-ts#readme",
+  "peerDependencies": {
+    "@specfocus/spec-objects": "*"
+  }
 }

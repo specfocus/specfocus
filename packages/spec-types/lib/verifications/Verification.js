@@ -41,7 +41,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.verify = void 0;
 var Comparison_1 = require("../comparisons/Comparison");
-var has_object_type_1 = __importDefault(require("../types/has-object-type"));
+var has_object_type_1 = __importDefault(require("@specfocus/spec-objects/lib/has-object-type"));
 var Logical_1 = require("./Logical");
 var verify = function (val, expr, error, fallback) { return __awaiter(void 0, void 0, void 0, function () {
     var _a;
