@@ -8,7 +8,7 @@ const has_undefined_type_1 = __importDefault(require("@specfocus/spec-objects/li
 const string_format_1 = __importDefault(require("string-format"));
 const is_valid_number_1 = __importDefault(require("@specfocus/spec-numbers/lib/is-valid-number"));
 const has_string_type_1 = __importDefault(require("@specfocus/spec-objects/lib/has-string-type"));
-const is_object_1 = __importDefault(require("@specfocus/spec-types/lib/types/is-object"));
+const is_object_1 = __importDefault(require("@specfocus/spec-objects/lib/is-object"));
 const MISSING = '<missing>';
 const find = (key, ...vars) => {
     const item = vars.find(item => typeof item === 'object' && item !== null && !Array.isArray(item) && key in item);
