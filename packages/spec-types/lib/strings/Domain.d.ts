@@ -1,4 +1,4 @@
-import { type StringSpecType } from "../prototypes/SpecType.string";
+import { type StringSpecType } from "../SpecType.string";
 export declare const $domain = "$domain";
 /** Second-level domain (SLD): This is the readable part of the address, often representing the name of the company, organization, or the topic of the website. For example, in "google.com", "google" is the SLD. */
 export declare const $sld = "$sld";
@@ -7,7 +7,7 @@ export declare const $tld = "$tld";
 export declare const $sld$tld = "$sld$tld";
 export declare const prototype: StringSpecType;
 declare const Domain_base: {
-    new (): {
+    new(): {
         readonly service: import("../prototypes/SpecType.string.class").Validation;
         readonly moniker: string;
         toString(): string;
@@ -15,7 +15,7 @@ declare const Domain_base: {
     readonly $$typeof: symbol;
     add: (ns: string, className: string, container: import("lib/ioc/ns").Container<unknown>) => void;
     readonly extend: <Service = unknown>(base: typeof ContainerBase<Service>, service: Service, ns?: string | undefined) => {
-        new (): {
+        new(): {
             readonly service: Service;
             readonly moniker: string;
             toString(): string;

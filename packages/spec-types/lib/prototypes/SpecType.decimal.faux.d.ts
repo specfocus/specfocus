@@ -1,5 +1,5 @@
 import { type Decimal } from "./SpecType.decimal.parse";
-import { type Verification } from "../verifications/Verification";
+import { type Verification } from "@specfocus/spec-verifications/lib/Verification";
 export interface DecimalOptions extends Partial<Omit<Decimal, 'value'>> {
 }
 export declare class DecimalFactory implements Iterable<string> {

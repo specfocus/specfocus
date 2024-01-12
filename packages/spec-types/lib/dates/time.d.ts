@@ -1,7 +1,7 @@
 import { type Integer } from "@specfocus/spec-numbers/lib/is-integer";
 import { type Serie } from "../numbers/serie";
-import { type Fieldset } from "../prototypes/Fieldset";
-import { NumberSpecType } from "../prototypes/SpecType.number";
+import { type Fieldset } from "./Fieldset";
+import { NumberSpecType } from "./SpecType.number";
 export type Minute = (Serie<0, 30> | Serie<30, 60>);
 export type Hour = Serie<0, 24>;
 export type Day = Serie<1, 32>;

@@ -20,7 +20,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.CronConstantRange = exports.cronRangeSpec = void 0;
-var IntervalEnumerator_1 = require("@specfocus/spec-types/lib/iterations/IntervalEnumerator");
+var IntervalEnumerator_1 = require("@specfocus/spec-iterables/lib/IntervalEnumerator");
 var has_undefined_type_1 = __importDefault(require("@specfocus/spec-objects/lib/has-undefined-type"));
 var CronObjectSpec_1 = require("./CronObjectSpec");
 var CronValue_1 = require("./CronValue");

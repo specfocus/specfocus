@@ -14,7 +14,7 @@ var __extends = (this && this.__extends) || (function () {
         d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
     };
 })();
-var __values = (this && this.__values) || function(o) {
+var __values = (this && this.__values) || function (o) {
     var s = typeof Symbol === "function" && Symbol.iterator, m = s && o[s], i = 0;
     if (m) return m.call(o);
     if (o && typeof o.length === "number") return {
@@ -28,7 +28,7 @@ var __values = (this && this.__values) || function(o) {
 var _a, _b, _c, _d, _e, _f, _g;
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Integer = exports.$Timestamp = exports.$NonNegativeInteger = exports.$NonPositiveInteger = exports.$NegativeInteger = exports.$PositiveInteger = exports.$Integer = exports.$Count = void 0;
-var comparisons_1 = require("../comparisons");
+var comparisons_1 = require(@specfocus / spec - comparables / lib /);
 var SpecType_number__class_1 = require("../prototypes/SpecType.number.$class");
 var SpecType_number_class_1 = require("../prototypes/SpecType.number.class");
 exports.$Count = ['number', (_a = {}, _a[SpecType_number__class_1.$class] = 'Integer', _a[comparisons_1.$gte] = 0, _a)];

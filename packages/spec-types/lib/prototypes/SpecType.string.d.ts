@@ -1,5 +1,6 @@
-import { type Comparison, type TaggedComparison } from "../comparisons/Comparison";
-import { type Verification } from "../verifications";
+import { type Comparison, type TaggedComparison } from "@specfocus/spec-comparables/lib/Comparison";
+import { type Vefifiable } from "@specfocus/spec-verifications/lib/verifiable";
+import { type Verification } from "@specfocus/spec-verifications/lib/verification";
 import { type StringClassSpec, type TaggedStringClassSpec } from "./SpecType.string.$class";
 import { type StringLengthSpec, type TaggedStringLengthSpec } from "./SpecType.string.$length";
 type TaggedStringSpec = TaggedComparison<string> | TaggedStringClassSpec | TaggedStringLengthSpec;

@@ -1,4 +1,4 @@
-import Container from "../ioc/Container";
+import Container from "@pecfocus/work-lazy/lib/ioc/Container";
 import { TypeClass } from "./SpecType.class";
 import { type StringSpec } from "./SpecType.string";
 export type Validation = (value: unknown) => boolean;
@@ -41,7 +41,7 @@ export declare class StringClass extends Container<Validation> implements TypeCl
     validate(value: unknown, error: (msg: string) => void): value is string | string[];
 }
 declare const AlphaNumeric_base: {
-    new (): {
+    new(): {
         readonly service: Validation;
         readonly moniker: string;
         toString(): string;
@@ -49,7 +49,7 @@ declare const AlphaNumeric_base: {
     readonly $$typeof: symbol;
     add: (ns: string, className: string, container: import("lib/ioc/ns").Container<unknown>) => void;
     readonly extend: <Service = unknown>(base: typeof ContainerBase<Service>, service: Service, ns?: string | undefined) => {
-        new (): {
+        new(): {
             readonly service: Service;
             readonly moniker: string;
             toString(): string;
@@ -67,7 +67,7 @@ declare const AlphaNumeric_base: {
 export declare class AlphaNumeric extends AlphaNumeric_base {
 }
 declare const CamelCase_base: {
-    new (): {
+    new(): {
         readonly service: Validation;
         readonly moniker: string;
         toString(): string;
@@ -75,7 +75,7 @@ declare const CamelCase_base: {
     readonly $$typeof: symbol;
     add: (ns: string, className: string, container: import("lib/ioc/ns").Container<unknown>) => void;
     readonly extend: <Service = unknown>(base: typeof ContainerBase<Service>, service: Service, ns?: string | undefined) => {
-        new (): {
+        new(): {
             readonly service: Service;
             readonly moniker: string;
             toString(): string;
@@ -93,7 +93,7 @@ declare const CamelCase_base: {
 export declare class CamelCase extends CamelCase_base {
 }
 declare const KebabCase_base: {
-    new (): {
+    new(): {
         readonly service: Validation;
         readonly moniker: string;
         toString(): string;
@@ -101,7 +101,7 @@ declare const KebabCase_base: {
     readonly $$typeof: symbol;
     add: (ns: string, className: string, container: import("lib/ioc/ns").Container<unknown>) => void;
     readonly extend: <Service = unknown>(base: typeof ContainerBase<Service>, service: Service, ns?: string | undefined) => {
-        new (): {
+        new(): {
             readonly service: Service;
             readonly moniker: string;
             toString(): string;
@@ -124,7 +124,7 @@ declare const KebabCase_base: {
 export declare class KebabCase extends KebabCase_base {
 }
 declare const LowerCase_base: {
-    new (): {
+    new(): {
         readonly service: Validation;
         readonly moniker: string;
         toString(): string;
@@ -132,7 +132,7 @@ declare const LowerCase_base: {
     readonly $$typeof: symbol;
     add: (ns: string, className: string, container: import("lib/ioc/ns").Container<unknown>) => void;
     readonly extend: <Service = unknown>(base: typeof ContainerBase<Service>, service: Service, ns?: string | undefined) => {
-        new (): {
+        new(): {
             readonly service: Service;
             readonly moniker: string;
             toString(): string;
@@ -150,7 +150,7 @@ declare const LowerCase_base: {
 export declare class LowerCase extends LowerCase_base {
 }
 declare const Numeric_base: {
-    new (): {
+    new(): {
         readonly service: Validation;
         readonly moniker: string;
         toString(): string;
@@ -158,7 +158,7 @@ declare const Numeric_base: {
     readonly $$typeof: symbol;
     add: (ns: string, className: string, container: import("lib/ioc/ns").Container<unknown>) => void;
     readonly extend: <Service = unknown>(base: typeof ContainerBase<Service>, service: Service, ns?: string | undefined) => {
-        new (): {
+        new(): {
             readonly service: Service;
             readonly moniker: string;
             toString(): string;
@@ -175,7 +175,7 @@ declare const Numeric_base: {
 export declare class Numeric extends Numeric_base {
 }
 declare const PascalCase_base: {
-    new (): {
+    new(): {
         readonly service: Validation;
         readonly moniker: string;
         toString(): string;
@@ -183,7 +183,7 @@ declare const PascalCase_base: {
     readonly $$typeof: symbol;
     add: (ns: string, className: string, container: import("lib/ioc/ns").Container<unknown>) => void;
     readonly extend: <Service = unknown>(base: typeof ContainerBase<Service>, service: Service, ns?: string | undefined) => {
-        new (): {
+        new(): {
             readonly service: Service;
             readonly moniker: string;
             toString(): string;
@@ -201,7 +201,7 @@ declare const PascalCase_base: {
 export declare class PascalCase extends PascalCase_base {
 }
 declare const SnakeCase_base: {
-    new (): {
+    new(): {
         readonly service: Validation;
         readonly moniker: string;
         toString(): string;
@@ -209,7 +209,7 @@ declare const SnakeCase_base: {
     readonly $$typeof: symbol;
     add: (ns: string, className: string, container: import("lib/ioc/ns").Container<unknown>) => void;
     readonly extend: <Service = unknown>(base: typeof ContainerBase<Service>, service: Service, ns?: string | undefined) => {
-        new (): {
+        new(): {
             readonly service: Service;
             readonly moniker: string;
             toString(): string;
@@ -228,7 +228,7 @@ declare const SnakeCase_base: {
 export declare class SnakeCase extends SnakeCase_base {
 }
 declare const SpaceSeparated_base: {
-    new (): {
+    new(): {
         readonly service: Validation;
         readonly moniker: string;
         toString(): string;
@@ -236,7 +236,7 @@ declare const SpaceSeparated_base: {
     readonly $$typeof: symbol;
     add: (ns: string, className: string, container: import("lib/ioc/ns").Container<unknown>) => void;
     readonly extend: <Service = unknown>(base: typeof ContainerBase<Service>, service: Service, ns?: string | undefined) => {
-        new (): {
+        new(): {
             readonly service: Service;
             readonly moniker: string;
             toString(): string;
@@ -254,7 +254,7 @@ declare const SpaceSeparated_base: {
 export declare class SpaceSeparated extends SpaceSeparated_base {
 }
 declare const UpperCase_base: {
-    new (): {
+    new(): {
         readonly service: Validation;
         readonly moniker: string;
         toString(): string;
@@ -262,7 +262,7 @@ declare const UpperCase_base: {
     readonly $$typeof: symbol;
     add: (ns: string, className: string, container: import("lib/ioc/ns").Container<unknown>) => void;
     readonly extend: <Service = unknown>(base: typeof ContainerBase<Service>, service: Service, ns?: string | undefined) => {
-        new (): {
+        new(): {
             readonly service: Service;
             readonly moniker: string;
             toString(): string;
@@ -284,5 +284,5 @@ export declare class UpperCase extends UpperCase_base {
 /** Upper Snake Case (UPPER_SNAKE_CASE): Like snake case, but all letters are uppercase. Often used for constants in programming: THIS_IS_UPPER_SNAKE_CASE. */
 /** UUID: Universally Unique Identifier, a long string of letters, numbers, and hyphens used for generating unique identifiers, e.g., 550e8400-e29b-41d4-a716-446655440000. */
 export type StringType = [typeof StringClass.name, StringSpec?];
-export {};
+export { };
 //# sourceMappingURL=SpecType.string.class.d.ts.map

@@ -20,7 +20,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.CronWeekdaysOfTheMonth = exports.isWeekdaysOfTheMonth = exports.cronWeekdaysOfTheMonthSpec = exports.CRON_WEEKDAYS_OF_THE_MONTH = void 0;
-var RangesEnumerator_1 = require("@specfocus/spec-types/lib/iterations/RangesEnumerator");
+var RangesEnumerator_1 = require("@specfocus/spec-iterables/lib/RangesEnumerator");
 var includes_1 = __importDefault(require("@specfocus/spec-numbers/lib/ranges/includes"));
 var weekdays_1 = __importDefault(require("../../weekdays"));
 var CronObjectSpec_1 = require("../CronObjectSpec");

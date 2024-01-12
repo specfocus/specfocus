@@ -5,7 +5,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 var _a;
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Singular = exports.$size = void 0;
-var comparisons_1 = require("../comparisons");
+var comparisons_1 = require(@specfocus / spec - comparables / lib /);
 var is_valid_number_1 = __importDefault(require("@specfocus/spec-numbers/lib/is-valid-number"));
 var has_undefined_type_1 = __importDefault(require("@specfocus/spec-objects/lib/has-undefined-type"));
 var is_object_1 = __importDefault(require("@specfocus/spec-objects/lib/is-object"));

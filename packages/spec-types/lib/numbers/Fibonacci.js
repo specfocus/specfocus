@@ -14,7 +14,7 @@ var __extends = (this && this.__extends) || (function () {
         d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
     };
 })();
-var __values = (this && this.__values) || function(o) {
+var __values = (this && this.__values) || function (o) {
     var s = typeof Symbol === "function" && Symbol.iterator, m = s && o[s], i = 0;
     if (m) return m.call(o);
     if (o && typeof o.length === "number") return {
@@ -31,7 +31,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 var _a, _b;
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Fibonacci = exports.verifyFibonacci = exports.$StoryPoiints = exports.$Fibonaccy = void 0;
-var comparisons_1 = require("../comparisons");
+var comparisons_1 = require(@specfocus / spec - comparables / lib /);
 var SpecType_number__class_1 = require("../prototypes/SpecType.number.$class");
 var SpecType_number_class_1 = require("../prototypes/SpecType.number.class");
 var has_number_type_1 = __importDefault(require("@specfocus/spec-objects/lib/has-number-type"));

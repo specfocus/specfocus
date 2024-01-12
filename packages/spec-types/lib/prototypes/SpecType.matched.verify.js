@@ -30,7 +30,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var has_object_type_1 = __importDefault(require("@specfocus/spec-objects/lib/has-object-type"));
 var is_array_1 = __importDefault(require("@specfocus/spec-objects/lib/is-array"));
-var _and_1 = require("../verifications/$and");
+var _and_1 = require("@specfocus/spec-verifications/lib/$and");
 var verifyMatched = function (val, spec, error) {
     if (!(0, has_object_type_1.default)(spec) || !(0, is_array_1.default)(spec) || spec.length !== 2 || spec[0] !== 'matched')
         return;

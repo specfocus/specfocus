@@ -1,6 +1,6 @@
 import { $mul } from "../numbers/calculus/arithmetics";
-import { type Choice, type ChoicesSpecType } from "../prototypes/SpecType.choices";
-import { type DecimalSpecType } from "../prototypes/SpecType.decimal";
+import { type Choice, type ChoicesSpecType } from "./SpecType.choices";
+import { type DecimalSpecType } from "./SpecType.decimal";
 /** Digital information */
 /** The smallest unit of digital information. A bit can represent either a 0 or a 1. */
 export declare const bits: Choice<typeof $mul>;

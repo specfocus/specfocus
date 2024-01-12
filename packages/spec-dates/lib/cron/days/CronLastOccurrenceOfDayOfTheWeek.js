@@ -20,7 +20,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.CronLastOccurenceOfDayOfTheWeek = exports.isCronLastOccurenceOfDayOfTheWeek = exports.cronLastOccurenceOfDayOfTheWeekSpec = exports.CRON_LAST_OCCURRENCE_OF_DAY_OF_THE_WEEK = void 0;
-var IntervalEnumerator_1 = require("@specfocus/spec-types/lib/iterations/IntervalEnumerator");
+var IntervalEnumerator_1 = require("@specfocus/spec-iterables/lib/IntervalEnumerator");
 var last_occurece_of_day_of_the_week_1 = __importDefault(require("../../last-occurece-of-day-of-the-week"));
 var CronObjectSpec_1 = require("../CronObjectSpec");
 /** In day of the month, it is the last day SUN-SAT of the month. */

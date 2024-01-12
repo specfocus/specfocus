@@ -20,7 +20,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.verifyStringLength = exports.$length = void 0;
-var comparisons_1 = require("../comparisons");
+var comparisons_1 = require(@specfocus / spec - comparables / lib /);
 var has_object_type_1 = __importDefault(require("@specfocus/spec-objects/lib/has-object-type"));
 var has_undefined_type_1 = __importDefault(require("@specfocus/spec-objects/lib/has-undefined-type"));
 exports.$length = '$length';

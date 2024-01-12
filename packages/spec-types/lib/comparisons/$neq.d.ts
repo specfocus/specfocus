@@ -1,4 +1,4 @@
-import { type Valuable } from "../prototypes/Valuable";
+import { type Valuable } from "./Valuable";
 /** Not equal to */
 export declare const $ne = "$ne";
 export type NotEqualTo<V extends Valuable = Valuable> = {

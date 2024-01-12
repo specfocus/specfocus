@@ -1,4 +1,4 @@
-import { type Valuable } from "../prototypes/Valuable";
+import { type Valuable } from "./Valuable";
 /** Less than or equal to */
 export declare const $lte = "$lte";
 export type LessThanOrEqualTo<V extends Valuable = Valuable> = {

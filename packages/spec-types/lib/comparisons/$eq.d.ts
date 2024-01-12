@@ -1,4 +1,4 @@
-import { type Valuable } from "../prototypes/Valuable";
+import { type Valuable } from "./Valuable";
 /** Equal to */
 export declare const $eq = "$eq";
 export type EqualTo<V extends Valuable = Valuable> = {

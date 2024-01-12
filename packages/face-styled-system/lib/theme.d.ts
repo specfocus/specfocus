@@ -1,4 +1,4 @@
-import { Serie } from "@specfocus/spec-types/lib/numbers/serie";
+import { Serie } from "@specfocus/spec-numbers/lib/serie";
 import { type Breakpoints } from "./breakpoints";
 import { type Colors } from "./colors";
 import { type LetterSpacings } from "./letter-spacings";

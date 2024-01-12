@@ -1,4 +1,4 @@
-import { type Valuable } from "../comparisons";
+import { type Valuable } from @specfocus / spec - comparables / lib /;
 import { type And, type TaggedAnd } from "./$and";
 import { type Nor, type TaggedNor } from "./$nor";
 import { type Not, type TaggedNot } from "./$not";

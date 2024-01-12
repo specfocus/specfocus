@@ -1,5 +1,5 @@
-import { type Comparison, TaggedComparison } from "../comparisons/Comparison";
-import { type Valuable } from "../prototypes/Valuable";
+import { type Comparison, TaggedComparison } from "@specfocus/spec-comparables/lib/Comparison";
+import { type Valuable } from "./Valuable";
 import { type Logical, TaggedLogical } from "./Logical";
 export type Verification<V extends Valuable, E = Comparison<V> | TaggedComparison<V>> = E | Logical<V, E> | TaggedLogical<V, E>;
 export type Verify<V extends Valuable, E = Verification<V>> = (value: V | V[], expr: E | Logical<V, E>, error: (msg: string) => void) => Promise<boolean | undefined>;

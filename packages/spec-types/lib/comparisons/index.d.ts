@@ -1,4 +1,4 @@
-export { type Valuable as Valuable } from "../prototypes/Valuable";
+export { type Valuable as Valuable } from "./Valuable";
 export { $eq, type $Eq, type EqualTo, type TaggedEqualTo } from "./$eq";
 export { $gt, type $Gt, type GreaterThan, type TaggedGreaterThan } from "./$gt";
 export { $gte, type $GtE, type GreaterThanOrEqualTo, type TaggedGreaterThanOrEqualTo } from "./$gte";

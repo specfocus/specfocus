@@ -1,4 +1,4 @@
-import { type Valuable } from "../prototypes/Valuable";
+import { type Valuable } from "./Valuable";
 /**  Present in a collection */
 export declare const $in = "$in";
 export type In<V extends Valuable = Valuable> = {

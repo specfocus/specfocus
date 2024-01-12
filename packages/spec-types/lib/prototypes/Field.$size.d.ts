@@ -1,4 +1,4 @@
-import { type Comparison } from "../comparisons";
+import { type Comparison } from "@specfocus/spec-comparables/lib";
 export declare const $size = "$size";
 export interface Size<V extends number = number> {
     [$size]: V | Comparison<V>;

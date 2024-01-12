@@ -1,4 +1,4 @@
-import { $add, $mul } from "../numbers/calculus/arithmetics";
+import { $add, $mul } from "./$SpecType.choices";
 import { type ChoicesSpecType } from "./SpecType.choices";
 export declare const $prefix = "$prefix";
 export type $Prefix = typeof $prefix;

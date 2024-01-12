@@ -20,7 +20,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.nthOccurrence = exports.CronNthOccurrenceOfDayOfTheWeek = exports.isCronNthDayOfTheWeekSpec = exports.cronNthOccurrenceOfDayOfTheWeekSpec = exports.CRON_NTH_OCCURRENCE_OF_DAY_OF_THE_WEEK = void 0;
-var IntervalEnumerator_1 = require("@specfocus/spec-types/lib/iterations/IntervalEnumerator");
+var IntervalEnumerator_1 = require("@specfocus/spec-iterables/lib/IntervalEnumerator");
 var nth_occurence_of_day_of_the_week_1 = __importDefault(require("../../nth-occurence-of-day-of-the-week"));
 var CronObjectSpec_1 = require("../CronObjectSpec");
 exports.CRON_NTH_OCCURRENCE_OF_DAY_OF_THE_WEEK = 'd#nth';

@@ -20,7 +20,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.parse = exports.CronNearestWeekday = exports.isCronNearestWeekdaySpec = exports.cronNearestWeekdaySpec = exports.CRON_NEAREST_WEEKDAY = void 0;
-var IntervalEnumerator_1 = require("@specfocus/spec-types/lib/iterations/IntervalEnumerator");
+var IntervalEnumerator_1 = require("@specfocus/spec-iterables/lib/IntervalEnumerator");
 var nearest_weekday_1 = __importDefault(require("../../nearest-weekday"));
 var CronObjectSpec_1 = require("../CronObjectSpec");
 var CronDates_1 = require("./CronDates");

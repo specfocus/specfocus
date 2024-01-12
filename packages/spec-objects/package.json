@@ -13,10 +13,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/specfocus/spec-strings-ts.git"
+    "url": "git+https://github.com/specfocus/spec-objects-ts.git"
   },
   "bugs": {
-    "url": "https://github.com/specfocus/spec-strings-ts/issues"
+    "url": "https://github.com/specfocus/spec-objects-ts/issues"
   },
-  "homepage": "https://github.com/specfocus/spec-strings-ts#readme"
+  "homepage": "https://github.com/specfocus/spec-objects-ts#readme"
 }

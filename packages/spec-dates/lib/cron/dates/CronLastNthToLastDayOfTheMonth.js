@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.CronLastNthToLastDayOfTheMonth = void 0;
-var IntervalEnumerator_1 = require("@specfocus/spec-types/lib/iterations/IntervalEnumerator");
+var IntervalEnumerator_1 = require("@specfocus/spec-iterables/lib/IntervalEnumerator");
 var Cron_1 = require("../Cron");
 var CronObjectSpec_1 = require("../CronObjectSpec");
 var CronRange_1 = require("../CronRange");

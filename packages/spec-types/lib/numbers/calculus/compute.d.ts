@@ -1,4 +1,4 @@
-import { Valuable } from "../../comparisons";
+import { Valuable } from "@specfocus/spec-comparables/lib";
 import { ValuableArray } from "../../prototypes/Valuable";
 import { type Arithmetic, type Evaluatable } from "./arithmetics";
 export declare const evaluate: (expr: Evaluatable | Valuable | ValuableArray | Arithmetic, context: Record<string, number>, errors: string[]) => number | number[] | undefined;

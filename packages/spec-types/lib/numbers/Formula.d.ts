@@ -1,6 +1,6 @@
 import { type Integer } from "@specfocus/spec-numbers/lib/is-integer";
 import { type Serie } from "./serie";
-export { $Factors } from "../prototypes/SpecType.decimal.$factor";
+export { $Factors } from "./SpecType.decimal.$factor";
 interface IMeasure {
 }
 export type Decimal = number;

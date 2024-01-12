@@ -1,4 +1,5 @@
-import { type Verification } from "../verifications";
+import { type Vefifiable } from "@specfocus/spec-verifications/lib/verifiable";
+import { type Verification } from "@specfocus/spec-verifications/lib/verification";
 export declare const $length = "$length";
 export type $Length = typeof $length;
 export type TaggedStringLengthSpec = [$Length, number | Verification<number>];

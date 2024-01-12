@@ -16,10 +16,10 @@ var __extends = (this && this.__extends) || (function () {
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Domain = exports.prototype = exports.$sld$tld = exports.$tld = exports.$sld = exports.$domain = void 0;
-var comparisons_1 = require("../comparisons");
+var comparisons_1 = require(@specfocus / spec - comparables / lib /);
 var SpecType_string__length_1 = require("../prototypes/SpecType.string.$length");
 var SpecType_string_class_1 = require("../prototypes/SpecType.string.class");
-var verifications_1 = require("../verifications");
+var verifications_1 = require("@specfocus/spec-verifications/lib");
 exports.$domain = '$domain';
 /** Second-level domain (SLD): This is the readable part of the address, often representing the name of the company, organization, or the topic of the website. For example, in "google.com", "google" is the SLD. */
 exports.$sld = '$sld';

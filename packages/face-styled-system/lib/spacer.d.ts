@@ -1,4 +1,4 @@
-import { type Serie } from "@specfocus/spec-types/lib/numbers/serie";
+import { type Serie } from "@specfocus/spec-numbers/lib/serie";
 export declare const SPACES: readonly ["spacer0", "spacer5", "spacer10", "spacer15", "spacer20", "spacer25", "spacer30", "spacer40", "spacer70", "tight", "standardSmBp", "standard", "disassociate", "unrelated", "header", "footer"];
 export type Space = typeof SPACES[number];
 export type Spacer = Space | Space[];

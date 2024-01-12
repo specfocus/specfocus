@@ -1,4 +1,4 @@
-import { type Verification } from "../verifications/Verification";
+import { type Verification } from "@specfocus/spec-verifications/lib/Verification";
 export declare class NumberFactory implements Iterable<number> {
     readonly condition: Verification<number>;
     readonly scale: number;

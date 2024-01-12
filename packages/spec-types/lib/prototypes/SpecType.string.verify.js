@@ -9,8 +9,8 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 var __generator = (this && this.__generator) || function (thisArg, body) {
-    var _ = { label: 0, sent: function() { if (t[0] & 1) throw t[1]; return t[1]; }, trys: [], ops: [] }, f, y, t, g;
-    return g = { next: verb(0), "throw": verb(1), "return": verb(2) }, typeof Symbol === "function" && (g[Symbol.iterator] = function() { return this; }), g;
+    var _ = { label: 0, sent: function () { if (t[0] & 1) throw t[1]; return t[1]; }, trys: [], ops: [] }, f, y, t, g;
+    return g = { next: verb(0), "throw": verb(1), "return": verb(2) }, typeof Symbol === "function" && (g[Symbol.iterator] = function () { return this; }), g;
     function verb(n) { return function (v) { return step([n, v]); }; }
     function step(op) {
         if (f) throw new TypeError("Generator is already executing.");
@@ -51,7 +51,7 @@ var __read = (this && this.__read) || function (o, n) {
     }
     return ar;
 };
-var __values = (this && this.__values) || function(o) {
+var __values = (this && this.__values) || function (o) {
     var s = typeof Symbol === "function" && Symbol.iterator, m = s && o[s], i = 0;
     if (m) return m.call(o);
     if (o && typeof o.length === "number") return {
@@ -67,76 +67,78 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var has_object_type_1 = __importDefault(require("@specfocus/spec-objects/lib/has-object-type"));
-var _and_1 = require("../verifications/$and");
-var Verification_1 = require("../verifications/Verification");
+var _and_1 = require("@specfocus/spec-verifications/lib/$and");
+var Verification_1 = require("@specfocus/spec-verifications/lib/Verification");
 var SpecType_string__class_1 = require("./SpecType.string.$class");
 var SpecType_string__length_1 = require("./SpecType.string.$length");
-var verifyString = function (val, spec, error) { return __awaiter(void 0, void 0, void 0, function () {
-    var _a, $tag, result, _b, _c, _d, $tag, test_1, partialResult, _e, e_1_1;
-    var e_1, _f, _g, _h, _j;
-    return __generator(this, function (_k) {
-        switch (_k.label) {
-            case 0:
-                if (!(0, has_object_type_1.default)(spec))
-                    return [2 /*return*/];
-                if (Array.isArray(spec)) {
-                    _a = __read(spec, 1), $tag = _a[0];
-                    switch ($tag) {
-                        case SpecType_string__class_1.$class:
-                            return [2 /*return*/, (0, SpecType_string__class_1.verifyStringClass)(val, spec, error)];
-                        case SpecType_string__length_1.$length:
-                            return [2 /*return*/, (0, SpecType_string__length_1.verifyStringLength)(val, spec, error)];
-                        default:
-                            return [2 /*return*/, (0, Verification_1.verify)(val, spec, error, verifyString)];
+var verifyString = function (val, spec, error) {
+    return __awaiter(void 0, void 0, void 0, function () {
+        var _a, $tag, result, _b, _c, _d, $tag, test_1, partialResult, _e, e_1_1;
+        var e_1, _f, _g, _h, _j;
+        return __generator(this, function (_k) {
+            switch (_k.label) {
+                case 0:
+                    if (!(0, has_object_type_1.default)(spec))
+                        return [2 /*return*/];
+                    if (Array.isArray(spec)) {
+                        _a = __read(spec, 1), $tag = _a[0];
+                        switch ($tag) {
+                            case SpecType_string__class_1.$class:
+                                return [2 /*return*/, (0, SpecType_string__class_1.verifyStringClass)(val, spec, error)];
+                            case SpecType_string__length_1.$length:
+                                return [2 /*return*/, (0, SpecType_string__length_1.verifyStringLength)(val, spec, error)];
+                            default:
+                                return [2 /*return*/, (0, Verification_1.verify)(val, spec, error, verifyString)];
+                        }
                     }
-                }
-                result = undefined;
-                _k.label = 1;
-            case 1:
-                _k.trys.push([1, 12, 13, 14]);
-                _b = __values(Object.entries(spec)), _c = _b.next();
-                _k.label = 2;
-            case 2:
-                if (!!_c.done) return [3 /*break*/, 11];
-                _d = __read(_c.value, 2), $tag = _d[0], test_1 = _d[1];
-                partialResult = void 0;
-                _e = $tag;
-                switch (_e) {
-                    case SpecType_string__class_1.$class: return [3 /*break*/, 3];
-                    case SpecType_string__length_1.$length: return [3 /*break*/, 5];
-                }
-                return [3 /*break*/, 7];
-            case 3: return [4 /*yield*/, (0, SpecType_string__class_1.verifyStringClass)(val, (_g = {}, _g[$tag] = test_1, _g), error)];
-            case 4:
-                partialResult = _k.sent();
-                return [3 /*break*/, 9];
-            case 5: return [4 /*yield*/, (0, SpecType_string__length_1.verifyStringLength)(val, (_h = {}, _h[$tag] = test_1, _h), error)];
-            case 6:
-                partialResult = _k.sent();
-                return [3 /*break*/, 9];
-            case 7: return [4 /*yield*/, (0, Verification_1.verify)(val, (_j = {}, _j[$tag] = test_1, _j), error, verifyString)];
-            case 8:
-                partialResult = _k.sent();
-                _k.label = 9;
-            case 9:
-                result = (0, _and_1.xand)(result, partialResult);
-                _k.label = 10;
-            case 10:
-                _c = _b.next();
-                return [3 /*break*/, 2];
-            case 11: return [3 /*break*/, 14];
-            case 12:
-                e_1_1 = _k.sent();
-                e_1 = { error: e_1_1 };
-                return [3 /*break*/, 14];
-            case 13:
-                try {
-                    if (_c && !_c.done && (_f = _b.return)) _f.call(_b);
-                }
-                finally { if (e_1) throw e_1.error; }
-                return [7 /*endfinally*/];
-            case 14: return [2 /*return*/, result];
-        }
+                    result = undefined;
+                    _k.label = 1;
+                case 1:
+                    _k.trys.push([1, 12, 13, 14]);
+                    _b = __values(Object.entries(spec)), _c = _b.next();
+                    _k.label = 2;
+                case 2:
+                    if (!!_c.done) return [3 /*break*/, 11];
+                    _d = __read(_c.value, 2), $tag = _d[0], test_1 = _d[1];
+                    partialResult = void 0;
+                    _e = $tag;
+                    switch (_e) {
+                        case SpecType_string__class_1.$class: return [3 /*break*/, 3];
+                        case SpecType_string__length_1.$length: return [3 /*break*/, 5];
+                    }
+                    return [3 /*break*/, 7];
+                case 3: return [4 /*yield*/, (0, SpecType_string__class_1.verifyStringClass)(val, (_g = {}, _g[$tag] = test_1, _g), error)];
+                case 4:
+                    partialResult = _k.sent();
+                    return [3 /*break*/, 9];
+                case 5: return [4 /*yield*/, (0, SpecType_string__length_1.verifyStringLength)(val, (_h = {}, _h[$tag] = test_1, _h), error)];
+                case 6:
+                    partialResult = _k.sent();
+                    return [3 /*break*/, 9];
+                case 7: return [4 /*yield*/, (0, Verification_1.verify)(val, (_j = {}, _j[$tag] = test_1, _j), error, verifyString)];
+                case 8:
+                    partialResult = _k.sent();
+                    _k.label = 9;
+                case 9:
+                    result = (0, _and_1.xand)(result, partialResult);
+                    _k.label = 10;
+                case 10:
+                    _c = _b.next();
+                    return [3 /*break*/, 2];
+                case 11: return [3 /*break*/, 14];
+                case 12:
+                    e_1_1 = _k.sent();
+                    e_1 = { error: e_1_1 };
+                    return [3 /*break*/, 14];
+                case 13:
+                    try {
+                        if (_c && !_c.done && (_f = _b.return)) _f.call(_b);
+                    }
+                    finally { if (e_1) throw e_1.error; }
+                    return [7 /*endfinally*/];
+                case 14: return [2 /*return*/, result];
+            }
+        });
     });
-}); };
+};
 exports.default = verifyString;

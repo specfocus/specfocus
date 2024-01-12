@@ -1,0 +1,27 @@
+{
+  "name": "@specfocus/spec-comparables",
+  "description": "Implements comparisons",
+  "version": "0.0.1",
+  "private": false,
+  "license": "UNLICENSED",
+  "sideEffects": false,
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist/**"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/specfocus/spec-comparables-ts.git"
+  },
+  "bugs": {
+    "url": "https://github.com/specfocus/spec-comparables-ts/issues"
+  },
+  "homepage": "https://github.com/specfocus/spec-comparables-ts#readme",
+  "peerDependencies": {
+    "@specfocus/spec-numbers": "*",
+    "@specfocus/spec-strings": "*",
+    "@specfocus/spec-objects": "*"
+  }
+}

@@ -1,4 +1,4 @@
-import { type Valuable } from "../prototypes/Valuable";
+import { type Valuable } from "./Valuable";
 import { type EqualTo, type TaggedEqualTo } from "./$eq";
 import { type GreaterThan, type TaggedGreaterThan } from "./$gt";
 import { type GreaterThanOrEqualTo, type TaggedGreaterThanOrEqualTo } from "./$gte";
@@ -23,5 +23,5 @@ export type NIN = NotIn | TaggedNotIn;
 export type TaggedComparison<V extends Valuable = Valuable> = TaggedEqualTo<V> | TaggedIn<V> | TaggedGreaterThan<V> | TaggedGreaterThanOrEqualTo<V> | TaggedLessThan<V> | TaggedLessThanOrEqualTo<V> | TaggedNotEqualTo<V> | TaggedNotIn<V>;
 export type Comparison<V extends Valuable = Valuable> = EqualTo<V> | NotEqualTo<V> | In<V> | NotIn<V> | ExclusiveGreaterThan<V> | ExclusiveLessThan<V> | (ExclusiveGreaterThan<V> & ExclusiveLessThan<V>);
 export declare const verifyComparison: <V extends Valuable = Valuable, E = Comparison<V> | TaggedComparison<V>>(val: V | V[], expr: E, error: (msg: string) => void) => boolean | undefined;
-export {};
+export { };
 //# sourceMappingURL=Comparison.d.ts.map

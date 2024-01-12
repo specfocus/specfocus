@@ -1,5 +1,5 @@
-import { DecimalClass } from "../prototypes/SpecType.decimal.class";
-import { type NumberSpec } from "../prototypes/SpecType.number";
+import { DecimalClass } from "./SpecType.decimal.class";
+import { type NumberSpec } from "./SpecType.number";
 declare const Money_base: new () => DecimalClass;
 /** Money is a medium of exchange, a unit of account, and a store of value, but it's not typically considered a fundamental physical quantity that is measured like other quantities. */
 export declare class Money extends Money_base {
@@ -27,5 +27,5 @@ export declare class Money extends Money_base {
     static readonly USD: Money;
     constructor(verification?: NumberSpec);
 }
-export {};
+export { };
 //# sourceMappingURL=Money.d.ts.map

@@ -1,4 +1,4 @@
-import { type Valuable } from "../prototypes/Valuable";
+import { type Valuable } from "./Valuable";
 /**  Not present in a collection */
 export declare const $nin = "$nin";
 export type NotIn<V extends Valuable = Valuable> = {

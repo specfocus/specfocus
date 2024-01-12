@@ -1,4 +1,4 @@
-import { Serie } from "@specfocus/spec-types/lib/numbers/serie";
+import { Serie } from "@specfocus/spec-numbers/lib/serie";
 export declare const light = "light";
 export declare const regular = "regular";
 export declare const medium = "medium";

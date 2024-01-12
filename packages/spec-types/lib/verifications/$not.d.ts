@@ -1,5 +1,5 @@
-import { type Comparison } from "../comparisons";
-import { type Valuable } from "../prototypes/Valuable";
+import { type Comparison } from "@specfocus/spec-comparables/lib";
+import { type Valuable } from "./Valuable";
 import { type Logical } from "./Logical";
 import { type Verification, type Verify } from "./Verification";
 /** Logical NOT */

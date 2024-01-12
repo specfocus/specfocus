@@ -1,4 +1,4 @@
-import { type Serie } from "@specfocus/spec-types/lib/numbers/serie";
+import { type Serie } from "@specfocus/spec-numbers/lib/serie";
 import { type TextStyle } from "./text-styles";
 export declare const FONT_SIZES: readonly [11, 12, 13, 14, 15, 16, 17, 18, 20, 24, 34, 41, 64];
 export type FontSize = typeof FONT_SIZES[number];

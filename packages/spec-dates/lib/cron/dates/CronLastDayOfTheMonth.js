@@ -17,7 +17,7 @@ var __read = (this && this.__read) || function (o, n) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.CronLastDayOfTheMonth = exports.isCronLastDayOfTheMonthSpec = exports.cronLastDayOfTheMonthSpec = exports.CRON_LAST_DAY_OF_THE_MONTH = void 0;
-var IntervalEnumerator_1 = require("@specfocus/spec-types/lib/iterations/IntervalEnumerator");
+var IntervalEnumerator_1 = require("@specfocus/spec-iterables/lib/IntervalEnumerator");
 var CronObjectSpec_1 = require("../CronObjectSpec");
 /** In day of the month, it is the last day of the month. */
 exports.CRON_LAST_DAY_OF_THE_MONTH = 'L';
