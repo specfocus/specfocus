@@ -1,0 +1,25 @@
+{
+  "name": "@specfocus/spec-mathematics",
+  "description": "Exploration of algebra, geometry, calculus, statistics, numbers, quantities, shapes, forms, and their relationships and attributes through the use of symbolic logic and language.",
+  "version": "0.0.1",
+  "private": false,
+  "license": "UNLICENSED",
+  "sideEffects": false,
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist/**"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/specfocus/spec-mathematics-ts.git"
+  },
+  "bugs": {
+    "url": "https://github.com/specfocus/spec-mathematics-ts/issues"
+  },
+  "homepage": "https://github.com/specfocus/spec-mathematics-ts#readme",
+  "peerDependencies": {
+    "@specfocus/spec-objects": "*"
+  }
+}

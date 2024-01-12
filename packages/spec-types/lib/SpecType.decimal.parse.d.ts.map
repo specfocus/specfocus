@@ -1,0 +1,1 @@
+{"version":3,"file":"SpecType.decimal.parse.d.ts","sourceRoot":"","sources":["../lib/SpecType.decimal.parse.ts"],"names":[],"mappings":"AAAA,MAAM,WAAW,OAAO;IACtB,KAAK,EAAE,MAAM,CAAC;IACd,SAAS,EAAE,MAAM,CAAC;IAClB,KAAK,EAAE,MAAM,CAAC;IACd,MAAM,CAAC,EAAE,MAAM,CAAC;IAChB,MAAM,CAAC,EAAE,MAAM,CAAC;CACjB;AAED;;;;GAIG;AACH,QAAA,MAAM,YAAY,QAAS,MAAM,KAAG,OAyCnC,CAAC;AAEF,eAAe,YAAY,CAAC"}

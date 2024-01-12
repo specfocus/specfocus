@@ -1,7 +1,7 @@
 {
   "name": "@specfocus/spec-types",
   "description": "Simple type checking and validation for TypeScript",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "private": false,
   "license": "UNLICENSED",
   "sideEffects": false,
@@ -29,6 +29,8 @@
   "peerDependencies": {
     "@specfocus/spec-numbers": "*",
     "@specfocus/spec-objects": "*",
-    "@specfocus/spec-strings": "*"
+    "@specfocus/spec-strings": "*",
+    "@specfocus/spec-verifications": "*",
+    "@specfocus/work-lazy": "*"
   }
 }

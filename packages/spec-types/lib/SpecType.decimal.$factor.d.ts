@@ -1,0 +1,32 @@
+import { type Choice, type ChoicesSpecType } from "./SpecType.choices";
+export declare const $factor = "$factor";
+export type $Factor = typeof $factor;
+export type TaggedDecimalFactorSpec = [$Factor, ChoicesSpecType<'$mul'>];
+export type DecimalFactorSpec = {
+    [$factor]: ChoicesSpecType<'$mul'>;
+};
+export declare const yotta: Choice<'$mul'>;
+export declare const zetta: Choice<'$mul'>;
+export declare const exa: Choice<'$mul'>;
+export declare const peta: Choice<'$mul'>;
+export declare const tera: Choice<'$mul'>;
+export declare const giga: Choice<'$mul'>;
+export declare const mega: Choice<'$mul'>;
+export declare const kilo: Choice<'$mul'>;
+export declare const hecto: Choice<'$mul'>;
+export declare const deka: Choice<'$mul'>;
+export declare const $LargerFactors: ChoicesSpecType<'$mul'>;
+export declare const deci: Choice<'$mul'>;
+export declare const centi: Choice<'$mul'>;
+export declare const milli: Choice<'$mul'>;
+export declare const micro: Choice<'$mul'>;
+export declare const nano: Choice<'$mul'>;
+export declare const pico: Choice<'$mul'>;
+export declare const femto: Choice<'$mul'>;
+export declare const atto: Choice<'$mul'>;
+export declare const zepto: Choice<'$mul'>;
+export declare const yocto: Choice<'$mul'>;
+export declare const $SmallerFactors: ChoicesSpecType<'$mul'>;
+export declare const $Factors: ChoicesSpecType<'$mul'>;
+export declare const verifyDecimalFactor: (val: string | string[], spec: unknown, error: (msg: string) => void) => boolean | undefined;
+//# sourceMappingURL=SpecType.decimal.$factor.d.ts.map

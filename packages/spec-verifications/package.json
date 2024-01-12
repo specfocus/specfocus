@@ -1,0 +1,28 @@
+{
+  "name": "@specfocus/spec-verifications",
+  "description": "Implements verifications",
+  "version": "0.0.1",
+  "private": false,
+  "license": "UNLICENSED",
+  "sideEffects": false,
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "lib/**"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/specfocus/spec-verifications-ts.git"
+  },
+  "bugs": {
+    "url": "https://github.com/specfocus/spec-verifications-ts/issues"
+  },
+  "homepage": "https://github.com/specfocus/spec-verifications-ts#readme",
+  "peerDependencies": {
+    "@specfocus/spec-comparables": "*",
+    "@specfocus/spec-numbers": "*",
+    "@specfocus/spec-objects": "*",
+    "@specfocus/spec-strings": "*"
+  }
+}

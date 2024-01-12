@@ -14,7 +14,7 @@ var __extends = (this && this.__extends) || (function () {
         d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
     };
 })();
-var __values = (this && this.__values) || function (o) {
+var __values = (this && this.__values) || function(o) {
     var s = typeof Symbol === "function" && Symbol.iterator, m = s && o[s], i = 0;
     if (m) return m.call(o);
     if (o && typeof o.length === "number") return {
@@ -31,13 +31,13 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 var _a, _b;
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Fibonacci = exports.verifyFibonacci = exports.$StoryPoiints = exports.$Fibonaccy = void 0;
-var comparisons_1 = require(@specfocus / spec - comparables / lib /);
+var lib_1 = require("@specfocus/spec-comparables/lib");
 var SpecType_number__class_1 = require("../prototypes/SpecType.number.$class");
 var SpecType_number_class_1 = require("../prototypes/SpecType.number.class");
 var has_number_type_1 = __importDefault(require("@specfocus/spec-objects/lib/has-number-type"));
 var is_fibonacci_1 = __importDefault(require("@specfocus/spec-numbers/lib/is-fibonacci"));
 exports.$Fibonaccy = ['number', (_a = {}, _a[SpecType_number__class_1.$class] = 'Fibonacci', _a)];
-exports.$StoryPoiints = ['number', (_b = {}, _b[SpecType_number__class_1.$class] = 'Fibonacci', _b[comparisons_1.$lte] = 13, _b)];
+exports.$StoryPoiints = ['number', (_b = {}, _b[SpecType_number__class_1.$class] = 'Fibonacci', _b[lib_1.$lte] = 13, _b)];
 var verifyFibonacci = function (value, error) {
     if (!(0, has_number_type_1.default)(value)) {
         error("Fibonacci numbers are positive integers, but got ".concat(typeof value, "."));

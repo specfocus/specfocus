@@ -1,0 +1,10 @@
+"use strict";
+var _a, _b, _c, _d;
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.MayExist = exports.MustExist = exports.ExistsOptional = exports.ExistsMandatory = exports.$exists = void 0;
+exports.$exists = '$exists';
+;
+exports.ExistsMandatory = Object.freeze((_a = {}, _a[exports.$exists] = true, _a));
+exports.ExistsOptional = Object.freeze((_b = {}, _b[exports.$exists] = false, _b));
+exports.MustExist = Object.freeze((_c = {}, _c[exports.$exists] = true, _c));
+exports.MayExist = Object.freeze((_d = {}, _d[exports.$exists] = false, _d));

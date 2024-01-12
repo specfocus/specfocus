@@ -30,14 +30,14 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var has_object_type_1 = __importDefault(require("@specfocus/spec-objects/lib/has-object-type"));
 var is_array_1 = __importDefault(require("@specfocus/spec-objects/lib/is-array"));
-var _and_1 = require("@specfocus/spec-verifications/lib/$and");
+var xand_1 = __importDefault(require("@specfocus/spec-comparisons/lib/xand"));
 var verifyMatched = function (val, spec, error) {
     if (!(0, has_object_type_1.default)(spec) || !(0, is_array_1.default)(spec) || spec.length !== 2 || spec[0] !== 'matched')
         return;
     var _a = __read(spec, 2), expr = _a[1];
     var re = new RegExp(expr);
     if ((0, is_array_1.default)(val)) {
-        return _and_1.xand.apply(void 0, __spreadArray([], __read(val.map(function (v) {
+        return xand_1.default.apply(void 0, __spreadArray([], __read(val.map(function (v) {
             if (re.test(v))
                 return true;
             error("Value '".concat(v, "' does not match expression"));

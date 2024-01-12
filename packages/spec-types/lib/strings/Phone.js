@@ -16,7 +16,7 @@ var __extends = (this && this.__extends) || (function () {
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Phone = void 0;
-var SpecType_string_class_1 = require("../prototypes/SpecType.string.class");
+var SpecType_string_class_1 = require("../SpecType.string.class");
 var Phone = /** @class */ (function (_super) {
     __extends(Phone, _super);
     function Phone() {

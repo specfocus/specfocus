@@ -14,7 +14,7 @@ var __extends = (this && this.__extends) || (function () {
         d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
     };
 })();
-var __values = (this && this.__values) || function (o) {
+var __values = (this && this.__values) || function(o) {
     var s = typeof Symbol === "function" && Symbol.iterator, m = s && o[s], i = 0;
     if (m) return m.call(o);
     if (o && typeof o.length === "number") return {
@@ -28,15 +28,15 @@ var __values = (this && this.__values) || function (o) {
 var _a, _b, _c, _d, _e, _f, _g;
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Integer = exports.$Timestamp = exports.$NonNegativeInteger = exports.$NonPositiveInteger = exports.$NegativeInteger = exports.$PositiveInteger = exports.$Integer = exports.$Count = void 0;
-var comparisons_1 = require(@specfocus / spec - comparables / lib /);
+var lib_1 = require("@specfocus/spec-comparables/lib");
 var SpecType_number__class_1 = require("../prototypes/SpecType.number.$class");
 var SpecType_number_class_1 = require("../prototypes/SpecType.number.class");
-exports.$Count = ['number', (_a = {}, _a[SpecType_number__class_1.$class] = 'Integer', _a[comparisons_1.$gte] = 0, _a)];
+exports.$Count = ['number', (_a = {}, _a[SpecType_number__class_1.$class] = 'Integer', _a[lib_1.$gte] = 0, _a)];
 exports.$Integer = ['number', (_b = {}, _b[SpecType_number__class_1.$class] = 'Integer', _b)];
-exports.$PositiveInteger = ['number', (_c = {}, _c[SpecType_number__class_1.$class] = 'Integer', _c[comparisons_1.$gt] = 0, _c)];
-exports.$NegativeInteger = ['number', (_d = {}, _d[SpecType_number__class_1.$class] = 'Integer', _d[comparisons_1.$lt] = 0, _d)];
-exports.$NonPositiveInteger = ['number', (_e = {}, _e[SpecType_number__class_1.$class] = 'Integer', _e[comparisons_1.$lte] = 0, _e)];
-exports.$NonNegativeInteger = ['number', (_f = {}, _f[SpecType_number__class_1.$class] = 'Integer', _f[comparisons_1.$gte] = 0, _f)];
+exports.$PositiveInteger = ['number', (_c = {}, _c[SpecType_number__class_1.$class] = 'Integer', _c[lib_1.$gt] = 0, _c)];
+exports.$NegativeInteger = ['number', (_d = {}, _d[SpecType_number__class_1.$class] = 'Integer', _d[lib_1.$lt] = 0, _d)];
+exports.$NonPositiveInteger = ['number', (_e = {}, _e[SpecType_number__class_1.$class] = 'Integer', _e[lib_1.$lte] = 0, _e)];
+exports.$NonNegativeInteger = ['number', (_f = {}, _f[SpecType_number__class_1.$class] = 'Integer', _f[lib_1.$gte] = 0, _f)];
 exports.$Timestamp = ['number', (_g = {}, _g[SpecType_number__class_1.$class] = 'Integer', _g.$gt = 946684800000 /* Since Jan 1, 2000 */, _g)];
 var Integer = /** @class */ (function (_super) {
     __extends(Integer, _super);

@@ -6,29 +6,7 @@ export declare const $sld = "$sld";
 export declare const $tld = "$tld";
 export declare const $sld$tld = "$sld$tld";
 export declare const prototype: StringSpecType;
-declare const Domain_base: {
-    new(): {
-        readonly service: import("../prototypes/SpecType.string.class").Validation;
-        readonly moniker: string;
-        toString(): string;
-    };
-    readonly $$typeof: symbol;
-    add: (ns: string, className: string, container: import("lib/ioc/ns").Container<unknown>) => void;
-    readonly extend: <Service = unknown>(base: typeof ContainerBase<Service>, service: Service, ns?: string | undefined) => {
-        new(): {
-            readonly service: Service;
-            readonly moniker: string;
-            toString(): string;
-        };
-        readonly $$typeof: symbol;
-        add: (ns: string, className: string, container: import("lib/ioc/ns").Container<unknown>) => void;
-        readonly extend: any;
-        readonly resolve: <Service_1 = unknown>(moniker: string) => Promise<import("lib/ioc/ns").Container<Service_1>>;
-        readonly lazy: (moniker: string, ctor: import("lib/ioc/ns").ContainerImport) => import("lib/ioc/ns").LazyContainer;
-    };
-    readonly resolve: <Service_1 = unknown>(moniker: string) => Promise<import("lib/ioc/ns").Container<Service_1>>;
-    readonly lazy: (moniker: string, ctor: import("lib/ioc/ns").ContainerImport) => import("lib/ioc/ns").LazyContainer;
-};
+declare const Domain_base: any;
 export declare class Domain extends Domain_base {
     tag: string;
     static readonly $sld: Domain;

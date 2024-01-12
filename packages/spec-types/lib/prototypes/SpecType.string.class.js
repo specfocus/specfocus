@@ -14,7 +14,7 @@ var __extends = (this && this.__extends) || (function () {
         d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
     };
 })();
-var __values = (this && this.__values) || function (o) {
+var __values = (this && this.__values) || function(o) {
     var s = typeof Symbol === "function" && Symbol.iterator, m = s && o[s], i = 0;
     if (m) return m.call(o);
     if (o && typeof o.length === "number") return {
@@ -31,7 +31,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 var _this = this;
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.UpperCase = exports.SpaceSeparated = exports.SnakeCase = exports.PascalCase = exports.Numeric = exports.LowerCase = exports.KebabCase = exports.CamelCase = exports.AlphaNumeric = exports.StringClass = void 0;
-var Container_1 = __importDefault(require("@pecfocus/work-lazy/lib/ioc/Container"));
+var Container_1 = __importDefault(require("../ioc/Container"));
 var is_alpha_numeric_1 = __importDefault(require("@specfocus/spec-strings/lib/is-alpha-numeric"));
 var is_camel_case_1 = __importDefault(require("@specfocus/spec-strings/lib/is-camel-case"));
 var is_kebab_case_1 = __importDefault(require("@specfocus/spec-strings/lib/is-kebab-case"));

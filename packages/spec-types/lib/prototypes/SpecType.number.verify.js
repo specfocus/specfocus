@@ -9,8 +9,8 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 var __generator = (this && this.__generator) || function (thisArg, body) {
-    var _ = { label: 0, sent: function () { if (t[0] & 1) throw t[1]; return t[1]; }, trys: [], ops: [] }, f, y, t, g;
-    return g = { next: verb(0), "throw": verb(1), "return": verb(2) }, typeof Symbol === "function" && (g[Symbol.iterator] = function () { return this; }), g;
+    var _ = { label: 0, sent: function() { if (t[0] & 1) throw t[1]; return t[1]; }, trys: [], ops: [] }, f, y, t, g;
+    return g = { next: verb(0), "throw": verb(1), "return": verb(2) }, typeof Symbol === "function" && (g[Symbol.iterator] = function() { return this; }), g;
     function verb(n) { return function (v) { return step([n, v]); }; }
     function step(op) {
         if (f) throw new TypeError("Generator is already executing.");
@@ -51,7 +51,7 @@ var __read = (this && this.__read) || function (o, n) {
     }
     return ar;
 };
-var __values = (this && this.__values) || function (o) {
+var __values = (this && this.__values) || function(o) {
     var s = typeof Symbol === "function" && Symbol.iterator, m = s && o[s], i = 0;
     if (m) return m.call(o);
     if (o && typeof o.length === "number") return {
@@ -67,70 +67,68 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var has_object_type_1 = __importDefault(require("@specfocus/spec-objects/lib/has-object-type"));
-var _and_1 = require("@specfocus/spec-verifications/lib/$and");
+var xand_1 = __importDefault(require("@specfocus/spec-comparisons/lib/xand"));
 var Verification_1 = require("@specfocus/spec-verifications/lib/Verification");
 var SpecType_number__class_1 = require("./SpecType.number.$class");
-var verifyNumber = function (val, spec, error) {
-    return __awaiter(void 0, void 0, void 0, function () {
-        var _a, $tag, result, _b, _c, _d, $tag, test_1, partialResult, _e, e_1_1;
-        var e_1, _f, _g, _h;
-        return __generator(this, function (_j) {
-            switch (_j.label) {
-                case 0:
-                    if (!(0, has_object_type_1.default)(spec))
-                        return [2 /*return*/];
-                    if (Array.isArray(spec)) {
-                        _a = __read(spec, 1), $tag = _a[0];
-                        switch ($tag) {
-                            case SpecType_number__class_1.$class:
-                                return [2 /*return*/, (0, SpecType_number__class_1.verifyNumberClass)(val, spec, error)];
-                            default:
-                                return [2 /*return*/, (0, Verification_1.verify)(val, spec, error, verifyNumber)];
-                        }
+var verifyNumber = function (val, spec, error) { return __awaiter(void 0, void 0, void 0, function () {
+    var _a, $tag, result, _b, _c, _d, $tag, test_1, partialResult, _e, e_1_1;
+    var e_1, _f, _g, _h;
+    return __generator(this, function (_j) {
+        switch (_j.label) {
+            case 0:
+                if (!(0, has_object_type_1.default)(spec))
+                    return [2 /*return*/];
+                if (Array.isArray(spec)) {
+                    _a = __read(spec, 1), $tag = _a[0];
+                    switch ($tag) {
+                        case SpecType_number__class_1.$class:
+                            return [2 /*return*/, (0, SpecType_number__class_1.verifyNumberClass)(val, spec, error)];
+                        default:
+                            return [2 /*return*/, (0, Verification_1.verify)(val, spec, error, verifyNumber)];
                     }
-                    result = undefined;
-                    _j.label = 1;
-                case 1:
-                    _j.trys.push([1, 10, 11, 12]);
-                    _b = __values(Object.entries(spec)), _c = _b.next();
-                    _j.label = 2;
-                case 2:
-                    if (!!_c.done) return [3 /*break*/, 9];
-                    _d = __read(_c.value, 2), $tag = _d[0], test_1 = _d[1];
-                    partialResult = void 0;
-                    _e = $tag;
-                    switch (_e) {
-                        case SpecType_number__class_1.$class: return [3 /*break*/, 3];
-                    }
-                    return [3 /*break*/, 5];
-                case 3: return [4 /*yield*/, (0, SpecType_number__class_1.verifyNumberClass)(val, (_g = {}, _g[$tag] = test_1, _g), error)];
-                case 4:
-                    partialResult = _j.sent();
-                    return [3 /*break*/, 7];
-                case 5: return [4 /*yield*/, (0, Verification_1.verify)(val, (_h = {}, _h[$tag] = test_1, _h), error, verifyNumber)];
-                case 6:
-                    partialResult = _j.sent();
-                    _j.label = 7;
-                case 7:
-                    result = (0, _and_1.xand)(result, partialResult);
-                    _j.label = 8;
-                case 8:
-                    _c = _b.next();
-                    return [3 /*break*/, 2];
-                case 9: return [3 /*break*/, 12];
-                case 10:
-                    e_1_1 = _j.sent();
-                    e_1 = { error: e_1_1 };
-                    return [3 /*break*/, 12];
-                case 11:
-                    try {
-                        if (_c && !_c.done && (_f = _b.return)) _f.call(_b);
-                    }
-                    finally { if (e_1) throw e_1.error; }
-                    return [7 /*endfinally*/];
-                case 12: return [2 /*return*/, result];
-            }
-        });
+                }
+                result = undefined;
+                _j.label = 1;
+            case 1:
+                _j.trys.push([1, 10, 11, 12]);
+                _b = __values(Object.entries(spec)), _c = _b.next();
+                _j.label = 2;
+            case 2:
+                if (!!_c.done) return [3 /*break*/, 9];
+                _d = __read(_c.value, 2), $tag = _d[0], test_1 = _d[1];
+                partialResult = void 0;
+                _e = $tag;
+                switch (_e) {
+                    case SpecType_number__class_1.$class: return [3 /*break*/, 3];
+                }
+                return [3 /*break*/, 5];
+            case 3: return [4 /*yield*/, (0, SpecType_number__class_1.verifyNumberClass)(val, (_g = {}, _g[$tag] = test_1, _g), error)];
+            case 4:
+                partialResult = _j.sent();
+                return [3 /*break*/, 7];
+            case 5: return [4 /*yield*/, (0, Verification_1.verify)(val, (_h = {}, _h[$tag] = test_1, _h), error, verifyNumber)];
+            case 6:
+                partialResult = _j.sent();
+                _j.label = 7;
+            case 7:
+                result = (0, xand_1.default)(result, partialResult);
+                _j.label = 8;
+            case 8:
+                _c = _b.next();
+                return [3 /*break*/, 2];
+            case 9: return [3 /*break*/, 12];
+            case 10:
+                e_1_1 = _j.sent();
+                e_1 = { error: e_1_1 };
+                return [3 /*break*/, 12];
+            case 11:
+                try {
+                    if (_c && !_c.done && (_f = _b.return)) _f.call(_b);
+                }
+                finally { if (e_1) throw e_1.error; }
+                return [7 /*endfinally*/];
+            case 12: return [2 /*return*/, result];
+        }
     });
-};
+}); };
 exports.default = verifyNumber;

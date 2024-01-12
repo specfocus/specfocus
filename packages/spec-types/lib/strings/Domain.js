@@ -16,23 +16,23 @@ var __extends = (this && this.__extends) || (function () {
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Domain = exports.prototype = exports.$sld$tld = exports.$tld = exports.$sld = exports.$domain = void 0;
-var comparisons_1 = require(@specfocus / spec - comparables / lib /);
-var SpecType_string__length_1 = require("../prototypes/SpecType.string.$length");
-var SpecType_string_class_1 = require("../prototypes/SpecType.string.class");
-var verifications_1 = require("@specfocus/spec-verifications/lib");
+var lib_1 = require("@specfocus/spec-comparables/lib");
+var SpecType_string__length_1 = require("../SpecType.string.$length");
+var SpecType_string_class_1 = require("../SpecType.string.class");
+var lib_2 = require("@specfocus/spec-verifications/lib");
 exports.$domain = '$domain';
 /** Second-level domain (SLD): This is the readable part of the address, often representing the name of the company, organization, or the topic of the website. For example, in "google.com", "google" is the SLD. */
 exports.$sld = '$sld';
 /** Top-level domain (TLD): This is the last segment of the domain name, coming after the last dot. Examples include ".com", ".org", ".net", and ".gov". There are also country-code top-level domains (ccTLDs) like ".uk" for the United Kingdom or ".ca" for Canada. */
 exports.$tld = '$tld';
 exports.$sld$tld = '$sld$tld';
-exports.prototype = ['string', [SpecType_string__length_1.$length, [verifications_1.$and, [comparisons_1.$gte, 5], [comparisons_1.$lte, 100]]]];
+exports.prototype = ['string', [SpecType_string__length_1.$length, [lib_2.$and, [lib_1.$gte, 5], [lib_1.$lte, 100]]]];
 var Domain = /** @class */ (function (_super) {
     __extends(Domain, _super);
     function Domain(tag, $default) {
         var _this = _super.call(this) || this;
         _this.tag = tag;
-        _this.prototype = ['string', [SpecType_string__length_1.$length, [verifications_1.$and, [comparisons_1.$gte, 5], [comparisons_1.$lte, 100]]]];
+        _this.prototype = ['string', [SpecType_string__length_1.$length, [lib_2.$and, [lib_1.$gte, 5], [lib_1.$lte, 100]]]];
         return _this;
     }
     Domain.$sld = new Domain(exports.$sld, 'domain');

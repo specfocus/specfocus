@@ -1,0 +1,1 @@
+{"version":3,"file":"SpecType.boolean.d.ts","sourceRoot":"","sources":["../lib/SpecType.boolean.ts"],"names":[],"mappings":"AACA,OAAO,EAAE,KAAK,YAAY,EAAE,MAAM,gDAAgD,CAAC;AAEnF,MAAM,MAAM,WAAW,GAAG,YAAY,CAAC,OAAO,CAAC,CAAC;AAEhD,MAAM,MAAM,eAAe,GAAG,QAAQ,CAAC,CAAC,SAAS,EAAE,WAAW,CAAC,CAAC,CAAC,CAAC;AAElE,eAAO,MAAM,QAAQ,EAAE,eAA6B,CAAC"}
